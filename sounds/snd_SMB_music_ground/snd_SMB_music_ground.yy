@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_SMB_music_ground",
-  "duration": 0.0,
+  "duration": 38.42467,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -5895,8 +5895,6 @@
     {"id":{"name":"scr_return","path":"scripts/scr_return/scr_return.yy",},"order":204,},
     {"id":{"name":"scr_restart","path":"scripts/scr_restart/scr_restart.yy",},"order":205,},
     {"id":{"name":"scr_auto_tile","path":"scripts/scr_auto_tile/scr_auto_tile.yy",},"order":206,},
-    {"id":{"name":"scr_auto_tile_slope","path":"scripts/scr_auto_tile_slope/scr_auto_tile_slope.yy",},"order":207,},
-    {"id":{"name":"scr_auto_tile_ground23","path":"scripts/scr_auto_tile_ground23/scr_auto_tile_ground23.yy",},"order":208,},
     {"id":{"name":"scr_constant_get_sprite","path":"scripts/scr_constant_get_sprite/scr_constant_get_sprite.yy",},"order":209,},
     {"id":{"name":"scr_sprite_get_constant","path":"scripts/scr_sprite_get_constant/scr_sprite_get_constant.yy",},"order":210,},
     {"id":{"name":"scr_sprite_make_object","path":"scripts/scr_sprite_make_object/scr_sprite_make_object.yy",},"order":211,},
