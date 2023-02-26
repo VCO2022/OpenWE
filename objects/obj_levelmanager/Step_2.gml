@@ -45,7 +45,7 @@ if instance_exists(obj_autoscroll)
     {
         if instance_exists(follow)
         {
-            if (y < ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 18))
+            if (y < ((room_height - (__view_get((3 << 0), 0) / 2)) - 18))
             {
                 vspeed += 0.4
                 if (vspeed > 4)
@@ -54,12 +54,12 @@ if instance_exists(obj_autoscroll)
             }
             else
             {
-                if ((follow.y + 32) < (room_height - camera_get_view_height(view_get_camera(0))) && variable_instance_exists(follow, "state") && follow.state < 2 && lock_lock == 0)
+                if ((follow.y + 32) < (room_height - __view_get((3 << 0), 0)) && variable_instance_exists(follow, "state") && follow.state < 2 && lock_lock == 0)
                 {
-                    if (y <= ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 16))
+                    if (y <= ((room_height - (__view_get((3 << 0), 0) / 2)) - 16))
                     {
                         vspeed = 0
-                        y = ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 16)
+                        y = ((room_height - (__view_get((3 << 0), 0) / 2)) - 16)
                         lock_lock = 1
                     }
                     else
@@ -68,17 +68,17 @@ if instance_exists(obj_autoscroll)
                 else if (lock_lock == 1)
                 {
                     vspeed = 0
-                    y = ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 16)
+                    y = ((room_height - (__view_get((3 << 0), 0) / 2)) - 16)
                 }
-                if ((follow.y + 32) > (room_height - (camera_get_view_height(view_get_camera(0)) / 2)))
+                if ((follow.y + 32) > (room_height - (__view_get((3 << 0), 0) / 2)))
                 {
                     lock_lock = 0
-                    if (y < (room_height - (camera_get_view_height(view_get_camera(0)) / 2)))
+                    if (y < (room_height - (__view_get((3 << 0), 0) / 2)))
                         vspeed += 0.05
                     else
                     {
                         vspeed = 0
-                        y = (room_height - (camera_get_view_height(view_get_camera(0)) / 2))
+                        y = (room_height - (__view_get((3 << 0), 0) / 2))
                     }
                 }
                 x = obj_autoscroll.x
@@ -99,7 +99,7 @@ else if instance_exists(follow)
     {
         if (fallow_mario == 1)
             event_user(7)
-        else if (y < ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 18))
+        else if (y < ((room_height - (__view_get((3 << 0), 0) / 2)) - 18))
         {
             vspeed += 0.4
             if (vspeed > 4)
@@ -110,12 +110,12 @@ else if instance_exists(follow)
         }
         else
         {
-            if ((follow.y + 32) < (room_height - camera_get_view_height(view_get_camera(0))) && variable_instance_exists(follow, "state") && follow.state < 2 && lock_lock == 0)
+            if ((follow.y + 32) < (room_height - __view_get((3 << 0), 0)) && variable_instance_exists(follow, "state") && follow.state < 2 && lock_lock == 0)
             {
-                if (y <= ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 16))
+                if (y <= ((room_height - (__view_get((3 << 0), 0) / 2)) - 16))
                 {
                     vspeed = 0
-                    y = ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 16)
+                    y = ((room_height - (__view_get((3 << 0), 0) / 2)) - 16)
                     lock_lock = 1
                 }
                 else
@@ -124,17 +124,17 @@ else if instance_exists(follow)
             else if (lock_lock == 1)
             {
                 vspeed = 0
-                y = ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) - 16)
+                y = ((room_height - (__view_get((3 << 0), 0) / 2)) - 16)
             }
-            if ((follow.y + 32) > (room_height - (camera_get_view_height(view_get_camera(0)) / 2)))
+            if ((follow.y + 32) > (room_height - (__view_get((3 << 0), 0) / 2)))
             {
                 lock_lock = 0
-                if (y < (room_height - (camera_get_view_height(view_get_camera(0)) / 2)))
+                if (y < (room_height - (__view_get((3 << 0), 0) / 2)))
                     vspeed += 0.05
                 else
                 {
                     vspeed = 0
-                    y = (room_height - (camera_get_view_height(view_get_camera(0)) / 2))
+                    y = (room_height - (__view_get((3 << 0), 0) / 2))
                 }
             }
             if (x != follow.x)

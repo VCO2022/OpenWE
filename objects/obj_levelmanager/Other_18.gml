@@ -1,18 +1,18 @@
-if (y < ((camera_get_view_height(view_get_camera(0)) / 2) - 1))
+if (y < ((__view_get((3 << 0), 0) / 2) - 1))
 {
-    y = (camera_get_view_height(view_get_camera(0)) / 2)
+    y = (__view_get((3 << 0), 0) / 2)
     if (vspeed < 0)
         vspeed = 0
 }
-else if (y > ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) + 1) && alarm[11] != -1)
+else if (y > ((room_height - (__view_get((3 << 0), 0) / 2)) + 1) && alarm[11] != -1)
 {
-    y = (room_height - (camera_get_view_height(view_get_camera(0)) / 2))
+    y = (room_height - (__view_get((3 << 0), 0) / 2))
     if (vspeed > 0)
         vspeed = 0
 }
-else if (y > ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) + 9))
+else if (y > ((room_height - (__view_get((3 << 0), 0) / 2)) + 9))
 {
-    y = ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) + 8)
+    y = ((room_height - (__view_get((3 << 0), 0) / 2)) + 8)
     if (vspeed > 0)
         vspeed = 0
 }
@@ -78,7 +78,7 @@ switch real_time
         y = (follow.y - 8)
         break
     default:
-        if ((follow.y + 32) < ((camera_get_view_y(view_get_camera(0)) + (camera_get_view_height(view_get_camera(0) / 2))) - 12) && ((variable_instance_exists(follow, "state") && follow.state < 2) || (variable_instance_exists(follow, "camera_jump") && follow.camera_jump == 1)))
+        if ((follow.y + 32) < ((__view_get((1 << 0), 0) + (__view_get((3 << 0), 0) / 2)) - 12) && ((variable_instance_exists(follow, "state") && follow.state < 2) || (variable_instance_exists(follow, "inclown") && follow.inclown == 2) || (variable_instance_exists(follow, "camera_jump") && follow.camera_jump == 1)))
         {
             if (y > follow.yview)
                 view_move = 1
@@ -114,13 +114,7 @@ if ((variable_instance_exists(follow, "state") && follow.state == 3) || (variabl
     real_time = 1
     view_move = 0
 }
-else if (follow.y >= ((camera_get_view_y(view_get_camera(0)) + (camera_get_view_height(view_get_camera(0)) / 2)) + 8) && follow.y < ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) + 8) && follow.vspeed > 0)
-{
-    real_time = 2
-    view_move = 1
-    follow.yview = (follow.y + 32)
-}
-else if (follow.y >= ((camera_get_view_y(view_get_camera(0)) + (camera_get_view_height(view_get_camera(0)) / 2)) + 8) && follow.y < ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) + 8) && (collision_rectangle(follow.bbox_left, follow.bbox_bottom, follow.bbox_right, follow.bbox_bottom+4, obj_slopeparent, 1, 0)))
+else if (follow.y >= ((__view_get((1 << 0), 0) + (__view_get((3 << 0), 0) / 2)) + 8) && follow.y < ((room_height - (__view_get((3 << 0), 0) / 2)) + 8) && follow.vspeed > 0)
 {
     real_time = 2
     view_move = 1
@@ -131,12 +125,12 @@ else if (follow.object_index == obj_doormario_exit || follow.object_index == obj
     real_time = 3
     view_move = 0
 }
-else if (((variable_instance_exists(follow, "walljump_ex") && follow.walljump_ex == 1) || (variable_instance_exists(follow, "doublejump") && follow.doublejump != 0)) && follow.y < (camera_get_view_y(view_get_camera(0)) + 48))
+else if (((variable_instance_exists(follow, "walljump_ex") && follow.walljump_ex == 1) || (variable_instance_exists(follow, "doublejump") && follow.doublejump != 0)) && follow.y < (__view_get((1 << 0), 0) + 48))
 {
     real_time = 4
     view_move = 0
 }
-else if (follow.y >= ((camera_get_view_y(view_get_camera(0)) + (camera_get_view_height(view_get_camera(0)) / 2)) + 9) && follow.y < ((room_height - (camera_get_view_height(view_get_camera(0)) / 2)) + 8) && variable_instance_exists(follow, "platform_m") && follow.platform_m == 1)
+else if (follow.y >= ((__view_get((1 << 0), 0) + (__view_get((3 << 0), 0) / 2)) + 9) && follow.y < ((room_height - (__view_get((3 << 0), 0) / 2)) + 8) && variable_instance_exists(follow, "platform_m") && follow.platform_m == 1)
 {
     real_time = 5
     view_move = 0
