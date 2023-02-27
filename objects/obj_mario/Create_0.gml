@@ -1,7 +1,6 @@
 sprite_index = scr_marioidle()
 pmeter = 0
 canjump = 1
-slope_camera = 0
 switch global.powerup
 {
     case 0:
@@ -46,7 +45,6 @@ arrow_ready = 0
 direct_turn = 1
 yview = (y + 32)
 camera_jump = 0
-hspd = 1
 x_speed = 0
 boostme = 0
 blend_star = c_white

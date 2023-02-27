@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Soplete",
+    "path": "folders/Sprites/Itemhs/Soplete.yy",
   },
 }

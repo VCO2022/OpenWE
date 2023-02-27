@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Superball",
-    "path": "folders/Sprites/Players/SMB/Mario/Superball.yy",
+    "name": "SMB",
+    "path": "folders/Sprites/Players/Mario/Superball/SMB.yy",
   },
 }

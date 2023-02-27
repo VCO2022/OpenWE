@@ -49,12 +49,6 @@ if (obj_levelmanager.editor == 1)
                 else
                     sprite_index = spr_NSMBU_decoracion_1
                 break
-            case 4:
-                if (global.modo_noche == 1)
-                    sprite_index = spr_SMB2_decoracion_1_night
-                else
-                    sprite_index = spr_SMB2_decoracion_1
-                break
         }
 
         switch global.bg_level

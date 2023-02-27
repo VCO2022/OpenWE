@@ -79,6 +79,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Superball",
-    "path": "folders/Sprites/Players/SMB/Toad/Superball.yy",
+    "path": "folders/Sprites/Players/Toad/Superball.yy",
   },
 }

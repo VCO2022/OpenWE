@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Bouncycloud",
+    "path": "folders/Sprites/Platforms/Bouncycloud.yy",
   },
 }

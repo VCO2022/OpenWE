@@ -240,12 +240,8 @@ else if (global.apariencia == 2)
 	    {
 	        switch global.powerup
 	        {
-	            case 0:
-	                return spr_SMB2_mario_small_skid;
 	            case 1:
 	                return spr_SMB2_mario_big_skid;
-	            case 2:
-	                return spr_SMB2_mario_fire_skid;
 	        }
 
 	    }
@@ -253,12 +249,8 @@ else if (global.apariencia == 2)
 	    {
 	        switch global.powerup
 	        {
-	            case 0:
-	                return spr_SMB2_luigi_small_skid;
 	            case 1:
 	                return spr_SMB2_luigi_big_skid;
-	            case 2:
-	                return spr_SMB2_luigi_fire_skid;
 	        }
 
 	    }
@@ -266,13 +258,8 @@ else if (global.apariencia == 2)
 	    {
 	        switch global.powerup
 	        {
-	            case 0:
-	                return spr_SMB2_toad_small_skid;
 	            case 1:
 	                return spr_SMB2_toad_big_skid;
-	                ;
-	            case 2:
-	                return spr_SMB2_toad_fire_skid;
 	        }
 
 	    }
@@ -280,12 +267,8 @@ else if (global.apariencia == 2)
 	    {
 	        switch global.powerup
 	        {
-	            case 0:
-	                return spr_SMB2_toadette_small_skid;
 	            case 1:
 	                return spr_SMB2_toadette_big_skid;
-	            case 2:
-	                return spr_SMB2_toadette_fire_skid;
 	        }
 
 	    }

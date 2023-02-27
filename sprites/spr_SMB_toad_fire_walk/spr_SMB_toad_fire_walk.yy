@@ -72,7 +72,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Fire",
-    "path": "folders/Sprites/Players/SMB/Toad/Fire.yy",
+    "name": "SMB",
+    "path": "folders/Sprites/Players/Toad/Fire/SMB.yy",
   },
 }

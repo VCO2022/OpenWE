@@ -12,9 +12,6 @@ switch global.apariencia
     case 3:
         sprite_index = spr_NSMBU_castle_dooropen
         break
-    case 4:
-        sprite_index = spr_SMB2_castle_dooropen
-        break
 }
 
 image_speed = 0

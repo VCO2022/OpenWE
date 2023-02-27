@@ -69,6 +69,6 @@
   "nineSlice": null,
   "parent": {
     "name": "Mega",
-    "path": "folders/Sprites/Players/SMB/Toadette/Mega.yy",
+    "path": "folders/Sprites/Players/Toadette/Mega.yy",
   },
 }

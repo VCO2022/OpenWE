@@ -92,7 +92,6 @@ global.ctor = "Andoyt | Franyer"
 global.api_url = "http://103.195.101.206:25750"
 global.ver = "V3.3.2"
 global.wdigits_SMB = font_add_sprite_ext(spr_SMB_numbers, "0123456789", 0, 0)
-global.wdigits_SMB2 = font_add_sprite_ext(spr_SMB2_numbers, "0123456789", 0, 0)
 global.wdigits_SMB3 = font_add_sprite_ext(spr_SMB3_numbers, "0123456789", 0, 0)
 global.wdigits = font_add_sprite_ext(spr_numbers, "0123456789", 0, 0)
 global.wdigits_NSMBU = font_add_sprite_ext(spr_NSMBU_numbers, "0123456789", 0, 0)

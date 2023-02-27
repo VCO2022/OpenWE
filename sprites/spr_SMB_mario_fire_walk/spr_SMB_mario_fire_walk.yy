@@ -72,7 +72,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Fire",
-    "path": "folders/Sprites/Players/SMB/Mario/Fire.yy",
+    "name": "SMB",
+    "path": "folders/Sprites/Players/Mario/Fire/SMB.yy",
   },
 }

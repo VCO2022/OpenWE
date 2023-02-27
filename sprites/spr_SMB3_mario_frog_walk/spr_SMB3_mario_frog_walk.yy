@@ -74,7 +74,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Frog",
+    "path": "folders/Sprites/Players/Mario/Frog.yy",
   },
 }

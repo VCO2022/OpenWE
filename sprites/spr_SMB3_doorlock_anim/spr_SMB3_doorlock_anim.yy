@@ -78,7 +78,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Doors",
+    "path": "folders/Sprites/Itemhs/SMB3/Doors.yy",
   },
 }
