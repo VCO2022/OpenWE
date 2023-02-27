@@ -116,17 +116,5 @@ frog_jump = 0
 flag = 0
 alarm[5] = 8
 alarm[9] = (24 + random(96))
-if (global.apariencia == 3)
-{
-    color[0] = make_colour_rgb(255, 255, 72)
-    color[1] = make_colour_rgb(254, 138, 139)
-    color[2] = make_colour_rgb(102, 245, 157)
-}
-else
-{
-    color[0] = make_colour_rgb(255, 255, 72)
-    color[1] = make_colour_rgb(254, 138, 139)
-    color[2] = make_colour_rgb(102, 245, 157)
-}
 
 

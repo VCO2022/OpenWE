@@ -517,8 +517,6 @@ else
 saltare = 1
 }    
 }
-if instance_exists(obj_invincibility)
-blend_star = color[obj_invincibility.cp]
 
 if ((global.powerup != -80) && (holdud = 1))
 {
