@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_puller",
-  "spriteId": {
-    "name": "spr_SMB2_mario_small_pull",
-    "path": "sprites/spr_SMB2_mario_small_pull/spr_SMB2_mario_small_pull.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

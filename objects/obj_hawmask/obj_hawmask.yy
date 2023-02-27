@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_hawmask",
-  "spriteId": {
-    "name": "spr_SMB2_hawmask",
-    "path": "sprites/spr_SMB2_hawmask/spr_SMB2_hawmask.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

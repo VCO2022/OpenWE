@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_player_goal_smb2",
-  "spriteId": {
-    "name": "spr_SMB2_mario_small_idle",
-    "path": "sprites/spr_SMB2_mario_small_idle/spr_SMB2_mario_small_idle.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

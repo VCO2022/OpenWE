@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Mega",
+    "path": "folders/Sprites/Players/SMB/Mario/Mega.yy",
   },
 }

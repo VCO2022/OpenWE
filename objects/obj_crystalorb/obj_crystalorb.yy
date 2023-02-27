@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_crystalorb",
-  "spriteId": {
-    "name": "spr_SMB2_crystalorb",
-    "path": "sprites/spr_SMB2_crystalorb/spr_SMB2_crystalorb.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_parcarry",
-  "spriteId": {
-    "name": "spr_SMB2_veggies",
-    "path": "sprites/spr_SMB2_veggies/spr_SMB2_veggies.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

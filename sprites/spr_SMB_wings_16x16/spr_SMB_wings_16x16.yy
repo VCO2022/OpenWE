@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "SMB",
+    "path": "folders/Sprites/Enemie2/Wings/SMB.yy",
   },
 }
