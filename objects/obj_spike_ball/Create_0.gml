@@ -5,16 +5,16 @@ else
 switch global.apariencia
 {
     case 0:
-        imagen = 333
+        imagen = spr_SMB_spike_ball
         break
     case 1:
-        imagen = 1169
+        imagen = spr_SMB3_spike_ball
         break
     case 2:
-        imagen = 1911
+        imagen = spr_spike_ball
         break
     case 3:
-        imagen = 3436
+        imagen = spr_NSMBU_spike_ball
         break
 }
 

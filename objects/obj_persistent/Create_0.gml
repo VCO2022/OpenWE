@@ -87,10 +87,10 @@ global.gh = 216
 global.font_google = font_add("font_as.ttf", 12, 0, 0, 32, 128)
 global.levelmusic = 167
 global.drez = "2559F35097-2021"
-global.token = "282041525"
-global.ctor = "Andoyt | Franyer"
-global.api_url = "http://103.195.101.206:25750"
-global.ver = "V3.3.2"
+global.token = "fusilen a vini xdxdxd"
+global.ctor = "OpenWE | Franyer"
+global.api_url = "Proximamente servidor de niveles mundiales para Engine Empire =)"
+global.ver = "V3.3.3"
 global.wdigits_SMB = font_add_sprite_ext(spr_SMB_numbers, "0123456789", 0, 0)
 global.wdigits_SMB3 = font_add_sprite_ext(spr_SMB3_numbers, "0123456789", 0, 0)
 global.wdigits = font_add_sprite_ext(spr_numbers, "0123456789", 0, 0)

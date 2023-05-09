@@ -4,7 +4,7 @@
 hardness = 0;
 
 //How vulnerable is this enemy to the player?
-stomp = 4;
+stomp = 1;
 
 //How vulnerable is this enemy to yoshi?
 edible = 0;

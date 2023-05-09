@@ -3,4 +3,3 @@ if (global.bg_level == "snow")
 else
     ball = instance_create(x, (y - 16), obj_spike_ball)
 ball.visible = false
-

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_SMB2_course_clear",
-  "duration": 0.0,
+  "duration": 2.056417,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

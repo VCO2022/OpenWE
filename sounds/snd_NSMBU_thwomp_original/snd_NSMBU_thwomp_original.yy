@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_NSMBU_thwomp_original",
-  "duration": 0.0,
+  "duration": 0.863492,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

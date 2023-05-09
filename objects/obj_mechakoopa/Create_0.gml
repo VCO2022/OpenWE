@@ -2,19 +2,19 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_mechakoopa_green_walk
-        s_dry = 416
+        s_dry = spr_SMB_mechakoopa_green_deads
         break
     case 1:
         sprite_index = spr_SMB3_mechakoopa_green_walk
-        s_dry = 1208
+        s_dry = spr_SMB3_mechakoopa_green_deads
         break
     case 2:
         sprite_index = spr_mechakoopa_green_walk
-        s_dry = 2039
+        s_dry = spr_mechakoopa_green_deads
         break
     case 3:
         sprite_index = spr_NSMBU_mechakoopa_green_walk
-        s_dry = 3533
+        s_dry = spr_NSMBU_mechakoopa_green_deads
         break
 }
 

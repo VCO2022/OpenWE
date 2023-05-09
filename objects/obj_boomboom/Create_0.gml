@@ -1,22 +1,22 @@
 switch global.apariencia
 {
     case 0:
-        s_boomboom = 424
-        s_boomboom2 = 425
+        s_boomboom = spr_SMB_boomboom
+        s_boomboom2 = spr_SMB_boomboom2
         s_boomboom3 = spr_SMB_boomboom3
-        s_boomboom_dead = 427
+        s_boomboom_dead = spr_SMB_boomboom_dead
         break
     case 1:
-        s_boomboom = 1222
-        s_boomboom2 = 1223
+        s_boomboom = spr_SMB3_boomboom
+        s_boomboom2 = spr_SMB3_boomboom2
         s_boomboom3 = spr_SMB3_boomboom3
-        s_boomboom_dead = 1225
+        s_boomboom_dead = spr_SMB3_boomboom_dead
         break
     case 2:
-        s_boomboom = 1994
-        s_boomboom2 = 1995
+        s_boomboom = spr_boomboom
+        s_boomboom2 = spr_boomboom2
         s_boomboom3 = spr_boomboom3
-        s_boomboom_dead = 1998
+        s_boomboom_dead = spr_boomboom_dead
         break
 }
 

@@ -2,28 +2,28 @@ event_inherited()
 switch global.apariencia
 {
     case 0:
-        s_clown = 542
-        s_clown_eyes = 543
-        s_clown_evil = 544
-        s_clown_damage = 545
+        s_clown = spr_SMB_clown_fire
+        s_clown_eyes = spr_SMB_clown_fire_eyes
+        s_clown_evil = spr_SMB_clown_fire_evil
+        s_clown_damage = spr_SMB_clown_fire_damage
         break
     case 1:
-        s_clown = 1351
-        s_clown_eyes = 1352
-        s_clown_evil = 1353
-        s_clown_damage = 1354
+        s_clown = spr_SMB3_clown_fire
+        s_clown_eyes = spr_SMB3_clown_fire_eyes
+        s_clown_evil = spr_SMB3_clown_fire_evil
+        s_clown_damage = spr_SMB3_clown_fire_damage
         break
     case 2:
-        s_clown = 2271
-        s_clown_eyes = 2272
-        s_clown_evil = 2273
-        s_clown_damage = 2274
+        s_clown = spr_clown_fire
+        s_clown_eyes = spr_clown_fire_eyes
+        s_clown_evil = spr_clown_fire_evil
+        s_clown_damage = spr_clown_fire_damage
         break
     case 3:
-        s_clown = 3675
-        s_clown_eyes = 3676
-        s_clown_evil = 3677
-        s_clown_damage = 3678
+        s_clown = spr_NSMBU_clown_fire
+        s_clown_eyes = spr_NSMBU_clown_fire_eyes
+        s_clown_evil = spr_NSMBU_clown_fire_evil
+        s_clown_damage = spr_NSMBU_clown_fire_damage
         break
 }
 

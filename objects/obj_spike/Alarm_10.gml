@@ -10,4 +10,3 @@ else if (wings == 1 && paracaidas == 0)
 }
 else if (paracaidas == 1)
     hspeed = -0.5
-

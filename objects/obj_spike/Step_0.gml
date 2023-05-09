@@ -132,7 +132,7 @@ if (ball != obj_lighting)
         }
         else
             alarm[0] = 180
-        ball = 0
+        ball = obj_lighting
     }
 }
 

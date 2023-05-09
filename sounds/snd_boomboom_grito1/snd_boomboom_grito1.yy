@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boomboom_grito1",
-  "duration": 0.0,
+  "duration": 0.846077,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -5,28 +5,28 @@ v_duck_small = 0
 switch global.apariencia
 {
     case 0:
-        s_clown = 538
-        s_clown_eyes = 539
-        s_clown_evil = 540
-        s_clown_damage = 541
+        s_clown = spr_SMB_clown
+        s_clown_eyes = spr_SMB_clown_eyes
+        s_clown_evil = spr_SMB_clown_evil
+        s_clown_damage = spr_SMB_clown_damage
         break
     case 1:
-        s_clown = 1347
-        s_clown_eyes = 1348
-        s_clown_evil = 1349
-        s_clown_damage = 1350
+        s_clown = spr_SMB3_clown
+        s_clown_eyes = spr_SMB3_clown_eyes
+        s_clown_evil = spr_SMB3_clown_evil
+        s_clown_damage = spr_SMB3_clown_damage
         break
     case 2:
-        s_clown = 2267
-        s_clown_eyes = 2268
-        s_clown_evil = 2269
-        s_clown_damage = 2270
+        s_clown = spr_clown
+        s_clown_eyes = spr_clown_eyes
+        s_clown_evil = spr_clown_evil
+        s_clown_damage = spr_clown_damage
         break
     case 3:
-        s_clown = 3671
-        s_clown_eyes = 3672
-        s_clown_evil = 3673
-        s_clown_damage = 3674
+        s_clown = spr_NSMBU_clown
+        s_clown_eyes = spr_NSMBU_clown_eyes
+        s_clown_evil = spr_NSMBU_clown_evil
+        s_clown_damage = spr_NSMBU_clown_damage
         break
 }
 

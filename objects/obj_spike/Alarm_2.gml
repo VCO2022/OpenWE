@@ -44,4 +44,3 @@ if (global.apariencia < 2)
 }
 else
     alarm[0] = 180
-

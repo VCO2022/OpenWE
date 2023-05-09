@@ -3,6 +3,7 @@ draw_set_color(c_letter)
 draw_set_alpha(alpha)
 var num = 26
 draw_set_halign(fa_center)
+///Si vas a moverle a los creditos almejos deja los que ya estan porfavor :)
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("SUPER MARIO MAKER WORLD ENGINE")))
 num += 24
 draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Programador")), c_title, c_title, c_title, c_title, alpha)
@@ -167,11 +168,23 @@ draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("SupahSwing")))
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Kass")))
 num += 24
-draw_set_halign(fa_left)
-draw_sprite(spr_NSMBU_mario_small_walk, index, 240, ((y + num) - yy))
-draw_sprite(spr_luigi, index, 208, ((y + num) - yy))
-draw_sprite(spr_toad, index, 176, ((y + num) - yy))
-draw_sprite(spr_toadette, index, 144, ((y + num) - yy))
+draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("3.3.3 OpenWE V1 Version")), c_title, c_title, c_title, c_title, alpha)
+num += 24
+draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Programadores")), c_title, c_title, c_title, c_title, alpha)
+num += 12
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Im Not Strike")))
+num += 24
+draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Agradecimeintos Especiales")), c_title, c_title, c_title, c_title, alpha)
+num += 12
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Sicraft")))
+num += 24
+draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Recursos usados")), c_title, c_title, c_title, c_title, alpha)
+num += 12
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Engine Tribe AIO")))
+num += 12
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("OpenWE (Engine Empire: Source Central)")))
+num += 24
+draw_sprite(spr_emilio, index, 240, ((y + num) - yy))
 
 
 

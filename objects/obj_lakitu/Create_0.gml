@@ -2,25 +2,25 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_lakitu
-        sprite_cloud = 340
+        sprite_cloud = spr_SMB_cloud_latiku
         sprite_wings = spr_SMB_wings
         image_speed = 0
         break
     case 1:
         sprite_index = spr_SMB3_lakitu
-        sprite_cloud = 1175
+        sprite_cloud = spr_SMB3_cloud_latiku
         sprite_wings = spr_SMB3_wings
         image_speed = 0.1
         break
     case 2:
         sprite_index = spr_lakitu
-        sprite_cloud = 1918
+        sprite_cloud = spr_cloud_latiku
         sprite_wings = spr_wings
         image_speed = 0.1
         break
     case 3:
         sprite_index = spr_NSMBU_lakitu
-        sprite_cloud = 3443
+        sprite_cloud = spr_NSMBU_cloud_latiku
         sprite_wings = spr_NSMBU_wings_enemigos
         image_speed = 0.5
         break
