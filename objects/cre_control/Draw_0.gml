@@ -174,7 +174,7 @@ draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Programadores"
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Im Not Strike")))
 num += 12
-draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("HeXP")))
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("HeXp")))
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Error404")))
 num += 24
@@ -182,7 +182,7 @@ draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Agradecimeinto
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Sicraft")))
 num += 12
-draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("HeXP (Por hacer el port para android :D)")))
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("HeXp (Por hacer el port para android :D)")))
 num += 24
 draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Recursos usados")), c_title, c_title, c_title, c_title, alpha)
 num += 12
