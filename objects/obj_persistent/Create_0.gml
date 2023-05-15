@@ -87,7 +87,7 @@ global.gh = 216
 global.font_google = font_add("font_as.ttf", 12, 0, 0, 32, 128)
 global.levelmusic = 167
 global.drez = "2559F35097-2021"
-global.token = "fusilen a vini xdxdxd"
+global.token = "Corranle banda, hay viene coppel a embargarnos D:"
 global.ctor = "OpenWE | Franyer"
 global.api_url = "Proximamente servidor de niveles mundiales para Engine Empire =)"
 global.ver = "V3.3.3"
