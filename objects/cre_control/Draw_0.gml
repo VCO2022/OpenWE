@@ -182,6 +182,8 @@ draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Agradecimeinto
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Sicraft")))
 num += 12
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Vini")))
+num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("HeXp (Por hacer el port para android :D)")))
 num += 24
 draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Recursos usados")), c_title, c_title, c_title, c_title, alpha)
@@ -190,7 +192,11 @@ draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Engine Tribe AIO")))
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("OpenWE (Engine Empire: Source Central)")))
 num += 24
-draw_sprite(spr_emilio, index, 240, ((y + num) - yy))
+draw_set_halign(fa_left)
+draw_sprite(spr_NSMBU_mario_small_walk, index, 240, ((y + num) - yy))
+draw_sprite(spr_luigi, index, 208, ((y + num) - yy))
+draw_sprite(spr_toad, index, 176, ((y + num) - yy))
+draw_sprite(spr_toadette, index, 144, ((y + num) - yy))
 
 
 
