@@ -14,6 +14,7 @@ Algunos de los mas importantes son:
 #### Im Not Strike
 #### Error404
 #### HeXp
+#### Vini
 
 # ¿Quieres reportar bugs?
 
