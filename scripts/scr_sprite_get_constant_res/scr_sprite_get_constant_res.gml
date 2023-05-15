@@ -1,4 +1,3 @@
-function scr_sprite_get_constant_res(argument0) {
 function scr_sprite_get_constant_res(argument0) //gml_Script_scr_sprite_get_constant_res
 {
     if (global.apariencia == 0)
@@ -538,6 +537,5 @@ function scr_sprite_get_constant_res(argument0) //gml_Script_scr_sprite_get_cons
                 return -1;
         }
 
-}
 }
 }
