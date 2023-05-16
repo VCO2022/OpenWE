@@ -4,5 +4,5 @@ alpha = 0
 bonus = 0
 bonus_a = 0
 bonus_b = 0
-sprite_anim = 2608
+sprite_anim = spr_bonus_number_red
 

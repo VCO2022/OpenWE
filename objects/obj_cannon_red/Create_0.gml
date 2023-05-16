@@ -12,5 +12,5 @@ switch global.apariencia
         break
 }
 
-sprite_anim = 3462
+sprite_anim = spr_NSMBU_cannon_red_anim
 

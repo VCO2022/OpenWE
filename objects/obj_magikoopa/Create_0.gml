@@ -2,26 +2,26 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_magikoopa
-        s_magikoopa = 350
-        s_magikoopa_appear = 352
-        s_magikoopa_disappear = 351
+        s_magikoopa = spr_SMB_magikoopa
+        s_magikoopa_appear = spr_SMB_magikoopa_appear
+        s_magikoopa_disappear = spr_SMB_magikoopa_disappear
         break
     case 1:
         sprite_index = spr_SMB3_magikoopa
-        s_magikoopa = 1124
-        s_magikoopa_appear = 1126
-        s_magikoopa_disappear = 1125
+        s_magikoopa = spr_SMB3_magikoopa
+        s_magikoopa_appear = spr_SMB3_magikoopa_appear
+        s_magikoopa_disappear = spr_SMB3_magikoopa_disappear
         break
     case 2:
-        s_magikoopa = 1929
-        s_magikoopa_appear = 1931
-        s_magikoopa_disappear = 1930
+        s_magikoopa = spr_magikoopa
+        s_magikoopa_appear = spr_magikoopa_appear
+        s_magikoopa_disappear = spr_magikoopa_disappear
         break
     case 3:
         sprite_index = spr_NSMBU_magikoopa
-        s_magikoopa = 3407
-        s_magikoopa_appear = 3409
-        s_magikoopa_disappear = 3410
+        s_magikoopa = spr_NSMBU_magikoopa
+        s_magikoopa_appear = spr_NSMBU_magikoopa_appear
+        s_magikoopa_disappear = spr_NSMBU_magikoopa_disappear
         break
 }
 

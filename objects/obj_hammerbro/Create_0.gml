@@ -1,30 +1,31 @@
 switch global.apariencia
 {
     case 0:
-        s_hammerbro = 428
-        s_hammerbro_jump = 1227
-        s_hammerbro_throw = 429
+        s_hammerbro = spr_SMB_hammerbro
+        s_hammerbro_jump = spr_SMB3_hammerbro_jump
+        s_hammerbro_throw = spr_SMB_hammerbro_throw
         sprite_wings = spr_SMB_wings
         break
     case 1:
-        s_hammerbro = 1226
-        s_hammerbro_jump = 1227
-        s_hammerbro_throw = 1228
+        s_hammerbro = spr_SMB3_hammerbro
+        s_hammerbro_jump = spr_SMB3_hammerbro_jump
+        s_hammerbro_throw = spr_SMB3_hammerbro_throw
         sprite_wings = spr_SMB3_wings
         break
     case 2:
-        s_hammerbro = 2053
-        s_hammerbro_jump = 2054
-        s_hammerbro_throw = 2055
+        s_hammerbro = spr_hammerbro
+        s_hammerbro_jump = spr_hammerbro_jump
+        s_hammerbro_throw = spr_hammerbro_throw
         sprite_wings = spr_wings
         break
     case 3:
-        s_hammerbro = 3535
+        s_hammerbro = spr_NSMBU_hammerbro
         sprite_index = spr_NSMBU_hammerbro
-        s_hammerbro_jump = 3537
-        s_hammerbro_throw = 3536
+        s_hammerbro_jump = spr_NSMBU_hammerbro_jump
+        s_hammerbro_throw = spr_NSMBU_hammerbro_throw
         sprite_wings = spr_NSMBU_wings_enemigos
 }
+
 hardness = 0
 stomp = 0
 edible = 0

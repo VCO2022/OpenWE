@@ -2,26 +2,26 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_pplant_fire_down
-        s_down = 326
-        s_up = 327
+        s_down = spr_SMB_pplant_fire_down
+        s_up = spr_SMB_pplant_fire_up
         sprite_wings = spr_SMB_wings_16x16
         break
     case 1:
         sprite_index = spr_SMB3_pplant_fire_down
-        s_down = 1113
-        s_up = 1114
+        s_down = spr_SMB3_pplant_fire_down
+        s_up = spr_SMB3_pplant_fire_up
         sprite_wings = spr_SMB3_wings2
         break
     case 2:
         sprite_index = spr_pplant_fire_down
-        s_down = 1899
-        s_up = 1900
+        s_down = spr_pplant_fire_down
+        s_up = spr_pplant_fire_up
         sprite_wings = spr_wings2
         break
     case 3:
         sprite_index = spr_NSMBU_pplant_fire_down
-        s_down = 3394
-        s_up = 3395
+        s_down = spr_NSMBU_pplant_fire_down
+        s_up = spr_NSMBU_pplant_fire_up
         sprite_wings = spr_NSMBU_wings_items
         break
 }

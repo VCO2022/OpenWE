@@ -2,7 +2,7 @@
   "resourceType": "GMWindowsOptions",
   "resourceVersion": "1.1",
   "name": "Windows",
-  "option_windows_display_name": "SMM_WE 3.3.3 OpenWE V1",
+  "option_windows_display_name": "SMM_WE",
   "option_windows_executable_name": "SMM-WE.exe",
   "option_windows_version": "3.3.3.0",
   "option_windows_company_info": "Engine Empire: Source Central",

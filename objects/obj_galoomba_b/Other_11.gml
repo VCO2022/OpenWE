@@ -2,14 +2,14 @@ if (wings == 1)
 {
     if (global.apariencia == 3)
     {
-        with (instance_create((x + (9 * direct)), (y + 8), obj_wings_dead))
+        with (instance_create((x + (9 * direct)), (y + 8), obj_wings_dead_b))
             direct = other.direct
     }
     else
     {
-        with (instance_create((x + 9), (y + 8), obj_wings_dead))
+        with (instance_create((x + 9), (y + 8),  obj_wings_dead_b))
             direct = -1
-        with (instance_create((x - 11), (y + 8), obj_wings_dead))
+        with (instance_create((x - 11), (y + 8),  obj_wings_dead_b))
         {
             sprite_index = spr_wings_dead2
             direct = -1
@@ -38,7 +38,7 @@ else if (global.apariencia == 2)
 else if (global.apariencia != 2)
 {
     with (instance_create_depth(x, y - 8, -2, obj_smoke)) {
-	
+	direct = direct*3
 	image_xscale = 3;
 	image_yscale = 3;
 	}

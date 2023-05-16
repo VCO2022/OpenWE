@@ -1,6 +1,6 @@
 event_inherited()
 index = 0
-w_sprite = 2814
+w_sprite = spr_NSMBU_wings_platforms
 anim = 0
 crecer_h = 0
 crecer_v = 0

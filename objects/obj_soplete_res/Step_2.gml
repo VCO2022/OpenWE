@@ -1,10 +1,10 @@
 switch sprout
 {
     case 0:
-        sprite = 2940
+        sprite = spr_soplete_res
         break
     case 1:
-        sprite = 2941
+        sprite = spr_soplete_invert_res
         break
 }
 

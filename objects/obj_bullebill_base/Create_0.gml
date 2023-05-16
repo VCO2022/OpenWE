@@ -1,5 +1,5 @@
 var dark;
-sprite_anim = 3445
+sprite_anim = spr_NSMBU_bullet_anim
 anim_shoot = 0
 if (global.bg_level == "castle" || global.bg_level == "ghost" || global.bg_level == "underground" || global.modo_noche == 1)
     dark = 1

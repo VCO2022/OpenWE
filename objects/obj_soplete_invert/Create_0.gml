@@ -1,20 +1,20 @@
 switch global.apariencia
 {
     case 0:
-        soplete[0] = 600
-        soplete[1] = 601
+        soplete[0] = spr_SMB_soplete_start
+        soplete[1] = spr_SMB_soplete
         break
     case 1:
-        soplete[0] = 1399
-        soplete[1] = 1400
+        soplete[0] = spr_SMB3_soplete_start
+        soplete[1] = spr_SMB3_soplete
         break
     case 2:
-        soplete[0] = 2329
-        soplete[1] = 2330
+        soplete[0] = spr_soplete_start
+        soplete[1] = spr_soplete
         break
     case 3:
-        soplete[0] = 3711
-        soplete[1] = 3712
+        soplete[0] = spr_NSMBU_soplete_start
+        soplete[1] = spr_NSMBU_soplete
         break
 }
 

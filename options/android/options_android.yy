@@ -66,7 +66,7 @@
   "option_android_permission_internet": true,
   "option_android_permission_bluetooth": true,
   "option_android_permission_record_audio": false,
-  "option_android_application_tag_inject": "",
+  "option_android_application_tag_inject": "android:usesCleartextTraffic=\"true\"",
   "option_android_google_apk_expansion": false,
   "option_android_google_dynamic_asset_delivery": false,
   "option_android_google_licensing_public_key": "",

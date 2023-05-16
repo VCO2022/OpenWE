@@ -13,5 +13,6 @@ if (scale > 300)
             disablecontrols = 0
     }
     instance_destroy()
+	exit;	// Stop executing the event if i've been destroyed
 }
 

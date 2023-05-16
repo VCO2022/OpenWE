@@ -7,7 +7,7 @@ if (obj_levelmanager.editor == 1)
             grid_selected = spr_grid_selected_16x16
             para_x = 0
             para_y = 16
-            w_sprite = 2813
+           w_sprite = spr_wings_editor
             wings_x = 20
             wings_y = 20
             break
@@ -16,7 +16,7 @@ if (obj_levelmanager.editor == 1)
             grid_selected = spr_grid_selected_16x16
             para_x = 0
             para_y = 16
-            w_sprite = 2813
+           w_sprite = spr_wings_editor
             wings_x = 20
             wings_y = 20
             break
@@ -25,7 +25,7 @@ if (obj_levelmanager.editor == 1)
             grid_selected = spr_grid_selected_32x32_2
             para_x = -8
             para_y = 32
-            w_sprite = 2817
+            w_sprite = spr_wings_editor_32x32
             wings_x = -16
             wings_y = 16
             break
@@ -34,7 +34,7 @@ if (obj_levelmanager.editor == 1)
             grid_selected = spr_grid_selected_32x32_2
             para_x = -8
             para_y = 32
-            w_sprite = 2817
+            w_sprite = spr_wings_editor_32x32
             wings_x = -16
             wings_y = 16
             break

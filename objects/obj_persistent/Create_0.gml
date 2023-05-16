@@ -90,7 +90,7 @@ global.drez = "2559F35097-2021"
 global.token = "Corranle banda, hay viene coppel a embargarnos D:"
 global.ctor = "OpenWE | Franyer"
 global.api_url = "Proximamente servidor de niveles mundiales para Engine Empire =)"
-global.ver = "V3.3.3"
+global.ver = "V3.3.4"
 global.wdigits_SMB = font_add_sprite_ext(spr_SMB_numbers, "0123456789", 0, 0)
 global.wdigits_SMB3 = font_add_sprite_ext(spr_SMB3_numbers, "0123456789", 0, 0)
 global.wdigits = font_add_sprite_ext(spr_numbers, "0123456789", 0, 0)

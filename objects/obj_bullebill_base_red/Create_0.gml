@@ -1,4 +1,4 @@
-sprite_anim = 3448
+sprite_anim = spr_NSMBU_bullet_red_anim
 anim_shoot = 0
 switch global.apariencia
 {

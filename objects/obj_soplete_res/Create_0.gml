@@ -1,5 +1,5 @@
 event_inherited()
-sprite = 2940
+sprite = spr_soplete_res
 index = 0
 direct_t = 0
 rotacion = 0

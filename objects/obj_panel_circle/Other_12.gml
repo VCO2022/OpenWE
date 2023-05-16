@@ -2,6 +2,7 @@ type = 1
 sprite_index = spr_panel_circle
 image_index = 1
 obj_panel_expand.header = 1
+obj_header.page = 2
 posicion = 2
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get_view_y(view_get_camera(0)) + 53), obj_card_circle))
 {

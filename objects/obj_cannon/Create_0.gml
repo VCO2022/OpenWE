@@ -32,6 +32,6 @@ calcular = 0
 alarm[1] = 10
 image_speed = 0
 image_index = (direct / 45)
-sprite_anim = 3461
+sprite_anim = spr_NSMBU_cannon_anim
 anim_shoot = 0
 
