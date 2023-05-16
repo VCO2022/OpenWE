@@ -1,4 +1,4 @@
-![image](https://github.com/Open-WE/OpenWE/assets/97027903/aa9def95-f7a8-4fc3-8f23-9b28adc8726e)
+![image](https://github.com/Open-WE/OpenWE/assets/97027903/ab27c650-9068-478b-bb1f-648dd4891ff7)
 # OpenWE 3.3.3
 Repositorio para el código fuente de Super Mario Maker: World Engine en su versión 3.3.3 (fan-made).
 
