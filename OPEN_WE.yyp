@@ -1,7 +1,7 @@
 {
   "resourceType": "GMProject",
   "resourceVersion": "1.6",
-  "name": "SMM_WE",
+  "name": "OPEN_WE",
   "resources": [
     {"id":{"name":"spr_SMB_mario_small_idle","path":"sprites/spr_SMB_mario_small_idle/spr_SMB_mario_small_idle.yy",},"order":0,},
     {"id":{"name":"spr_SMB_mario_small_walk","path":"sprites/spr_SMB_mario_small_walk/spr_SMB_mario_small_walk.yy",},"order":1,},
