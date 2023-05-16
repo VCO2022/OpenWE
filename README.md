@@ -1,8 +1,8 @@
-# SMM-WE
-El codigo del fangame Super Mario Maker: World Engine, mas especificamente el de la version de fans 3.3.3
+![githubbanner](https://github.com/Open-WE/OpenWE/assets/97027903/9634143e-4e43-4f1e-b8ba-abe36f5985e0)
+# OpenWE 3.3.3
+Repositorio para el código fuente de Super Mario Maker: World Engine en su versión 3.3.3 (fan-made).
 
 # ¿De que se trata?
-
 Despues de que la 3.3.3 fue cancelada, un usuario decidio arreglar todos los bugs con los que se quedo y asi poder lanzarla.
 
 # ¿Quienes somos?
