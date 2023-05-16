@@ -11,8 +11,8 @@ Somos un grupo bastante reducido de "Contribuidores"
 
 Algunos de los mas importantes son:
 
-#### Im Not Strike
 #### Error404
+#### Im Not Strike
 #### HeXp
 #### Vini
 
