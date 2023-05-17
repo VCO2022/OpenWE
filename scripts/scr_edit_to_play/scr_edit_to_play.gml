@@ -734,6 +734,14 @@ function scr_edit_to_play() {
 				instance_create(x + 5, y + 7, obj_NSMBU_ninji)
 	    }
 	}
+	if instance_exists(obj_cooligan_res)
+	{
+	    with (obj_cooligan_res)
+	    {
+	        visible = false
+			instance_create(x, y, obj_cooligan)
+	    }
+	}
 	if instance_exists(obj_pblock2_res)
 	{
 	    with (obj_pblock2_res)

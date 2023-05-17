@@ -1,6 +1,7 @@
 init_shockwave()
 audio_master_gain(0.25)
 var gamepad;
+game_set_speed(60, gamespeed_fps);
 global.audiomaster = 0.25
 airship = 0
 port_y = 0

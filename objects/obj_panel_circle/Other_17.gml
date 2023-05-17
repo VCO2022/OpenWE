@@ -42,4 +42,11 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 156), (camera_get
     value = 4
 	disabled = 1
 }
+with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))
+{
+	obj = obj_cooligan_res
+	image_index = 231
+    mask_index = spr_circle_mask7_6
+    value = 6
+}
 

@@ -789,6 +789,8 @@ function __global_object_depths() {
 	global.__objectDepths[781] = -11; // obj_btn_header_2
 	global.__objectDepths[782] = -11; // obj_btn_header_3
 	global.__objectDepths[783] = -11; // obj_btn_header_4
+	global.__objectDepths[784] = 0; // obj_cooligan
+	global.__objectDepths[785] = 0; // obj_cooligan_res
 
 	global.__objectNames[0] = "obj_lighting";
 	global.__objectNames[1] = "obj_rainmaker";
@@ -1574,6 +1576,8 @@ function __global_object_depths() {
 	global.__objectNames[781] = "obj_btn_header_2";
 	global.__objectNames[782] = "obj_btn_header_3";
 	global.__objectNames[783] = "obj_btn_header_4";
+	global.__objectNames[784] = "obj_cooligan";
+	global.__objectNames[785] = "obj_cooligan_res";
 
 
 	// create another array that has the correct entries

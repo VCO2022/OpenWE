@@ -10,13 +10,14 @@
   "packageId": "",
   "productId": "",
   "author": "",
-  "date": "2020-11-11T05:13:31.2571444-05:00",
+  "date": "2020-11-11T11:13:31.2571444+01:00",
   "license": "",
   "description": "",
   "helpfile": "",
   "iosProps": false,
   "tvosProps": false,
   "androidProps": false,
+  "html5Props": false,
   "installdir": "",
   "files": [
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","filename":"NekoPresence.gml","origname":"","init":"","final":"","kind":2,"uncompress":false,"functions":[
@@ -118,6 +119,7 @@
         {"name":"np_setpresence_buttons","path":"extensions/NekoPresence/NekoPresence.yy",},
       ],},
   ],
+  "HTML5CodeInjection": "",
   "classname": "",
   "tvosclassname": null,
   "tvosdelegatename": null,

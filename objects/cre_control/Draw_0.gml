@@ -168,15 +168,15 @@ draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("SupahSwing")))
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Kass")))
 num += 24
-draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("3.3.3 OpenWE V1 Version")), c_title, c_title, c_title, c_title, alpha)
+draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("3.3.4 OpenWE V1 Version")), c_title, c_title, c_title, c_title, alpha)
 num += 24
 draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Programadores")), c_title, c_title, c_title, c_title, alpha)
+num += 12
+draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Error404")))
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Im Not Strike")))
 num += 12
 draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("HeXp")))
-num += 12
-draw_text(x_pos, ((y + num) - yy), string_hash_to_newline(("Error404")))
 num += 24
 draw_text_color(x_pos, ((y + num) - yy), string_hash_to_newline(("Agradecimeintos Especiales")), c_title, c_title, c_title, c_title, alpha)
 num += 12

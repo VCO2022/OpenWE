@@ -1,7 +1,7 @@
 if ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1))
 	x = ((camera_get_view_x(view_get_camera(0)) + 29) - obj_cursor.anim_left)
 else
-	x = ((camera_get_view_x(view_get_camera(0)) + 31) - obj_cursor.anim_left)
+	x = ((camera_get_view_x(view_get_camera(0)) + 29) - obj_cursor.anim_left)
 y = (camera_get_view_y(view_get_camera(0)) + 87)
 if ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1)) {
 	if (global.meteoritos == 0) {
