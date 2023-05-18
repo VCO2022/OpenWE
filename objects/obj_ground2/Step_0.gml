@@ -15,7 +15,7 @@ if (global.apariencia == 3)
         case "sky":
             arrow_image = 2
             break
-        case "Mountain y Volcano":
+        case "mountain":
         if (global.modo_noche == 1)
                 arrow_image = 8
             else

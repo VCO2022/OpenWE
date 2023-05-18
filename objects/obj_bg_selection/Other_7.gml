@@ -100,7 +100,7 @@ if (sprite_index == spr_panel_entorno_anim)
     }
     with (instance_create((camera_get_view_x(view_get_camera(0)) + 170), (camera_get_view_y(view_get_camera(0)) + 154), obj_bg1))
     {
-        bg_s = "Mountain y Volcano"
+        bg_s = "mountain"
         if global.modo_noche == 0
         {
         image_index = 12

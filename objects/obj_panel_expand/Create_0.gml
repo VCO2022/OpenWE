@@ -164,7 +164,7 @@ switch global.bg_level
         img_block = 64
         img_rock = 17
         break
-	case "Mountain y Volcano":
+	case "mountain":
         if (global.modo_noche == 1)
         {
             img_ground = 229
@@ -203,7 +203,10 @@ if (global.modo_noche == 1 && global.bg_level == "ground")
     img_1up = 123
 value = (obj_editormanager.panel_circle + 1)
 instance_create((camera_get_view_x(view_get_camera(0)) + 350), (camera_get_view_y(view_get_camera(0)) + 19), obj_button_close)
+if (room == rm_editor)
+{
 instance_create((camera_get_view_x(view_get_camera(0)) + 133), (camera_get_view_y(view_get_camera(0)) + 13), obj_header)
+}
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 51), (camera_get_view_y(view_get_camera(0)) + 111), obj_next_before))
     image_index = 0
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 304), (camera_get_view_y(view_get_camera(0)) + 111), obj_next_before))

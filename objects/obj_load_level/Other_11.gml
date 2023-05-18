@@ -15,14 +15,10 @@ switch global.bg_level
                 __background_set( e__BG.Index, 2, bg_NSMBU_overworld_2 )
                 __background_set( e__BG.Index, 3, bg_NSMBU_overworld_3 )
 				__background_set( e__BG.Index, 4, bg_NSMBU_overworld_4 )
-				__background_set( e__BG.Index, 5, bg_NSMBU_overworld_5 )
-				__background_set( e__BG.Index, 7, bg_NSMBU_overworld_6 )
                 __background_set( e__BG.Visible, 1, 1 )
                 __background_set( e__BG.Visible, 2, 1 )
                 __background_set( e__BG.Visible, 3, 1 )
                 __background_set( e__BG.Visible, 4, 1 )
-				__background_set( e__BG.Visible, 5, 1 )
-				__background_set( e__BG.Visible, 7, 1 )
         }
         else
             __background_set( e__BG.Index, (0 << 0), scr_bg_ground( ))
@@ -308,7 +304,7 @@ switch global.bg_level
         s_block_hidden = 7
         s_puente = 95
         break
-    case "Mountain y Volcano":
+    case "mountain":
         if (global.apariencia == 3)
         {
             if (global.modo_noche == 0)
@@ -318,14 +314,10 @@ switch global.bg_level
             __background_set( e__BG.Index, 2, bg_NSMBU_mountain_2 )
 			__background_set( e__BG.Index, 3, bg_NSMBU_mountain_3 )
 			__background_set( e__BG.Index, 4, bg_NSMBU_mountain_4 )
-			__background_set( e__BG.Index, 5, bg_NSMBU_mountain_5 )
-			__background_set( e__BG.Index, 7, bg_NSMBU_mountain_6 )
             __background_set( e__BG.Visible, 1, 1 )
             __background_set( e__BG.Visible, 2, 1 )
 			__background_set( e__BG.Visible, 3, 1 )
             __background_set( e__BG.Visible, 4, 1 )
-			__background_set( e__BG.Visible, 5, 1 )
-			__background_set( e__BG.Visible, 7, 1 )
             }
             else
             {
@@ -456,7 +448,7 @@ else if ((global.bg_level == "forest" && global.modo_noche == 0) || global.bg_le
 
     }
 }
-else if !instance_exists(obj_lava_water) && ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1))
+else if !instance_exists(obj_lava_water) && ((global.bg_level == "mountain") && (global.modo_noche == 1))
 {
     if instance_exists(obj_lava_water)
     {
@@ -483,7 +475,7 @@ else if !instance_exists(obj_lava_water) && ((global.bg_level == "Mountain y Vol
         
     }
 }
-else if instance_exists(obj_lava_water) && ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 0))
+else if instance_exists(obj_lava_water) && ((global.bg_level == "mountain") && (global.modo_noche == 0))
 {
     with (obj_lava_water)
         instance_destroy()

@@ -23,7 +23,7 @@ if (bbox_top > room_height)
         alarm[0] = 10
     }
 }
-if (instance_exists(obj_lava_water) && (bbox_bottom - 8) > (obj_lava_water.y - 12) && (global.bg_level == "castle" || (global.bg_level == "forest" && global.modo_noche == 1) or (global.bg_level == "Mountain y Volcano" && global.modo_noche == 1)))
+if (instance_exists(obj_lava_water) && (bbox_bottom - 8) > (obj_lava_water.y - 12) && (global.bg_level == "castle" || (global.bg_level == "forest" && global.modo_noche == 1) or (global.bg_level == "mountain" && global.modo_noche == 1)))
 {
     if ((!ready) && vspeed > 0)
     {

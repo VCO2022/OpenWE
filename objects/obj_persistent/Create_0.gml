@@ -1,7 +1,6 @@
 init_shockwave()
 audio_master_gain(0.25)
 var gamepad;
-game_set_speed(60, gamespeed_fps);
 global.audiomaster = 0.25
 airship = 0
 port_y = 0
@@ -88,10 +87,10 @@ global.gh = 216
 global.font_google = font_add("font_as.ttf", 12, 0, 0, 32, 128)
 global.levelmusic = 167
 global.drez = "2559F35097-2021"
-global.token = "Corranle banda, hay viene coppel a embargarnos D:"
+global.token = "282041525"
 global.ctor = "OpenWE | Franyer"
-global.api_url = "Proximamente servidor de niveles mundiales para Engine Empire =)"
-global.ver = "V3.3.4"
+global.api_url = "http://103.195.101.206:25750/"
+global.ver = "V3.3.5"
 global.wdigits_SMB = font_add_sprite_ext(spr_SMB_numbers, "0123456789", 0, 0)
 global.wdigits_SMB3 = font_add_sprite_ext(spr_SMB3_numbers, "0123456789", 0, 0)
 global.wdigits = font_add_sprite_ext(spr_numbers, "0123456789", 0, 0)

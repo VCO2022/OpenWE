@@ -25,7 +25,7 @@ function scr_create_bg_anim() {
 	                    anibg[1] = bg_SMB_underwater_night_2
 	                }
 	            }
-				else if (global.bg_level == "Mountain y Volcano")
+				else if (global.bg_level == "mountain")
 	            {
 	                with (instance_create(0, 0, obj_bganimator))
 	                {
@@ -33,7 +33,7 @@ function scr_create_bg_anim() {
 	                    anibg[1] = bg_SMB_volcano_2
 	                }
 	            }
-	            else if (global.bg_level != "ghost") && (global.bg_level != "Mountain y Volcano")
+	            else if (global.bg_level != "ghost") && (global.bg_level != "mountain")
 	            {
 	                with (instance_create(0, 0, obj_bganimator))
 	                {
@@ -64,7 +64,7 @@ function scr_create_bg_anim() {
 	                    anibg[3] = bg_SMB3_sky_night_1
 	                }
 	            }
-				else if (global.bg_level == "Mountain y Volcano")
+				else if (global.bg_level == "mountain")
 	            {
 	                with (instance_create(0, 0, obj_bganimator))
 	                {
@@ -72,7 +72,7 @@ function scr_create_bg_anim() {
 	                    anibg[1] = bg_SMB3_volcano_2
 	                }
 	            }
-	            else if (global.bg_level != "underwater" && global.bg_level != "ghost" && global.bg_level != "Mountain y Volcano")
+	            else if (global.bg_level != "underwater" && global.bg_level != "ghost" && global.bg_level != "mountain")
 	            {
 	                with (instance_create(0, 0, obj_bganimator))
 	                {
@@ -141,7 +141,7 @@ function scr_create_bg_anim() {
 	                }
 	                break
 	            }
-				else if (global.bg_level == "Mountain y Volcano")
+				else if (global.bg_level == "mountain")
 	            {
 	                with (instance_create(0, 0, obj_bganimator))
 	                {
@@ -152,7 +152,7 @@ function scr_create_bg_anim() {
 	                }
 	                break
 	            }
-	            else if (global.bg_level != "ghost") && (global.bg_level != "Mountain y Volcano")
+	            else if (global.bg_level != "ghost") && (global.bg_level != "mountain")
 	            {
 	                with (instance_create(0, 0, obj_bganimator))
 	                {

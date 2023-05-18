@@ -99,7 +99,7 @@ if file_exists((global.directorio + global.levelguardabot))
         case "beach":
             entorno_image = 11
             break
-        case "Mountain y Volcano":
+        case "mountain":
         if (modo_noche == 0)
         {
             entorno_image = 12

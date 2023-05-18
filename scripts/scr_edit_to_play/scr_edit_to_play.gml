@@ -872,7 +872,7 @@ function scr_edit_to_play() {
 	        instance_create(x, y, obj_torbellino)
 	    }
 	}
-	if (global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1) && (!instance_exists(obj_meteorites_maker))
+	if (global.bg_level == "mountain") && (global.modo_noche == 1) && (!instance_exists(obj_meteorites_maker))
 	{
 	instance_create( obj_persistent.x + 5, obj_persistent.y - 5, obj_meteorites_maker)
 	}
@@ -2041,7 +2041,7 @@ function scr_edit_to_play() {
 	                            case "underground":
 	                                sprite_index = spr_SMB3_qblock_night
 	                                break
-								case "Mountain y Volcano":
+								case "mountain":
 								if (global.modo_noche == 1)
 								{
 	                                sprite_index = spr_SMB3_qblock_dark
@@ -2077,7 +2077,7 @@ function scr_edit_to_play() {
 	                            case "underground":
 	                                sprite_index = spr_NSMBU_block_night
 	                                break
-								case "Mountain y Volcano":
+								case "mountain":
 									if (global.modo_noche == 1)
 									{
 										sprite_index = spr_NSMBU_block_dark
@@ -2146,7 +2146,7 @@ function scr_edit_to_play() {
 	                            case "underground":
 	                                sprite_index = spr_SMB3_qblock_night
 	                                break
-								case "Mountain y Volcano":
+								case "mountain":
 									if (global.modo_noche == 1)
 									{
 										sprite_index = spr_NSMBU_qblock_dark
@@ -2183,7 +2183,7 @@ function scr_edit_to_play() {
 	                            case "underground":
 	                                sprite_index = spr_NSMBU_block_night
 	                                break
-								case "Mountain y Volcano":
+								case "mountain":
 									if (global.modo_noche == 1)
 									{
 										sprite_index = spr_NSMBU_block_dark

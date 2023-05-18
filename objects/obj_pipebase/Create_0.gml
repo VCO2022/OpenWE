@@ -16,7 +16,7 @@ switch global.apariencia
             case "castle":
                 image_index = 3
                 break
-			case "Mountain y Volcano":
+			case "mountain":
                 if (global.modo_noche == 1)
                     image_index = 3
                 else

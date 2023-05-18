@@ -20,7 +20,7 @@ function scr_mushroom_platform1_sprites() {
 	            return spr_SMB_mp1_dark;
 	        case "ghost":
 	            return spr_SMB_mp1_dark;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_SMB_mp1_dark;
 	            else
@@ -46,7 +46,7 @@ function scr_mushroom_platform1_sprites() {
 	                return spr_SMB_mp1_airship;
 	            case "castle":
 	                return spr_SMB_mp1_dark;
-				case "Mountain y Volcano":
+				case "mountain":
 	                return spr_SMB3_mp1_dark;
 	            default:
 	                return spr_SMB3_mp1_night;
@@ -71,7 +71,7 @@ function scr_mushroom_platform1_sprites() {
 	                return spr_SMB3_mp1_night;
 	            case "ghost":
 	                return spr_SMB3_mp1_night;
-	            case "Mountain y Volcano":
+	            case "mountain":
 					return spr_SMB3_mp1;
 	            default:
 	                return spr_SMB3_mp1;
@@ -94,7 +94,7 @@ function scr_mushroom_platform1_sprites() {
 	            return spr_mp1_underwater;
 	        case "airship":
 	            return spr_mp1_airship;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            return spr_mp1;
 	        default:
 	            return spr_mp1;
@@ -121,7 +121,7 @@ function scr_mushroom_platform1_sprites() {
 	                return spr_NSMBU_mp1_castle;
 	            case "underground":
 	                return spr_NSMBU_mp1_underground;
-	            case "Mountain y Volcano":
+	            case "mountain":
 	                return spr_NSMBU_mp1_castle;
 	            default:
 	                return spr_NSMBU_mp1_overworld_night;
@@ -148,7 +148,7 @@ function scr_mushroom_platform1_sprites() {
 	                return spr_NSMBU_mp1_castle;
 	            case "underground":
 	                return spr_NSMBU_mp1_underground;
-	            case "Mountain y Volcano":
+	            case "mountain":
 	                return spr_NSMBU_mp1_overworld;
 	            default:
 	                return spr_NSMBU_mp1_overworld;

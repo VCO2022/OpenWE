@@ -6,7 +6,7 @@ if (global.apariencia == 0)
         sprite_index = spr_SMB_block_snow
     else if (global.bg_level == "castle")
         sprite_index = spr_SMB_block_dark
-    else if (global.bg_level == "Mountain y Volcano")
+    else if (global.bg_level == "mountain")
         sprite_index = spr_SMB_block
     else if (global.bg_level == "ghost" || global.bg_level == "underground" || global.modo_noche == 1)
         sprite_index = spr_SMB_block_night
@@ -19,7 +19,7 @@ else if (global.apariencia == 1)
         sprite_index = spr_SMB3_blocks_ice
     else if (global.bg_level == "castle")
         sprite_index = spr_SMB3_block_dark
-    else if (global.bg_level == "Mountain y Volcano")
+    else if (global.bg_level == "mountain")
     if (global.modo_noche == 0)
     {
         sprite_index = spr_SMB3_block
@@ -35,9 +35,9 @@ else if (global.apariencia == 3)
 {
     if (global.bg_level == "castle")
         sprite_index = spr_NSMBU_qblock_dark
-    else if ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1))
+    else if ((global.bg_level == "mountain") && (global.modo_noche == 1))
             sprite_index = spr_NSMBU_qblock_dark
-    else if (global.bg_level != "Mountain y Volcano") && (global.bg_level == "ghost" || global.bg_level == "underground" || global.modo_noche == 1)
+    else if (global.bg_level != "mountain") && (global.bg_level == "ghost" || global.bg_level == "underground" || global.modo_noche == 1)
         sprite_index = spr_NSMBU_qblock_night
     else
         sprite_index = spr_NSMBU_qblock

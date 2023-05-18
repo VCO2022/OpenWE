@@ -57,7 +57,7 @@ ds_map_add(_map2, "condiciones_type", global.condiciones_type)
 ds_map_add(_map2, "condiciones_object", global.condiciones_object)
 ds_map_add(_map2, "condiciones_count", global.condiciones_count)
 ds_map_add(_map2, "ds_s", global.sounds_level)
-ds_map_add(_map2, "meteoritos", global.meteoritos)
+ds_map_add(_map2, "meteorites", global.meteoritos)
 _root_list3 = ds_list_create()
 if instance_exists(obj_ground)
 {

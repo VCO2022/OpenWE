@@ -456,7 +456,7 @@ if (y < -96)
         instance_create(x, y, obj_deadmario)
         instance_destroy()
     }
-    else if ((instance_exists(obj_lava_water) && ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1)) && (((y + 32) >= obj_lava_water.y) && (!instance_exists(obj_kuribo_drybones))) || (instance_exists(obj_lava_water) && ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1)) && (((y + 32) >= (obj_lava_water.y + 12)) && instance_exists(obj_kuribo_drybones)))))
+    else if ((instance_exists(obj_lava_water) && ((global.bg_level == "mountain") && (global.modo_noche == 1)) && (((y + 32) >= obj_lava_water.y) && (!instance_exists(obj_kuribo_drybones))) || (instance_exists(obj_lava_water) && ((global.bg_level == "mountain") && (global.modo_noche == 1)) && (((y + 32) >= (obj_lava_water.y + 12)) && instance_exists(obj_kuribo_drybones)))))
     {
         instance_create(x, y, obj_deadmario)
         instance_destroy()

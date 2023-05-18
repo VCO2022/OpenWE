@@ -30,7 +30,7 @@ function scr_semisolid_platform3_sprites() {
 	            return spr_SMB_ssp3_fall;
 	        case "beach":
 	            return spr_SMB_ssp3_beach;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_SMB_ssp3_volcano;
 	            else
@@ -74,7 +74,7 @@ function scr_semisolid_platform3_sprites() {
 	            else
 	                return spr_SMB3_ssp3_beach;
 	            break
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_SMB3_ssp3_volcano;
 	            else
@@ -114,7 +114,7 @@ function scr_semisolid_platform3_sprites() {
 	            return spr_ssp3_autumn;
 	        case "beach":
 	            return spr_ssp3_beach;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_ssp3_volcano;
 	            else
@@ -162,7 +162,7 @@ function scr_semisolid_platform3_sprites() {
 	                return spr_NSMBU_ssp3_beach_night;
 	            else
 	                return spr_NSMBU_ssp3_beach;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_NSMBU_ssp3_volcano;
 	            else

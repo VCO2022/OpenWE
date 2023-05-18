@@ -166,7 +166,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "NSMBU",
-    "path": "folders/Sprites/Tiles/NSMBU.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

@@ -38,7 +38,7 @@
         case "beach":
             entorno = "11"
             break
-		case "Mountain y Volcano":
+		case "mountain":
 		if (global.modo_noche == 0)
 		{
             entorno = "12"

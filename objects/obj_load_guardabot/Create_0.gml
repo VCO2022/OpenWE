@@ -18,5 +18,5 @@ entorno[8] = "ghost"
 entorno[9] = "snow"
 entorno[10] = "fall"
 entorno[11] = "beach"
-entorno[12] = "Mountain y Volcano"
+entorno[12] = "mountain"
 

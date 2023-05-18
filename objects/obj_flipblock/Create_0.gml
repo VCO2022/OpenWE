@@ -14,7 +14,7 @@ switch global.apariencia
             case "castle":
                 image_index = 2
                 break
-            case "Mountain y Volcano":
+            case "mountain":
             if (global.modo_noche == 1)
                     image_index = 0
                 else
@@ -43,7 +43,7 @@ switch global.apariencia
             case "underground":
                 sprite_index = spr_SMB3_qblock_night
                 break
-            case "Mountain y Volcano":
+            case "mountain":
             if (global.modo_noche == 1)
                     sprite_index = spr_SMB3_qblock_dark
                 else
@@ -77,7 +77,7 @@ switch global.apariencia
             case "underground":
                 sprite_index = spr_NSMBU_block_night
                 break
-            case "Mountain y Volcano":
+            case "mountain":
             if (global.modo_noche == 1)
                     sprite_index = spr_NSMBU_block_dark
                 else

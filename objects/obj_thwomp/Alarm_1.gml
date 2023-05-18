@@ -23,7 +23,7 @@ if (salpicadura == 1)
                     }
 
                     break
-				case "Mountain y Volcano":
+				case "mountain":
 				if (global.modo_noche == 1)
 				{
                     switch global.apariencia

@@ -11,7 +11,7 @@ if (global.apariencia == 0)
         sprite_index = spr_SMB_puente_ghost
     else if (global.bg_level == "castle" || global.bg_level == "airship")
         sprite_index = spr_SMB_puente_dark
-	else if (global.modo_noche == 1) && (global.bg_level == "Mountain y Volcano")
+	else if (global.modo_noche == 1) && (global.bg_level == "mountain")
         sprite_index = spr_SMB_puente_night
     else if (global.bg_level == "underground")
         sprite_index = spr_SMB_puente_night
@@ -29,7 +29,7 @@ else if (global.apariencia == 1)
     }
     else if (global.bg_level == "castle")
         sprite_index = spr_SMB3_puente_dark
-	else if (global.modo_noche == 1) && (global.bg_level == "Mountain y Volcano")
+	else if (global.modo_noche == 1) && (global.bg_level == "mountain")
         sprite_index = spr_SMB3_puente_dark
     else if (global.bg_level == "underground" || global.bg_level == "ghost" || global.modo_noche == 1)
         sprite_index = spr_SMB3_puente_night
@@ -47,7 +47,7 @@ else if (global.apariencia == 2)
     }
     else if (global.bg_level == "underground" || global.bg_level == "underwater" || global.bg_level == "ghost" || global.bg_level == "airship" || global.bg_level == "castle")
         sprite_index = spr_puente_night
-	else if (global.modo_noche == 1) && (global.bg_level == "Mountain y Volcano")
+	else if (global.modo_noche == 1) && (global.bg_level == "mountain")
         sprite_index = spr_puente_night
     else
         sprite_index = spr_puente
@@ -84,7 +84,7 @@ else if (global.apariencia == 3)
     }
     else if (global.bg_level == "castle")
         sprite_index = spr_NSMBU_puente_castle
-	else if (global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1)
+	else if (global.bg_level == "mountain") && (global.modo_noche == 1)
         sprite_index = spr_NSMBU_puente_volcano
     else if (global.bg_level == "underground" || global.bg_level == "ghost")
         sprite_index = spr_NSMBU_puente_underground

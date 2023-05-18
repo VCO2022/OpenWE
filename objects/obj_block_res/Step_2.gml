@@ -20,7 +20,7 @@ if (obj_levelmanager.editor == 1)
             sprite_index = spr_SMB3_qblock_ice
         else if (global.bg_level == "castle")
             sprite_index = spr_SMB3_qblock_dark
-        else if (global.bg_level == "Mountain y Volcano")
+        else if (global.bg_level == "mountain")
         if (global.modo_noche == 1)
         {
             sprite_index = spr_SMB3_qblock_dark
@@ -45,7 +45,7 @@ if (obj_levelmanager.editor == 1)
         sprite_index = spr_NSMBU_block_res
         if (global.bg_level == "castle")
             image_index = 2
-        else if (global.bg_level == "Mountain y Volcano")
+        else if (global.bg_level == "mountain")
         if (global.modo_noche == 1)
         {
             image_index = 2

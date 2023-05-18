@@ -15,7 +15,7 @@ switch global.apariencia
             case "beach":
                 sprite_index = spr_SMB_water_b
                 break
-            case "Mountain y Volcano":
+            case "mountain":
                 sprite_index = spr_SMB_lava
 				break
 
@@ -37,7 +37,7 @@ switch global.apariencia
             case "beach":
                 sprite_index = spr_SMB3_water_b
                 break
-            case "Mountain y Volcano":
+            case "mountain":
                 sprite_index = spr_SMB3_lava
                 break
         }
@@ -58,7 +58,7 @@ switch global.apariencia
             case "beach":
                 sprite_index = spr_water_b
                 break
-            case "Mountain y Volcano":
+            case "mountain":
 				sprite_index = spr_lava
                 break
         }
@@ -79,7 +79,7 @@ switch global.apariencia
             case "beach":
                 sprite_index = spr_NSMBU_water
                 break
-            case "Mountain y Volcano":
+            case "mountain":
                 sprite_index = spr_NSMBU_lava
                 break
         }
@@ -100,7 +100,7 @@ switch global.apariencia
             case "beach":
                 sprite_index = spr_SMB_water
                 break
-            case "Mountain y Volcano":
+            case "mountain":
                 if (global.modo_noche == 1)
                     sprite_index = spr_SMB_lava
                 break

@@ -28,7 +28,7 @@ if (effect_hover == 1)
             sprite_index = spr_card_bout_lava_anim
             image_speed = 0.15
             break
-        case "Mountain y Volcano":
+        case "mountain":
             if (global.modo_noche == 1)
             {
                 sprite_index = spr_card_bout_lava_anim
@@ -66,7 +66,7 @@ else
         case "castle":
             image_index = 2
             break
-        case "Mountain y Volcano":
+        case "mountain":
             if (global.modo_noche == 1)
                 image_index = 2
             else

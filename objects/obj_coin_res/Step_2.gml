@@ -12,7 +12,7 @@ switch global.apariencia
             case "ghost":
                 sprite_index = spr_SMB_coin_night
                 break
-			case "Mountain y Volcano":
+			case "mountain":
 			if (global.modo_noche == 1)
                 {
                     sprite_index = spr_SMB_coin_dark
@@ -44,7 +44,7 @@ switch global.apariencia
             case "ghost":
                 sprite_index = spr_SMB3_coin_night
                 break
-			case "Mountain y Volcano":
+			case "mountain":
 			if (global.modo_noche == 1)
                 {
                     sprite_index = spr_SMB3_coin_dark

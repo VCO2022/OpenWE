@@ -20,7 +20,7 @@ if (global.apariencia == 3)
 		image_index = 7
 	else if (global.bg_level == "snow")
 		image_index = 10
-    else if (global.bg_level == "Mountain y Volcano")
+    else if (global.bg_level == "mountain")
 	{
     if (global.modo_noche == 0)
 		image_index = 2

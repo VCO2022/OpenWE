@@ -1,8 +1,8 @@
-if ((!instance_exists(obj_lava_water)) && ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1)))
+if ((!instance_exists(obj_lava_water)) && ((global.bg_level == "mountain") && (global.modo_noche == 1)))
 {
     instance_create(camera_get_view_x(view_get_camera(0)), (room_height - 4), obj_lava_water)
 }
-if ((instance_exists(obj_lava_water)) && ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 0)))
+if ((instance_exists(obj_lava_water)) && ((global.bg_level == "mountain") && (global.modo_noche == 0)))
 {
 instance_destroy(obj_lava_water)
 }
@@ -57,3 +57,7 @@ if instance_exists(obj_mario)
 					global.boss_music = 0
 	}
 	}
+
+
+
+

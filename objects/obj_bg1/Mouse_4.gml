@@ -104,7 +104,7 @@ if (obj_levelmanager.editor == 1)
 
         }
     }
-    else if !instance_exists(obj_lava_water) && ((bg_s == "Mountain y Volcano") && (global.modo_noche == 1))
+    else if !instance_exists(obj_lava_water) && ((bg_s == "mountain") && (global.modo_noche == 1))
     {
     if instance_exists(obj_lava_water)
     {
@@ -131,7 +131,7 @@ if (obj_levelmanager.editor == 1)
         
     }
 }
-    else if instance_exists(obj_lava_water) && ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 0))
+    else if instance_exists(obj_lava_water) && ((global.bg_level == "mountain") && (global.modo_noche == 0))
 {
     with (obj_lava_water)
         instance_destroy()

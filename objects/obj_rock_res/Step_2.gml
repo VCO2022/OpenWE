@@ -16,7 +16,7 @@ switch global.apariencia
             case "castle":
                 image_index = 2
                 break
-            case "Mountain y Volcano":
+            case "mountain":
                 image_index = 0
                 break
             case "airship":
@@ -49,7 +49,7 @@ switch global.apariencia
             case "underground":
                 image_index = 1
                 break
-            case "Mountain y Volcano":
+            case "mountain":
             if (global.modo_noche == 1)
                 image_index = 2
             else
@@ -88,7 +88,7 @@ switch global.apariencia
                 else
                     image_index = 4
                 break
-            case "Mountain y Volcano":
+            case "mountain":
             if (global.modo_noche == 1)
                 image_index = 6
             else

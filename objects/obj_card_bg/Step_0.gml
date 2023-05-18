@@ -38,7 +38,7 @@ switch global.bg_level
     case "beach":
         image_index = 11
         break
-    case "Mountain y Volcano":
+    case "mountain":
     if (global.modo_noche == 0)
     {
         image_index = 13

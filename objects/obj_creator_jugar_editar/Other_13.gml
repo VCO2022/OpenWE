@@ -4,7 +4,28 @@ if (global.apariencia == 3)
 else
     marioU = obj_mario
 if (moment == 0)
-{       		        
+{    
+	
+// Check for items and enemies above the camera
+var no_instances_above_camera = true;
+with(obj_parent_resource) {
+     if (y < obj_levelmanager.cam_top - 8) {
+        no_instances_above_camera = false;
+        break;
+    }
+}
+if (no_instances_above_camera) {
+	with obj_levelmanager
+		camlock = 1;
+} else {
+	with obj_levelmanager
+		camlock = 0;
+}
+if (obj_ground2.y < (obj_levelmanager.cam_top - 8) || obj_ground3.y < (obj_levelmanager.cam_top - 8))
+    {
+        with (obj_levelmanager)
+             camlock = 0
+}
 		scr_edit_to_play()
         if instance_exists(obj_player_trail)
         {

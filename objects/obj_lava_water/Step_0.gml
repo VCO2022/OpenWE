@@ -12,7 +12,7 @@ switch global.bg_level
     case "castle":
         img_sprite = spr_lava_down
         break
-    case "Mountain y Volcano":
+    case "mountain":
         img_sprite = spr_lava_down
 		break
     case "forest":
@@ -33,7 +33,7 @@ else
 event_user(0)
 if instance_exists(obj_levelmanager)
 {
-    if ((obj_levelmanager.editor == 1) && (((global.bg_level == "forest") && (global.modo_noche == 1)) || ((global.bg_level == "castle") || ((global.bg_level == "Mountain y Volcano") && (global.modo_noche == 1)))))
+    if ((obj_levelmanager.editor == 1) && (((global.bg_level == "forest") && (global.modo_noche == 1)) || ((global.bg_level == "castle") || ((global.bg_level == "mountain") && (global.modo_noche == 1)))))
     {
         image_speed = 0
         image_index = 0

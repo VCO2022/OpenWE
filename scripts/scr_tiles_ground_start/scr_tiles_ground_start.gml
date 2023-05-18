@@ -31,7 +31,7 @@ function scr_tiles_ground_start() {
 	            return spr_SMB_ground11;
 	        case "beach":
 	            return spr_SMB_ground12;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_SMB_ground14;
 	            else
@@ -98,7 +98,7 @@ function scr_tiles_ground_start() {
 	            else
 	                return spr_SMB3_ground12;
 	            break
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_SMB3_ground14;
 	            else
@@ -145,7 +145,7 @@ function scr_tiles_ground_start() {
 	            return spr_ground11;
 	        case "beach":
 	            return spr_ground12;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_ground14;
 	            else
@@ -219,7 +219,7 @@ function scr_tiles_ground_start() {
 	                return spr_NSMBU_ground12_night;
 	            else
 	                return spr_NSMBU_ground12;
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            if (global.modo_noche == 1)
 	                return spr_NSMBU_ground14;
 	            else

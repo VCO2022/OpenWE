@@ -49,7 +49,7 @@ switch global.apariencia
             case "ghost":
                 image_index = 1
                 break
-            case "Mountain y Volcano":
+            case "mountain":
             if (global.modo_noche == 0)
             {
                 image_index = 0
@@ -100,7 +100,7 @@ switch global.apariencia
             case "sky":
                 image_index = 4
                 break
-            case "Mountain y Volcano":
+            case "mountain":
             if (global.modo_noche == 0)
             {
                 image_index = 4

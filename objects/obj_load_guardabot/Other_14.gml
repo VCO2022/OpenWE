@@ -30,7 +30,7 @@ if (global.nm_play != "")
     if (global.apariencia > 3 || global.apariencia < 0)
         global.apariencia = choose(0, 1, 2, 3)
     global.bg_level = ds_map_find_value(_map, "entorno")
-    if (global.bg_level != "ground" && global.bg_level != "underground" && global.bg_level != "castle" && global.bg_level != "underwater" && global.bg_level != "desert" && global.bg_level != "ghost" && global.bg_level != "airship" && global.bg_level != "sky" && global.bg_level != "forest" && global.bg_level != "snow" && global.bg_level != "beach" && global.bg_level != "fall" && global.bg_level != "Mountain y Volcano")
+    if (global.bg_level != "ground" && global.bg_level != "underground" && global.bg_level != "castle" && global.bg_level != "underwater" && global.bg_level != "desert" && global.bg_level != "ghost" && global.bg_level != "airship" && global.bg_level != "sky" && global.bg_level != "forest" && global.bg_level != "snow" && global.bg_level != "beach" && global.bg_level != "fall" && global.bg_level != "mountain")
         global.bg_level = "ground"
     global.modo_noche = ds_map_find_value(_map, "modo_noche")
     if (global.modo_noche != 0 && global.modo_noche != 1)
@@ -70,8 +70,8 @@ if (global.nm_play != "")
         global.sounds_level = ds_map_find_value(_map, "ds_s")
     if (global.sounds_level != 0 && global.sounds_level != 1)
         global.sounds_level = 0
-	if ds_map_exists(_map, "meteoritos")
-            global.meteoritos = ds_map_find_value(_map, "meteoritos")
+	if ds_map_exists(_map, "meteorites")
+            global.meteoritos = ds_map_find_value(_map, "meteorites")
         if (global.meteoritos != 0 && global.meteoritos != 1)
             global.meteoritos = 0
     if instance_exists(obj_ground2)
@@ -233,6 +233,26 @@ if (global.nm_play != "")
     ds_map_destroy(_wrapper)
 	if instance_exists(obj_parent_resource)
 	{
+	// Check for items and enemies above the camera
+	var no_instances_above_camera = true;
+	with(obj_parent_resource) {
+		if (y < obj_levelmanager.cam_top - 8) {
+			no_instances_above_camera = false;
+			break;
+		}
+	}
+	if (no_instances_above_camera) {
+		with obj_levelmanager
+			camlock = 1;
+	} else {
+		with obj_levelmanager
+			camlock = 0;
+	}
+    if (obj_ground2.y < (obj_levelmanager.cam_top - 8) || obj_ground3.y < (obj_levelmanager.cam_top - 8))
+    {
+        with (obj_levelmanager)
+             camlock = 0
+    }
         scr_edit_to_play()
         if instance_exists(obj_parent_resource)
         {
@@ -341,7 +361,7 @@ if (global.nm_play != "")
         instance_create(0, 0, obj_leafmaker)
     if (global.bg_level == "castle" && global.apariencia == 3 && !instance_exists(obj_firemaker))
         instance_create(0, 0, obj_firemaker)
-	if (global.bg_level == "Mountain y Volcano" && global.apariencia == 3 && global.modo_noche == 1 && !instance_exists(obj_firemaker))
+	if (global.bg_level == "mountain" && global.apariencia == 3 && global.modo_noche == 1 && !instance_exists(obj_firemaker))
         instance_create(0, 0, obj_firemaker)
         if (global.condiciones == 1 && global.condiciones_type == 0)
         {
@@ -389,6 +409,11 @@ if (global.nm_play != "")
         global.instance_deactivate = 1
         instance_destroy()
 }
+    if (obj_ground2.y < (obj_levelmanager.cam_top - 8) || obj_ground3.y < (obj_levelmanager.cam_top - 8))
+    {
+        with (obj_levelmanager)
+             camlock = 0
+    }
         scr_edit_to_play()
         if instance_exists(obj_parent_resource)
         {
@@ -497,7 +522,7 @@ if (global.nm_play != "")
         instance_create(0, 0, obj_leafmaker)
     if (global.bg_level == "castle" && global.apariencia == 3 && !instance_exists(obj_firemaker))
         instance_create(0, 0, obj_firemaker)
-	if (global.bg_level == "Mountain y Volcano" && global.apariencia == 3 && global.modo_noche == 1 && !instance_exists(obj_firemaker))
+	if (global.bg_level == "mountain" && global.apariencia == 3 && global.modo_noche == 1 && !instance_exists(obj_firemaker))
         instance_create(0, 0, obj_firemaker)
         if (global.condiciones == 1 && global.condiciones_type == 0)
         {

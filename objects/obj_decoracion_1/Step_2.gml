@@ -8,12 +8,12 @@ if (obj_levelmanager.editor == 1)
             sprite_index = spr_NSMBU_decoracion_beach
         image_index = 0
     }
-	else if (global.bg_level == "Mountain y Volcano" && global.apariencia == 3 && global.modo_noche == 0)
+	else if (global.bg_level == "mountain" && global.apariencia == 3 && global.modo_noche == 0)
     {
         sprite_index = spr_NSMBU_decoracion_mountain_1
         image_index = 0
     }
-    else if (global.bg_level == "Mountain y Volcano" && global.apariencia == 3 && global.modo_noche == 1)
+    else if (global.bg_level == "mountain" && global.apariencia == 3 && global.modo_noche == 1)
     {
         sprite_index = spr_NSMBU_decoracion_1_night
         image_index = 11
@@ -89,7 +89,7 @@ if (obj_levelmanager.editor == 1)
             case "beach":
                 image_index = 11
                 break
-            case "Mountain y Volcano":
+            case "mountain":
                 image_index = 12
                 break
         }

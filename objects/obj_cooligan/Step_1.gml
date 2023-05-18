@@ -32,13 +32,13 @@ switch global.apariencia
 }
 // Make the Cooligan move
 if (touch_ground == 0){
-	if !place_meeting(x, y + 1, obj_solidtop) and !place_meeting(x, y + 1, obj_physicssolid) {
+	if !place_meeting(x, y + 1, obj_solidtop) and !place_meeting(x, y + 1, obj_physicssolid) or place_meeting(x, y, obj_solid) or place_meeting(x, y, obj_pinchos) {
 		hspeed = 0; // Set hspeed to 0
-		vspeed *= 0.85; // Decrease vspeed by 10%
+		vspeed *= 0.9; // Decrease vspeed by 10%
 		sprite_index = s_fly
 	}
 	}
-if place_meeting(x, y + 1, obj_solidtop) or place_meeting(x, y + 1, obj_physicssolid) {
+if place_meeting(x, y + 1, obj_solidtop) or place_meeting(x, y + 1, obj_physicssolid) or place_meeting(x, y, obj_solid) or place_meeting(x, y, obj_pinchos) {
 	if hurted = 0
 	{
     if (global.bg_level == "underwater" || (global.modo_noche == 1 && global.bg_level == "sky") || (global.modo_noche == 1 && global.bg_level == "airship") || (instance_exists(obj_lava_water) && y > (obj_lava_water.y + 16) && global.bg_level == "forest" && global.modo_noche == 0))
@@ -66,7 +66,22 @@ else {
        hspeed = (0.3 * direct)
     else
        hspeed = (2 * direct)
-	vspeed *= 0.85; // Decrease vspeed by 15%
+	vspeed *= 0.9; // Decrease vspeed by 15%
+	if (hurted = 0){
+	// If there is no collision, decrease vspeed
+    if (global.bg_level == "underwater" || (global.modo_noche == 1 && global.bg_level == "sky") || (global.modo_noche == 1 && global.bg_level == "airship") || (instance_exists(obj_lava_water) && y > (obj_lava_water.y + 16) && global.bg_level == "forest" && global.modo_noche == 0))
+       hspeed = (0.3 * direct)
+    else
+       hspeed = (2 * direct)
 	sprite_index = s_fly
+	}
+	else{
+	    // If there is no collision, decrease vspeed
+    if (global.bg_level == "underwater" || (global.modo_noche == 1 && global.bg_level == "sky") || (global.modo_noche == 1 && global.bg_level == "airship") || (instance_exists(obj_lava_water) && y > (obj_lava_water.y + 16) && global.bg_level == "forest" && global.modo_noche == 0))
+       hspeed = (0.15 * direct)
+    else
+       hspeed = (1 * direct)
+	sprite_index = s_hurt
+	}
 	}
 }

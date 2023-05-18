@@ -12,7 +12,7 @@ if (cointime == 2)
             image_index = 3
         else if (global.bg_level == "castle")
             image_index = 2
-        else if (global.bg_level == "Mountain y Volcano")
+        else if (global.bg_level == "mountain")
             image_index = 0
         else if (global.bg_level == "ghost" || global.bg_level == "underground" || global.modo_noche == 1)
             image_index = 1
@@ -27,7 +27,7 @@ if (cointime == 2)
             image_index = 3
         else if (global.bg_level == "castle")
             image_index = 2
-        else if (global.bg_level == "Mountain y Volcano")
+        else if (global.bg_level == "mountain")
         if (global.modo_noche == 1)
             image_index = 2
         else
@@ -45,9 +45,9 @@ if (cointime == 2)
         image_speed = 0
         if (global.bg_level == "castle")
             image_index = 2
-        else if (global.bg_level != "Mountain y Volcano") && (global.bg_level == "underground" || global.bg_level == "ghost" || global.modo_noche == 1)
+        else if (global.bg_level != "mountain") && (global.bg_level == "underground" || global.bg_level == "ghost" || global.modo_noche == 1)
             image_index = 1
-        else if (global.bg_level == "Mountain y Volcano")
+        else if (global.bg_level == "mountain")
         if (global.modo_noche == 1)
             image_index = 2
         else

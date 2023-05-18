@@ -108,7 +108,7 @@ switch global.bg_level
             img_hidden_block = 12
         }
         break
-	case "Mountain y Volcano":
+	case "mountain":
 		if (global.modo_noche == 1)
         {
             img_ground = 229

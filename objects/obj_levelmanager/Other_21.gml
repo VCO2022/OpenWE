@@ -5,12 +5,10 @@ if (global.apariencia == 3 && global.bg_level == "ground" && global.modo_noche =
     else
         spd = 0
     __background_set( e__BG.X, 0, (camera_get_view_x(view_get_camera(0))) )
-    __background_set( e__BG.X, 1, (camera_get_view_x(view_get_camera(0)) * 0.8) )
-	__background_set( e__BG.X, 2, ((camera_get_view_x(view_get_camera(0)) * 0.9) - spd) )
+    __background_set( e__BG.X, 1, ((camera_get_view_x(view_get_camera(0)) * 0.9) - spd) )
+	__background_set( e__BG.X, 2, (camera_get_view_x(view_get_camera(0)) * 0.8) )
     __background_set( e__BG.X, 3, (camera_get_view_x(view_get_camera(0)) * 0.7) )
     __background_set( e__BG.X, 4, (camera_get_view_x(view_get_camera(0)) * 0.6) )
-	__background_set( e__BG.X, 5, (camera_get_view_x(view_get_camera(0)) * 0.5) )
-	__background_set( e__BG.X, 7, (camera_get_view_x(view_get_camera(0)) * 0.4) )
 }
 else if (global.apariencia == 3 && global.modo_noche == 0 && editor == 0 && (global.bg_level == "sky"))
     __background_set( e__BG.X, 0, (camera_get_view_x(view_get_camera(0))) )
@@ -120,21 +118,20 @@ else if (global.apariencia == 3 && global.bg_level == "airship" && global.modo_n
     __background_set( e__BG.X, 4, (camera_get_view_x(view_get_camera(0)) * 0.6) )
     __background_set( e__BG.X, 5, (camera_get_view_x(view_get_camera(0)) * 0.5) )
 }
-else if (global.apariencia == 3 && global.bg_level == "Mountain y Volcano" && global.modo_noche == 0)
+else if (global.apariencia == 3 && global.bg_level == "mountain" && global.modo_noche == 0)
 {
     if (editor == 0)
         spd += 0.1
     else
         spd = 0
 	__background_set( e__BG.X, 0, (camera_get_view_x(view_get_camera(0))) )
-	__background_set( e__BG.X, 1, ((camera_get_view_x(view_get_camera(0)) * 0.9) ) )
-    __background_set( e__BG.X, 2, (camera_get_view_x(view_get_camera(0)) * 0.8 - spd) )
-    __background_set( e__BG.X, 3, (camera_get_view_x(view_get_camera(0)) * 0.7) )
+	__background_set( e__BG.X, 1, (camera_get_view_x(view_get_camera(0)) * 0.9) ) 
+    __background_set( e__BG.X, 2, (camera_get_view_x(view_get_camera(0)) * 0.8) ) 
+    __background_set( e__BG.X, 3, ((camera_get_view_x(view_get_camera(0)) * 0.7 - spd) ) )
     __background_set( e__BG.X, 4, (camera_get_view_x(view_get_camera(0)) * 0.6) )
-	__background_set( e__BG.X, 5, (camera_get_view_x(view_get_camera(0)) * 0.5 - spd) )
-	__background_set( e__BG.X, 7, (camera_get_view_x(view_get_camera(0)) * 0.4) )
+	__background_set( e__BG.X, 5, (camera_get_view_x(view_get_camera(0)) * 0.5) )
 }
-else if (global.apariencia == 3 && global.bg_level == "Mountain y Volcano" && global.modo_noche == 1)
+else if (global.apariencia == 3 && global.bg_level == "mountain" && global.modo_noche == 1)
 {
    if (editor == 0)
         spd += 0.1
@@ -169,7 +166,7 @@ if (global.apariencia == 3 && global.bg_level == "underwater" && global.modo_noc
     __background_set( e__BG.X, 5, (camera_get_view_x(view_get_camera(0)) * 0.5) )
     __background_set( e__BG.X, 6, (camera_get_view_x(view_get_camera(0)) * 0.4) )
 }
-else if (global.apariencia == 3 && global.bg_level != "sky" && global.bg_level != "airship" && global.bg_level != "Mountain y Volcano" && global.bg_level != "fall" && global.bg_level != "underwater" && global.bg_level != "ground" && global.bg_level != "snow")
+else if (global.apariencia == 3 && global.bg_level != "sky" && global.bg_level != "airship" && global.bg_level != "mountain" && global.bg_level != "fall" && global.bg_level != "underwater" && global.bg_level != "ground" && global.bg_level != "snow")
 {
     __background_set( e__BG.X, 0, (camera_get_view_x(view_get_camera(0)) * 0.8) )
     __background_set( e__BG.X, 1, (camera_get_view_x(view_get_camera(0)) * 0.7) )

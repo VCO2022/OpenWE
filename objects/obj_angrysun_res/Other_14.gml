@@ -100,12 +100,12 @@ else if (global.bg_level == "castle")
     img_cloud = 175
     img_hidden_block = 12
 }
-else if (global.bg_level == "Mountain y Volcano" && global.modo_noche == 1)
+else if (global.bg_level == "mountain" && global.modo_noche == 1)
 {
     img_ground = 229
 	img_pendiente1 = 198
 }
-else if (global.bg_level == "Mountain y Volcano")
+else if (global.bg_level == "mountain")
 {
     img_ground = 228
 	img_pendiente1 = 195

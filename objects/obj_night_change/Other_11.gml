@@ -16,14 +16,10 @@ switch global.bg_level
                 __background_set( e__BG.Index, 2, bg_NSMBU_overworld_2 )
                 __background_set( e__BG.Index, 3, bg_NSMBU_overworld_3 )
 				__background_set( e__BG.Index, 4, bg_NSMBU_overworld_4 )
-				__background_set( e__BG.Index, 5, bg_NSMBU_overworld_5 )
-				__background_set( e__BG.Index, 7, bg_NSMBU_overworld_6 )
                 __background_set( e__BG.Visible, 1, 1 )
                 __background_set( e__BG.Visible, 2, 1 )
                 __background_set( e__BG.Visible, 3, 1 )
                 __background_set( e__BG.Visible, 4, 1 )
-				__background_set( e__BG.Visible, 5, 1 )
-				__background_set( e__BG.Visible, 7, 1 )
         }
         else
             __background_set( e__BG.Index, (0 << 0), scr_bg_ground( ))
@@ -271,7 +267,7 @@ switch global.bg_level
         obj_levelmanager.levelmusic = scr_snd_beach()
         s_music_editor = scr_snd_editor_ground()
         break
-    case "Mountain y Volcano":
+    case "mountain":
         event_user(0)
         if (global.apariencia == 3)
         {
@@ -282,14 +278,10 @@ switch global.bg_level
             __background_set( e__BG.Index, 2, bg_NSMBU_mountain_2 )
 			__background_set( e__BG.Index, 3, bg_NSMBU_mountain_3 )
 			__background_set( e__BG.Index, 4, bg_NSMBU_mountain_4 )
-			__background_set( e__BG.Index, 5, bg_NSMBU_mountain_5 )
-			__background_set( e__BG.Index, 7, bg_NSMBU_mountain_6 )
             __background_set( e__BG.Visible, 1, 1 )
             __background_set( e__BG.Visible, 2, 1 )
 			__background_set( e__BG.Visible, 3, 1 )
             __background_set( e__BG.Visible, 4, 1 )
-			__background_set( e__BG.Visible, 5, 1 )
-			__background_set( e__BG.Visible, 7, 1 )
             }
             else
             {

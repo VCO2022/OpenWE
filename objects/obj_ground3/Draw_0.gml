@@ -72,7 +72,7 @@ if (obj_levelmanager.editor == 1)
 					castle_index = 7
 				else if (global.bg_level == "snow")
 					castle_index = 10
-				else if (global.bg_level == "Mountain y Volcano")
+				else if (global.bg_level == "mountain")
 					{
 				if (global.modo_noche == 0)
 					castle_index = 2

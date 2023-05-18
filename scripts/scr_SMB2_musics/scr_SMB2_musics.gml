@@ -35,7 +35,7 @@ function scr_SMB2_musics() {
 	        case "beach":
 	            return snd_SMB2_music_overworld;
 				break
-	        case "Mountain y Volcano":
+	        case "mountain":
 	            return snd_SMB2_music_castle;
 	            break
 	    }
