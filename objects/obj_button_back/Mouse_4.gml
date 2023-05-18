@@ -17,7 +17,12 @@ if (visible == true)
 			with (obj_nm_card)
 				visible = true
 			with (obj_nivelesmundiales)
-				alarm[1] = 10
+			{
+				active = 1
+				loading = 0
+				mensaje = ""
+				codigo = ""
+			}
         }
     }
     else
@@ -30,4 +35,6 @@ if (visible == true)
         room_goto(rm_title)
     }
 }
+
+
 

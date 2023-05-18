@@ -8,9 +8,9 @@ function scr_edit_to_play() {
 	        event_user(3)
 	    }
 	}
-	if instance_exists(obj_ground_slope)
+	if instance_exists(obj_slopes)
 	{
-	    with (obj_ground_slope)
+	    with (obj_slopes)
 	    {
 	        visible = false
 	        event_user(3)

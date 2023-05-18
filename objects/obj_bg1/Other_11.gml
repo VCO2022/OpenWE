@@ -163,7 +163,7 @@ with (obj_card_item)
             case obj_ground:
                 obj_draw_sonidos = other.img_ground
                 break
-			case obj_ground_slope:
+			case obj_slopes:
                 obj_draw_sonidos = other.img_pendiente1
                 break
             case obj_block_res:
@@ -221,7 +221,7 @@ with (obj_card_item)
             case obj_ground:
                 obj_draw = other.img_ground
                 break
-			case obj_ground_slope:
+			case obj_slopes:
                 obj_draw = other.img_pendiente1
                 break
             case obj_block_res:

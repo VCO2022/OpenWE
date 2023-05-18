@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ninji_res",
+  "name": "obj_waddlewing_res",
   "spriteId": {
-    "name": "spr_ninji",
-    "path": "sprites/spr_ninji/spr_ninji.yy",
+    "name": "spr_cooligan_fly",
+    "path": "sprites/spr_cooligan_fly/spr_cooligan_fly.yy",
   },
   "solid": false,
   "visible": true,
@@ -30,6 +30,7 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":2,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

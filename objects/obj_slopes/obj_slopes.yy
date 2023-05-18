@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ground_slope",
+  "name": "obj_slopes",
   "spriteId": {
     "name": "spr_ground",
     "path": "sprites/spr_ground/spr_ground.yy",

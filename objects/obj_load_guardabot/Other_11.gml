@@ -102,7 +102,7 @@ if (global.levelguardabot != "")
         {
             _map3 = ds_list_find_value(_list3, k)
             object = asset_get_index(ds_map_find_value(_map3, "object"))
-            if (object != obj_tuberia_res && object != obj_cannon_res && object != obj_cannon_red_res && object != obj_semisolid_platform1 && object != obj_mushroom_platform_res && object != obj_pokey_res && object != obj_bullebill_base_red_res && object != obj_bullebill_base_res && object != obj_vine_res && object != obj_platform_res && object != obj_platform_blue_res && object != obj_puente_res && object != obj_door_res && object != obj_door_exit_res && object != obj_door_switch_res && object != obj_door_switch_exit_res && object != obj_door_lock_res && object != obj_door_lock_exit_res && (object != obj_cinta_res) && (object != obj_cinta_on_res) && object != obj_ground && object != obj_ground_slope)
+            if (object != obj_tuberia_res && object != obj_cannon_res && object != obj_cannon_red_res && object != obj_semisolid_platform1 && object != obj_mushroom_platform_res && object != obj_pokey_res && object != obj_bullebill_base_red_res && object != obj_bullebill_base_res && object != obj_vine_res && object != obj_platform_res && object != obj_platform_blue_res && object != obj_puente_res && object != obj_door_res && object != obj_door_exit_res && object != obj_door_switch_res && object != obj_door_switch_exit_res && object != obj_door_lock_res && object != obj_door_lock_exit_res && (object != obj_cinta_res) && (object != obj_cinta_on_res) && object != obj_ground && object != obj_slopes)
             {
                 o_objecto = instance_create(0, 0, object)
                 o_objecto.x = ds_map_find_value(_map3, "x_pos")

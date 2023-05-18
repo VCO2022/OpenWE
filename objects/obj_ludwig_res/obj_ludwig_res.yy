@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_ninji_res",
+  "name": "obj_ludwig_res",
   "spriteId": {
-    "name": "spr_ninji",
-    "path": "sprites/spr_ninji/spr_ninji.yy",
+    "name": "spr_bowser_res",
+    "path": "sprites/spr_bowser_res/spr_bowser_res.yy",
   },
   "solid": false,
   "visible": true,
@@ -17,7 +17,7 @@
   },
   "physicsObject": false,
   "physicsSensor": false,
-  "physicsShape": 1,
+  "physicsShape": 0,
   "physicsGroup": 0,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,

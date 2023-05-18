@@ -29,7 +29,7 @@ if (global.instance_deactivate == 1)
             }
         }
         instance_deactivate_object(obj_ground)
-		instance_deactivate_object(obj_ground_slope)
+		instance_deactivate_object(obj_slopes)
         instance_deactivate_object(obj_ground2)
         instance_activate_region((camera_get_view_x(view_get_camera(0)) - 32), (camera_get_view_y(view_get_camera(0)) - 32), ((camera_get_view_width(view_get_camera(0)) + 32) + 32), ((camera_get_view_height(view_get_camera(0)) + 32) + 32), true)
     }

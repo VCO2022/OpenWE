@@ -14,7 +14,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 181), (camera_get
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 217), (camera_get_view_y(view_get_camera(0)) + 72), obj_card_circle))
 {
-    obj = obj_ground_slope
+    obj = obj_slopes
     image_index = obj_panel_expand.img_pendiente1
     mask_index = spr_circle_mask_2
 	disabled = 1

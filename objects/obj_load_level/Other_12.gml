@@ -155,7 +155,7 @@ if instance_exists(obj_card_item)
     {
         if (obj == obj_ground)
             obj_draw = other.img_ground
-		if (obj == obj_ground_slope)
+		if (obj == obj_slopes)
             obj_draw = other.img_pendiente1
         else if (obj == obj_block_res)
             obj_draw = other.img_block

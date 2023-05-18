@@ -50,7 +50,7 @@ key = 0
 pos_cal = 1
 if (object_index == obj_ground)
     alarm[6] = 5
-else if (object_index == obj_ground_slope)
+else if (object_index == obj_slopes)
     alarm[6] = 5
 else
     alarm[5] = 5

@@ -7,7 +7,7 @@ if (pos_cal == 1)
             event_user(2)
             instance_create(x, y, obj_tile_trigger)
         }
-		else if (object_index == obj_ground_slope)
+		else if (object_index == obj_slopes)
         {
             event_user(2)
             instance_create(x, y, obj_tile_trigger)
