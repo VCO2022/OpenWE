@@ -52,7 +52,8 @@
             entorno = "0"
     }
 
-    url = http_post_string((global.api_url + "/stage/upload/"), + ((((((((((((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&name=") + levelname) + "&desc=") + leveldescription) + "&aparience=") + apa) + "&entorno=") + entorno) + "&tags=") + etiquetas) + "&swe=") + level))
+	var _str = ((((((((((((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&name=") + levelname) + "&desc=") + leveldescription) + "&aparience=") + apa) + "&entorno=") + entorno) + "&tags=") + etiquetas) + "&swe=") + level)
+    url = http_post_string((global.api_url + "stage/upload"), _str)
     alarm[2] = 2400
 
 

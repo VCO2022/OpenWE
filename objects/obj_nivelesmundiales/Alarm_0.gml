@@ -1,3 +1,4 @@
+var _str;
 if (type_consulta != 3 && global.map_consult != -4)
     alarm[3] = 5
 else
@@ -5,22 +6,28 @@ else
     switch type_consulta
     {
         case 0:
-            url = http_post_string((global.api_url + "/stages/detailed_search/"), (((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)) + "&featured=promising"))
+            _str = (((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)) + "&featured=promising")
+            url = http_post_string((global.api_url + "stages/detailed_search"), _str)
             break
         case 1:
-            url = http_post_string((global.api_url + "/stages/detailed_search/"), (((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)) + "&featured=notpromising&sort=popular&last=7d"))
+            _str = (((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)) + "&featured=notpromising&sort=popular&last=7d")
+            url = http_post_string((global.api_url + "stages/detailed_search"), _str)
             break
         case 2:
-            url = http_post_string((global.api_url + "/stages/detailed_search/"), ((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)))
+            _str = ((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page))
+            url = http_post_string((global.api_url + "stages/detailed_search"), _str)
             break
         case 3:
             event_user(1)
             break
         case 4:
-            url = http_post_string((global.api_url + "/stages/detailed_search/"), ((((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)) + "&liked=") + global.my2))
+            _str = ((((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)) + "&liked=") + global.my2)
+            url = http_post_string((global.api_url + "stages/detailed_search"), _str)
             break
         case 5:
-            url = http_post_string((global.api_url + "/stages/detailed_search/"), ((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page)) + search_advanced)
+            _str = ((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&page=") + string(page))
+            var datos = (_str + search_advanced)
+            url = http_post_string((global.api_url + "stages/detailed_search"), datos)
             break
     }
 

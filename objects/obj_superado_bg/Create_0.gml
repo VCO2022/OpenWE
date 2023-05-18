@@ -6,7 +6,8 @@ seconds %= 60
 time = ((((string_add_zeros(minutes, 2) + ":") + string_add_zeros(seconds, 2)) + ":") + string_add_zeros(milliseconds, 3))
 if (global.nm_play != 0 && has_internet())
 {
-    url = http_post_string((((global.api_url + "/stage/") + global.level_id) + "/stats/victorias/"), + ((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&tiempo=") + string(timer)))
+    var _str = ((((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5) + "&tiempo=") + string(timer))
+    url = http_post_string((((global.api_url + "stage/") + global.level_id) + "/stats/victorias"), _str)
 }
 image_speed = 0.5
 dibujar_texto = 0

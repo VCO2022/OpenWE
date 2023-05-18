@@ -1,8 +1,8 @@
-var _string, _expected_hash, _hashless_string, _new_hash, _string_code, _json, mundos, _wrapper, _list, _map, _list2, j, _map2, o_ground, _list3, k, _map3, object, o_objecto, _list4, l, _map4, _list5, _map5, sprite, _list6, _map6, _list7, _map7, _list8, _map8, mario_u;
+var _string, _expected_hash, _hashless_string, _new_hash, _string_code, _json, mundos, _wrapper, _list, _map, _list2, j, _map2, o_ground, _list3, k, _map3, object, o_objecto, _list4, l, _map4, _list5, _map5, sprite, _list6, _map6, _list7, _map7, _list8, _map8, mario_u, _str;
 if (global.nm_play != "")
 {
-    var _str = ((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5)
-        url = http_post_string((((global.api_url + "/stage/") + global.level_id) + "/stats/intentos/"), _str)
+		_str = ((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5)
+        url = http_post_string((((global.api_url + "stage/") + global.level_id) + "/stats/intentos"), _str)
     _string = global.nm_play
     _expected_hash = string_copy(_string, (string_length(_string) - 39), 40)
     _hashless_string = string_copy(_string, 1, (string_length(_string) - 40))

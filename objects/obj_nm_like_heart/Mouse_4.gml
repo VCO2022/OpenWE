@@ -4,7 +4,7 @@ if (press == 1 && disabled == 0 && loading == 0 && image_index == 0 && time == 0
     loading = 1
     scale = 0.8
     _str = ((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5)
-    url = http_post_string((((global.api_url + "/stage/") + global.level_id) + "/stats/likes/"), _str)
+    url = http_post_string((((global.api_url + "stage/") + global.level_id) + "/stats/likes"), _str)
     alarm[2] = 600
 }
 

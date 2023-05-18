@@ -1,7 +1,7 @@
 if (global.nm_play != 0)
 {
     var _str = ((((("token=" + global.token) + "&discord_id=") + global.my2) + "&auth_code=") + global.my5)
-    url = http_post_string((((global.api_url + "/stage/") + global.level_id) + "/stats/muertes/"), _str)
+    url = http_post_string((((global.api_url + "stage/") + global.level_id) + "/stats/muertes"), _str)
 }
 sprite_index = scr_mariodead()
 image_speed = 0
