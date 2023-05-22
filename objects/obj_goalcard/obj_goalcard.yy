@@ -38,6 +38,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMB3",
-    "path": "folders/Objects/Items/Interactive/Goals/SMB3.yy",
+    "path": "folders/Objects/Interactive/Goals/SMB3.yy",
   },
 }

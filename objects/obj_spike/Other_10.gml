@@ -26,4 +26,3 @@ else
 if (global.bg_level != "snow" && (sprite_index == s_spike_throw || sprite_index == s_spike_throw2 || sprite_index == s_spike_throw3))
     event_user(7)
 instance_destroy()
-

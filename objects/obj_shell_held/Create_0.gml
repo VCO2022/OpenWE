@@ -4,7 +4,7 @@ stomp = 0
 edible = 1
 fall = 0
 midair = 0
-s_dry = 2018
+s_dry = spr_drybones_deads
 direct = -1
 prevhspeed = 0
 prevvspeed = 0
@@ -18,9 +18,9 @@ shell_drop = 0
 mytopid = 0
 inmune = 0
 spd = 2.5
+yscale = 1
 if (global.apariencia == 3)
     image_speed = 0.25
 else
     image_speed = 0.2
 alarm[10] = 4
-

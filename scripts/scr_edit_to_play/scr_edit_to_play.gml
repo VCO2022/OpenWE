@@ -897,9 +897,9 @@ function scr_edit_to_play() {
 	        }
 	    }
 	}
-	if instance_exists(obj_goomba_big_res)
+	if instance_exists(obj_goomba_b_res)
 	{
-	    with (obj_goomba_big_res)
+	    with (obj_goomba_b_res)
 	    {
 	        visible = false
 	        with (instance_create((x + 8), y, obj_galoomba_b))
@@ -910,7 +910,20 @@ function scr_edit_to_play() {
 	        }
 	    }
 	}
-	if instance_exists(obj_goombrat_res)
+	if instance_exists(obj_goombrat_b_res)
+	{
+	    with (obj_goombrat_b_res)
+	    {
+	        visible = false
+	        with (instance_create((x + 8), y, obj_galoomba2_b))
+	        {
+	            wings = other.wings
+	            paracaidas = other.paracaidas
+	            key = other.key
+	        }
+	    }
+	}
+	if instance_exists(obj_goombrat_b_res)
 	{
 	    with (obj_goombrat_res)
 	    {

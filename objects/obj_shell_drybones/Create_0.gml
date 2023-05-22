@@ -1,5 +1,5 @@
 event_inherited()
-s_dry = 2018
+s_dry = spr_drybones_deads
 inmune = 1
 alarm[6] = 10
 switch global.apariencia

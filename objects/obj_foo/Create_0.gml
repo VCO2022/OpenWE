@@ -2,26 +2,26 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_foo_idle
-        s_foo_idle = 383
-        s_foo_mist = 384
+        s_foo_idle = spr_SMB_foo_idle
+        s_foo_mist = spr_SMB_foo_mist
         image_speed = 0
         break
     case 1:
         sprite_index = spr_SMB3_foo_idle
-        s_foo_idle = 1157
-        s_foo_mist = 1158
+        s_foo_idle = spr_SMB3_foo_idle
+        s_foo_mist = spr_SMB3_foo_mist
         image_speed = 0
         break
     case 2:
         sprite_index = spr_foo_idle
-        s_foo_idle = 1961
-        s_foo_mist = 1962
+        s_foo_idle = spr_foo_idle
+        s_foo_mist = spr_foo_mist
         image_speed = 0
         break
     case 3:
         sprite_index = spr_NSMBU_foo_idle
-        s_foo_idle = 3463
-        s_foo_mist = 3465
+        s_foo_idle = spr_NSMBU_foo_idle
+        s_foo_mist = spr_NSMBU_foo_mist
         image_speed = 0.25
         break
 }

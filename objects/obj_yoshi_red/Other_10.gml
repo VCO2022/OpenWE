@@ -5,8 +5,8 @@ if (obj_mario.isduck == 1)
     {
         if (instance_number(obj_yoshifire_one) < 1)
         {
-            mouthholder = 237
-            mouthsprite = 1933
+            mouthholder = obj_yoshifire
+            mouthsprite = spr_podoboo
             audio_play_sound(snd_flames, 0, false)
             instance_create((x + (10 * obj_mario.direct)), (y - 12), obj_yoshifire_one)
             mouthholder = -4
@@ -18,8 +18,8 @@ if (obj_mario.isduck == 1)
     }
     else if (instance_number(obj_yoshifire) < 3)
     {
-        mouthholder = 237
-        mouthsprite = 1933
+        mouthholder = 91
+        mouthsprite = 2026
         audio_play_sound(snd_flames, 0, false)
         instance_create((x + (10 * obj_mario.direct)), (y - 12), obj_yoshifire)
         with (instance_create((x + (10 * obj_mario.direct)), (y - 12), obj_yoshifire))
@@ -40,8 +40,8 @@ else
     {
         if (instance_number(obj_yoshifire_one) < 1)
         {
-            mouthholder = 237
-            mouthsprite = 1933
+            mouthholder = obj_yoshifire
+            mouthsprite = spr_podoboo
             audio_play_sound(snd_flames, 0, false)
             instance_create((x + (10 * obj_mario.direct)), (y - 12), obj_yoshifire_one)
             mouthholder = -4
@@ -53,8 +53,8 @@ else
     }
     else if (instance_number(obj_yoshifire) < 3)
     {
-        mouthholder = 237
-        mouthsprite = 1933
+        mouthholder = obj_yoshifire
+        mouthsprite = spr_podoboo
         audio_play_sound(snd_flames, 0, false)
         instance_create((x + (10 * obj_mario.direct)), (y - 12), obj_yoshifire)
         with (instance_create((x + (10 * obj_mario.direct)), (y - 12), obj_yoshifire))
@@ -68,4 +68,3 @@ else
         anim = 0
     }
 }
-

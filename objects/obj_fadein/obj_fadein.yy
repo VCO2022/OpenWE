@@ -33,6 +33,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Transitions",
-    "path": "folders/Objects/Items/Interactive/Special/Transitions.yy",
+    "path": "folders/Objects/Interactive/Special/Transitions.yy",
   },
 }

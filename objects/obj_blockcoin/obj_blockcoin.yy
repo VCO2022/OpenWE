@@ -36,6 +36,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Collectables",
-    "path": "folders/Objects/Items/Interactive/Collectables.yy",
+    "path": "folders/Objects/Interactive/Collectables.yy",
   },
 }

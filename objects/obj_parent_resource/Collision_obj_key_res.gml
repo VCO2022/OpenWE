@@ -1,6 +1,6 @@
 if (drag == 0 && other.drag == 0)
 {
-    if (object_index == obj_bowser_res || object_index == obj_bowserjr_res || object_index == obj_koopa_res || object_index == obj_koopa_red_res || object_index == obj_koopa_b_res || object_index == obj_koopa_red_b_res || object_index == obj_goomba_res || object_index == obj_goomba_big_res || object_index == obj_goombrat_res || object_index == obj_boomboom_res || object_index == obj_boomboom_b_res)
+    if (object_index == obj_bowser_res || object_index == obj_bowserjr_res || object_index == obj_koopa_res || object_index == obj_koopa_red_res || object_index == obj_koopa_b_res || object_index == obj_koopa_red_b_res || object_index == obj_goomba_res || object_index == obj_goomba_b_res || object_index == obj_goombrat_res || object_index == obj_boomboom_res || object_index == obj_boomboom_b_res)
     {
         audio_play_sound(snd_SMB3_getkey, 0, false)
         with (instance_create(x, y, obj_smoke))

@@ -50,6 +50,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Effects",
-    "path": "folders/Objects/Items/Interactive/Special/Effects.yy",
+    "path": "folders/Objects/Interactive/Special/Effects.yy",
   },
 }

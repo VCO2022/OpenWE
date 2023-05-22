@@ -93,3 +93,10 @@ if (mytopid != obj_lighting && mytopid != obj_rainmaker && instance_exists(mytop
             obj_mario.x += hspeed
     }
 }
+if (flip == 0){
+	yscale = 1
+}
+else
+{
+	yscale = -1
+}

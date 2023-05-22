@@ -2,8 +2,6 @@ if (global.bg_level == "castle" || global.bg_level == "ghost" || global.bg_level
     sud_imagen = 1
 else
     sud_imagen = 0
-if (object_index == obj_spike_ball_b)
-{
 switch global.apariencia
 {
     case 0:
@@ -19,7 +17,7 @@ switch global.apariencia
         imagen = spr_NSMBU_spike_ball_b
         break
 }
-}
+
 image_speed = 0
 s_part = spr_spike_ball_part
 spike_alone = 0
@@ -33,5 +31,3 @@ swimming = 0
 modo_lava = 0
 paracaidas = 0
 alarm[10] = 2
-
-

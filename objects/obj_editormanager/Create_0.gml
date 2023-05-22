@@ -52,5 +52,6 @@ door_l_symbol_1 = 0
 door_l_symbol_2 = 0
 door_l_symbol_3 = 0
 door_l_symbol_4 = 0
+modelsizable = obj_modelsizable
 alarm[2] = 1
 

@@ -38,6 +38,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Platforms",
-    "path": "folders/Objects/Items/Interactive/Platforms.yy",
+    "path": "folders/Objects/Interactive/Platforms.yy",
   },
 }

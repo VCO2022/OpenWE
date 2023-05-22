@@ -5,6 +5,8 @@ if (global.instance_deactivate == 0)
     instance_activate_object(obj_player_trail)
     instance_activate_object(obj_solidtop)
     instance_activate_object(obj_deactivation)
+	if instance_exists(modelsizable)
+		outside_view_modelsizable();
     instance_activate_object(obj_parent_save)
     instance_activate_object(obj_parent_sound_o)
 }

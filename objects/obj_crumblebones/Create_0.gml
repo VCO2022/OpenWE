@@ -17,7 +17,7 @@ switch global.apariencia
         break
 }
 
-s_dry = 2018
+s_dry = spr_drybones_deads
 hardness = 100
 stomp = -1
 edible = 2

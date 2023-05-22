@@ -6,4 +6,3 @@ else if (wings == 1)
         direct = other.direct
     wings = 0
 }
-

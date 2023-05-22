@@ -19,7 +19,7 @@ switch global.apariencia
 }
 
 image_speed = 0
-s_part = 2603
+s_part = spr_spike_ball_part
 spike_alone = 0
 spike_alone_a = 0
 fisica = 0
@@ -31,4 +31,3 @@ swimming = 0
 modo_lava = 0
 paracaidas = 0
 alarm[10] = 2
-

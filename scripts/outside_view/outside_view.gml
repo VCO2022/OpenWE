@@ -4,6 +4,4 @@ function outside_view() {
 	else
 	    return 0;
 
-
-
 }

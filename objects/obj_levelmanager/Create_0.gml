@@ -6,6 +6,7 @@ shake_long = 1
 airshiptimer = 0
 temp_ready = 0
 follow = -4
+modelsizable = obj_modelsizable
 view_move = 0
 real_time = 0
 camerahigh = 0

@@ -1,31 +1,30 @@
-function scr_pink_coins() {
-	switch global.pink_coins_total
-	{
-	    case 1:
-	        return 2335;
-	    case 2:
-	        return 2336;
-	    case 3:
-	        return 2337;
-	    case 4:
-	        return 2338;
-	    case 5:
-	        return 2339;
-	    case 6:
-	        return 2340;
-	    case 7:
-	        return 2341;
-	    case 8:
-	        return 2342;
-	    case 9:
-	        return 2343;
-	    case 10:
-	        return 2344;
-	    default:
-	        return 2339;
-	}
-
-
-
+function scr_pink_coins()
+{
+    switch global.pink_coins_total
+    {
+        case 1:
+            return spr_pinkcoin_hub1;
+        case 2:
+            return spr_pinkcoin_hub2;
+        case 3:
+            return spr_pinkcoin_hub3;
+        case 4:
+            return spr_pinkcoin_hub4;
+        case 5:
+            return spr_pinkcoin_hub5;
+        case 6:
+            return spr_pinkcoin_hub6;
+        case 7:
+            return spr_pinkcoin_hub7;
+        case 8:
+            return spr_pinkcoin_hub8;
+        case 9:
+            return spr_pinkcoin_hub9;
+        case 10:
+            return spr_pinkcoin_hub10;
+        default:
+            return spr_pinkcoin_hub5;
+    }
 
 }
+

@@ -36,6 +36,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Goals",
-    "path": "folders/Objects/Items/Interactive/Goals.yy",
+    "path": "folders/Objects/Interactive/Goals.yy",
   },
 }

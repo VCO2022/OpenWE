@@ -7,6 +7,8 @@ if (global.instance_deactivate == 1)
         instance_activate_region((camera_get_view_x(view_get_camera(0)) - 128), -96, ((camera_get_view_width(view_get_camera(0)) + 128) + 128), (room_height + 192), true)
         instance_deactivate_object(obj_deactivation)
         instance_activate_region((camera_get_view_x(view_get_camera(0)) - 32), -96, ((camera_get_view_width(view_get_camera(0)) + 32) + 32), (room_height + 192), true)
+		if instance_exists(modelsizable)
+			outside_view_modelsizable();
         instance_deactivate_object(obj_modelbgo)
 		instance_deactivate_object(obj_parent_sound_o)
         instance_activate_region((camera_get_view_x(view_get_camera(0)) - 32), (camera_get_view_y(view_get_camera(0)) - 32), ((camera_get_view_width(view_get_camera(0)) + 32) + 32), ((camera_get_view_height(view_get_camera(0)) + 32) + 32), true)

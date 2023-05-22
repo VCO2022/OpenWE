@@ -46,6 +46,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Power Ups",
-    "path": "folders/Objects/Items/Interactive/Collectables/Power Ups.yy",
+    "path": "folders/Objects/Interactive/Collectables/Power Ups.yy",
   },
 }

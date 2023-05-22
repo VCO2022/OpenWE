@@ -1,9 +1,8 @@
 if instance_exists(obj_doormario)
-    fallow = 203
+    fallow = obj_doormario
 else if instance_exists(obj_doormario_exit)
-    fallow = 204
+    fallow = obj_doormario_exit
 else if instance_exists(obj_player_warp)
-    fallow = 205
+    fallow = obj_player_warp
 else if instance_exists(obj_player_goal_parent)
-    fallow = 192
-
+    fallow = obj_player_goal_parent

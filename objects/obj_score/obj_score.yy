@@ -48,6 +48,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Score",
-    "path": "folders/Objects/Items/Interactive/Special/Effects/Score.yy",
+    "path": "folders/Objects/Interactive/Special/Effects/Score.yy",
   },
 }

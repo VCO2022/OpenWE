@@ -1,4 +1,3 @@
-var dark;
 if (gravity == 0)
 {
     if (wings == 0 && paracaidas == 0)
@@ -11,7 +10,7 @@ if (gravity == 0)
     else
         direct = 1
     if (global.bg_level == "castle" || global.bg_level == "ghost" || global.bg_level == "underground" || global.modo_noche == 1)
-        dark = 1
+        var dark = 1
     else
         dark = 0
     if (global.bg_level == "snow")
@@ -36,4 +35,3 @@ if (gravity == 0)
 }
 else
     alarm[0] = 1
-

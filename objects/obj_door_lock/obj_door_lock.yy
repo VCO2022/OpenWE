@@ -42,6 +42,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Doors",
-    "path": "folders/Objects/Items/Interactive/Special/Doors.yy",
+    "path": "folders/Objects/Interactive/Special/Doors.yy",
   },
 }

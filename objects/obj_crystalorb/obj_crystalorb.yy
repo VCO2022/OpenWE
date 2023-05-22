@@ -31,6 +31,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMB2",
-    "path": "folders/Objects/Items/Interactive/Goals/SMB2.yy",
+    "path": "folders/Objects/Interactive/Goals/SMB2.yy",
   },
 }

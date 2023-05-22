@@ -44,6 +44,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Conveyor",
-    "path": "folders/Objects/Items/Interactive/Platforms/Conveyor.yy",
+    "path": "folders/Objects/Interactive/Platforms/Conveyor.yy",
   },
 }

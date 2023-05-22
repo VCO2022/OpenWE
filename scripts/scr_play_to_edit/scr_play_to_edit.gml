@@ -156,7 +156,15 @@ function scr_play_to_edit() {
 	    with (obj_galoomba_b)
 	    {
 	        instance_destroy()
-	        instance_activate_object(obj_goomba_big_res)
+	        instance_activate_object(obj_goomba_b_res)
+	    }
+	}
+	if instance_exists(obj_galoomba2_b)
+	{
+	    with (obj_galoomba2_b)
+	    {
+	        instance_destroy()
+	        instance_activate_object(obj_goombrat_b_res)
 	    }
 	}
 	if instance_exists(obj_koopa)

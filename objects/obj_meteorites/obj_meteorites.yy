@@ -35,6 +35,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Meteorites",
-    "path": "folders/Objects/Items/Interactive/Special/Meteorites.yy",
+    "path": "folders/Objects/Interactive/Special/Meteorites.yy",
   },
 }

@@ -35,6 +35,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMW",
-    "path": "folders/Objects/Items/Interactive/Goals/SMW.yy",
+    "path": "folders/Objects/Interactive/Goals/SMW.yy",
   },
 }

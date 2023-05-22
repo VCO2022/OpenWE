@@ -3,21 +3,21 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_mechakoopa_green_squashed
-        s_dry = 416
+        s_dry = spr_SMB_mechakoopa_green_deads
         image_speed = 0
         break
     case 1:
         sprite_index = spr_SMB3_mechakoopa_green_squashed
-        s_dry = 1208
+        s_dry = spr_SMB3_mechakoopa_green_deads
         image_speed = 0
         break
     case 2:
-        s_dry = 2039
+        s_dry = spr_mechakoopa_green_deads
         image_speed = 0
         break
     case 3:
         sprite_index = spr_NSMBU_mechakoopa_green_squashed
-        s_dry = 3533
+        s_dry = spr_NSMBU_mechakoopa_green_deads
         image_speed = 0
         break
 }
@@ -31,5 +31,4 @@ shake = 0
 if (global.apariencia == 3)
     alarm[1] = 240
 else
-    alarm[0] = 8
-
+    alarm[5] = 8

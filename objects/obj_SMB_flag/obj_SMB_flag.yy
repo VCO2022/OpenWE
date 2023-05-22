@@ -36,6 +36,6 @@
   "overriddenProperties": [],
   "parent": {
     "name": "SMB_NSMBU",
-    "path": "folders/Objects/Items/Interactive/Goals/SMB_NSMBU.yy",
+    "path": "folders/Objects/Interactive/Goals/SMB_NSMBU.yy",
   },
 }

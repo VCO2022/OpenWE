@@ -4,39 +4,39 @@ switch global.apariencia
     case 0:
         if (global.jugador < 2)
         {
-            s_brickhelmet_2 = 2254
-            s_brickhelmet = 2253
+            s_brickhelmet_2 = spr_SMB_brickhelmet_mega
+            s_brickhelmet = spr_SMB_brickhelmet
         }
         else
         {
-            s_brickhelmet_2 = 2261
-            s_brickhelmet = 2260
+            s_brickhelmet_2 = spr_SMB_brickhelmet_mega_t
+            s_brickhelmet = spr_SMB_brickhelmet_t
         }
         break
     case 1:
         if (global.jugador < 2)
         {
-            s_brickhelmet_2 = 2256
-            s_brickhelmet = 2255
+            s_brickhelmet_2 = spr_SMB3_brickhelmet_round
+            s_brickhelmet = spr_SMB3_brickhelmet
         }
         else
         {
-            s_brickhelmet_2 = 2263
-            s_brickhelmet = 2262
+            s_brickhelmet_2 = spr_SMB3_brickhelmet_round_t
+            s_brickhelmet = spr_SMB3_brickhelmet_t
         }
         break
     case 2:
         if (global.jugador < 2)
         {
-            s_brickhelmet_3 = 2259
-            s_brickhelmet_2 = 2258
-            s_brickhelmet = 2257
+            s_brickhelmet_3 = spr_brickhelmet_yoshi
+            s_brickhelmet_2 = spr_brickhelmet_up
+            s_brickhelmet = spr_brickhelmet
         }
         else
         {
-            s_brickhelmet_3 = 2266
-            s_brickhelmet_2 = 2265
-            s_brickhelmet = 2264
+            s_brickhelmet_3 = spr_brickhelmet_yoshi_t
+            s_brickhelmet_2 = spr_brickhelmet_up_t
+            s_brickhelmet = spr_brickhelmet_t
         }
         break
 }
@@ -58,4 +58,3 @@ limit_coins = 200
 hspeed = 0
 event_user(6)
 alarm[4] = 60
-

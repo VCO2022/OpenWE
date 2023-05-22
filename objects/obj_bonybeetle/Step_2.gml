@@ -12,7 +12,7 @@ if (global.apariencia == 3)
             else
                 image_speed = 0.5
             break
-        case 3417:
+        case spr_NSMBU_bonybeetle_spiny:
             if (image_index >= 18.75)
             {
                 if (spiny == 2)
@@ -26,7 +26,7 @@ if (global.apariencia == 3)
             else
                 image_speed = 0.25
             break
-        case 3418:
+        case spr_NSMBU_bonybeetle_end:
             if (image_index >= 11.5)
             {
                 sprite_index = spr_NSMBU_bonybeetle
@@ -63,4 +63,3 @@ else if (spiny == 2)
         alarm[0] = 180
     }
 }
-

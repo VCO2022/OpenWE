@@ -10,4 +10,3 @@ if (sprite_index == s_spike_throw || sprite_index == s_spike_throw2 || sprite_in
     else
         image_speed = 0.5
 }
-

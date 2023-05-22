@@ -70,7 +70,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "GoombaBig",
-    "path": "folders/Sprites/Enemies/GoombaBig.yy",
+    "name": "Land",
+    "path": "folders/Sprites/Enemies/Land.yy",
   },
 }

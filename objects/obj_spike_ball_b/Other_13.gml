@@ -89,5 +89,3 @@ if (((hspeed < 0 && collision_rectangle(((bbox_left - 1) + hspeed), (bbox_top + 
     else
         event_user(0)
 }
-
-

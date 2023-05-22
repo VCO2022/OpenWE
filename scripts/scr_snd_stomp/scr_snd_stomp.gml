@@ -1,19 +1,16 @@
-function scr_snd_stomp() {
-	switch global.apariencia
-	{
-	    case 0:
-	        return 68;
-	    case 1:
-	        return 68;
-	    case 2:
-	        return 203;
-	    case 3:
-	        return 456;
-	    case 4:
-	        return 68;
-	}
-
-
-
+function scr_snd_stomp() //gml_Script_scr_snd_stomp
+{
+    switch global.apariencia
+    {
+        case 0:
+            return snd_step_enemy;
+        case 1:
+            return snd_step_enemy;
+        case 2:
+            return snd_stomp;
+        case 3:
+            return snd_NSMBU_stomp;
+    }
 
 }
+

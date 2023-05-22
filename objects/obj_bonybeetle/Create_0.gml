@@ -2,28 +2,28 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_bonybeetle
-        s_bonybeetle = 354
-        s_bonybeetle_shell = 355
+        s_bonybeetle = spr_SMB_bonybeetle
+        s_bonybeetle_shell = spr_SMB_bonybeetle_shell
         sprite_wings = spr_SMB_wings
         para_y = 2
         break
     case 1:
         sprite_index = spr_SMB3_bonybeetle
-        s_bonybeetle = 1128
-        s_bonybeetle_shell = 1129
+        s_bonybeetle = spr_SMB3_bonybeetle
+        s_bonybeetle_shell = spr_SMB3_bonybeetle_shell
         sprite_wings = spr_SMB3_wings
         para_y = 0
         break
     case 2:
-        s_bonybeetle = 1942
-        s_bonybeetle_shell = 1943
+        s_bonybeetle = spr_bonybeetle
+        s_bonybeetle_shell = spr_bonybeetle_shell
         sprite_wings = spr_wings
         para_y = 0
         break
     case 3:
         sprite_index = spr_NSMBU_bonybeetle
-        s_bonybeetle = 3415
-        s_bonybeetle_shell = 355
+        s_bonybeetle = spr_NSMBU_bonybeetle
+        s_bonybeetle_shell = spr_SMB_bonybeetle_shell
         sprite_wings = spr_NSMBU_wings_enemigos
         para_y = 0
         break
@@ -33,7 +33,7 @@ hardness = 6
 stomp = 3
 edible = 1
 dead_h = 0
-s_dry = 2018
+s_dry = spr_drybones_deads
 innave = 0
 wings = 0
 wings_anim = 0
@@ -49,4 +49,5 @@ if (global.apariencia == 3)
 else
     image_speed = 0.125
 alarm[0] = 180
+
 
