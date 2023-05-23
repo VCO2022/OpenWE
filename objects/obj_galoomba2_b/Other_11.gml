@@ -37,10 +37,18 @@ else if (global.apariencia == 2)
 }
 else if (global.apariencia != 2)
 {
-    with (instance_create_depth(x, y - 8, -2, obj_smoke)) {
-	direct = direct*3
-	image_xscale = 3;
-	image_yscale = 3;
+    with (instance_create_depth(x -32, y - 32, -2, obj_smoke_goomba)) {
+	if (global.apariencia != 3)
+	{
+	direct = direct*2
+	image_xscale = 2;
+	image_yscale = 2;
+	}
+	else{
+	direct = direct*2
+	image_xscale = 2;
+	image_yscale = 2;
+	}
 	}
 
 	with (instance_create_depth(x+24, y, 0, obj_galoomba2)) { vspeed = -3; hspeed = 0.5; }
