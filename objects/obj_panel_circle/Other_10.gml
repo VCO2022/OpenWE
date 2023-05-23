@@ -17,7 +17,6 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 217), (camera_get
     obj = obj_slopes
     image_index = obj_panel_expand.img_pendiente1
     mask_index = spr_circle_mask_2
-	disabled = 1
     value = 1
 	other.image_selected = obj_panel_expand.img_pendiente1
 }

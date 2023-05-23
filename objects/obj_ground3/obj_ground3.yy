@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_ground3",
   "spriteId": {
-    "name": "spr_ground",
-    "path": "sprites/spr_ground/spr_ground.yy",
+    "name": "spr_ground_2",
+    "path": "sprites/spr_ground_2/spr_ground_2.yy",
   },
   "solid": false,
   "visible": true,

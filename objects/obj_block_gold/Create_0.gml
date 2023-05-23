@@ -25,5 +25,7 @@ wings = 0
 w_wings = 0
 cont_coin = 0
 limit_coins = 100
+s_scalex = 1
+s_scaley = 1
 expand = 0
 

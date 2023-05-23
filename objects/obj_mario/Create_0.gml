@@ -114,6 +114,7 @@ statedelay = 0
 can_break_block = 0
 frog_jump = 0
 flag = 0
+conveyor_first_col = false
 alarm[5] = 8
 alarm[9] = (24 + random(96))
 

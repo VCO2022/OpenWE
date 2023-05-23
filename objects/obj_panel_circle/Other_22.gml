@@ -57,7 +57,6 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 129), (camera_get
     else
         image_index = 40
     mask_index = spr_circle_mask7_6
-	disabled = 1
     value = 5
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 144), (camera_get_view_y(view_get_camera(0)) + 74), obj_card_circle))

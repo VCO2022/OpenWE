@@ -33,6 +33,7 @@ innave = 0
 dead_h = 0
 swimming = 0
 modo_lava = 0
+direct2 = -1
 if (global.apariencia == 3)
     image_speed = 0.5
 else

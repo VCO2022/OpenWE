@@ -1,11 +1,5 @@
 event_inherited()
 conveyor = collision_rectangle(bbox_left, bbox_top, bbox_right, (bbox_bottom + 1), obj_cinta_parent, 0, 0)
-if collision_rectangle(bbox_left, bbox_top, bbox_right, (bbox_bottom + 1), obj_cinta_parent, 0, 0)
-{
-hspeed = 0
-}
-else
-{
 if (wings == 0)
 {
     if (global.bg_level == "underwater" || (global.bg_level == "sky" && global.modo_noche == 1))
@@ -69,7 +63,6 @@ if (global.modo_noche == 1 && global.bg_level == "ground" && wings == 0 && gravi
     vspeed = -3
     if (delay > 0)
         delay--
-}
 }
 if (paracaidas == 0)
 {

@@ -14,4 +14,3 @@ if (!audio_is_playing(scr_snd_switchsong()))
 }
 else
     image_speed = 0
-
