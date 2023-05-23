@@ -78,5 +78,10 @@ else
 alarm[5] = 1
 audio_play_sound(snd_coin, 0, false)
 alarm[4] = 260
-
-
+if (os_type == os_android)
+{
+    if (os_check_permission("android.permission.WRITE_EXTERNAL_STORAGE") == os_permission_denied)
+    {
+        os_request_permission("android.permission.WRITE_EXTERNAL_STORAGE");
+    }
+}

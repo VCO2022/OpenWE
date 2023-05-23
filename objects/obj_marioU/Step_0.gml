@@ -415,7 +415,30 @@ if (y < -96)
         if (state > 2)
             state = 2
     }
-conveyor = collision_rectangle((bbox_left - 2), (bbox_top + 10), (bbox_right + 2), (bbox_bottom + 10), obj_cinta_parent, 0, 0)
+if instance_exists(obj_cinta) && instance_exists(obj_marioU)
+{
+
+conveyor = false
+player_on_conveyor = collision_rectangle((bbox_left - 2), (bbox_top + 10), (bbox_right + 2), (bbox_bottom + 10), obj_cinta_parent, 0, 0)
+solid_col = (collision_rectangle(bbox_left, (bbox_bottom + 1), bbox_right, (bbox_bottom - 1), obj_solidtop, 0, 0))
+solid_col_2 = (collision_rectangle(bbox_left, (bbox_bottom + 1), bbox_right, (bbox_bottom + 1), obj_solidtop, 0, 0))
+if (player_on_conveyor)
+{
+conveyor_first_col = true
+}
+else if (solid_col) or (solid_col_2){
+	conveyor_first_col = false
+}
+if (conveyor_first_col == true){
+	conveyor = collision_rectangle((bbox_left - 2), obj_cinta_parent.y - 80, (bbox_right + 2), obj_cinta_parent.y, obj_cinta_parent, 0, 0);
+}
+else if (conveyor_first_col == false){
+	conveyor = false
+}
+
+if (conveyor && obj_marioU.y > obj_cinta_parent.y) {
+    conveyor = false;
+}
     if (conveyor && (conveyor.image_speed != 0))
     {
         if (conveyor.image_speed > 0)
@@ -429,6 +452,7 @@ conveyor = collision_rectangle((bbox_left - 2), (bbox_top + 10), (bbox_right + 2
                 x -= conveyor.image_speed
         }
     }
+}
 if (vspeed == 0)
 {
 saltare = 0

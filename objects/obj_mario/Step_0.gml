@@ -494,7 +494,7 @@ if (y < -96)
         if (state > 2)
             state = 2
     }
-if instance_exists(obj_cinta)
+if instance_exists(obj_cinta) && instance_exists(obj_mario)
 {
 
 conveyor = false
