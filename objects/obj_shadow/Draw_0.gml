@@ -43,6 +43,11 @@ with (obj_yoshi2)
     if (visible == true)
         scr_shadows()
 }
+with (obj_pswitch)
+{
+    if (visible == true)
+        scr_shadows()
+}
 with (obj_cap_mario)
 {
     if (visible == true)
