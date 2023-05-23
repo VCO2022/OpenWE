@@ -5792,8 +5792,6 @@
     {"id":{"name":"obj_plant_fire","path":"objects/obj_plant_fire/obj_plant_fire.yy",},"order":10,},
     {"id":{"name":"obj_mechakoopa","path":"objects/obj_mechakoopa/obj_mechakoopa.yy",},"order":11,},
     {"id":{"name":"obj_mechakoopa_held","path":"objects/obj_mechakoopa_held/obj_mechakoopa_held.yy",},"order":12,},
-    {"id":{"name":"obj_galoomba_left","path":"objects/obj_galoomba_left/obj_galoomba_left.yy",},"order":13,},
-    {"id":{"name":"obj_galoomba_right","path":"objects/obj_galoomba_right/obj_galoomba_right.yy",},"order":14,},
     {"id":{"name":"obj_buzzybeetle_b","path":"objects/obj_buzzybeetle_b/obj_buzzybeetle_b.yy",},"order":1,},
     {"id":{"name":"obj_spiny_ball","path":"objects/obj_spiny_ball/obj_spiny_ball.yy",},"order":1,},
     {"id":{"name":"obj_pokey","path":"objects/obj_pokey/obj_pokey.yy",},"order":2,},
