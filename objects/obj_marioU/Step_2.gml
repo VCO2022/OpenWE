@@ -892,7 +892,7 @@ else if (isduck == 0)
                             else
                                 image_speed = 0.5
                             break
-                        case 3335:
+                        case spr_NSMBU_mario_arcon_fly:
                             image_speed = 0.5
                             break
                         default:

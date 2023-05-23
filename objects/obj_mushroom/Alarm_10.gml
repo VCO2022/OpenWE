@@ -1,3 +1,4 @@
+conveyor = collision_rectangle(bbox_left, bbox_top, bbox_right, (bbox_bottom + 1), obj_cinta_parent, 0, 0)
 if (wings == 1 && paracaidas == 0)
 {
     hspeed = (0.5 * direct)
@@ -16,8 +17,12 @@ else if (paracaidas == 0)
             else
                 hspeed = (-(1 - (0.5 * swimming)))
         }
-        else
+        else if !conveyor
             hspeed = (1 - (0.5 * swimming))
+        else if (conveyor == 1) && (direct == -1)
+            hspeed = (1 - (-0.5))
+        else if (conveyor == 1) && (direct == 1)
+            hspeed = (1 - (0.5))
     }
     else
         alarm[10] = 2

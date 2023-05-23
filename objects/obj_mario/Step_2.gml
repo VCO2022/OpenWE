@@ -104,17 +104,9 @@ if (global.pp == 0)
                         audio_stop_sound(scr_snd_skid())
                     }
                     else if (obj_mario_transform2.m_hspeed != 0)
-						if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariowalk()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariowalk()
-                    else                      
-							sprite_index = scr_marioidle
+                        sprite_index = scr_mariowalk()
+                    else
+                        sprite_index = scr_marioidle()
                 }
                 else if (arrow > 0)
                 {
@@ -170,27 +162,9 @@ if (global.pp == 0)
                     {
                         image_speed = 0
                         if (pmeter < 6)
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariowalk()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariowalk()
+                            sprite_index = scr_mariowalk()
                         else if (global.apariencia == 0)
-						{
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariowalk()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariowalk()
-						}
+                            sprite_index = scr_mariowalk()
                         else
                             sprite_index = scr_mariorun()
                     }
@@ -215,15 +189,7 @@ if (global.pp == 0)
                         }
                         if (frog_jump == 1 && image_index >= 3.75)
                             frog_jump = 0
-						if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariowalk()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariowalk()
+                        sprite_index = scr_mariowalk()
                         image_speed = abs((hspeed / 10))
                     }
                 }
@@ -240,15 +206,7 @@ if (global.pp == 0)
                         spd_i = abs((hspeed / 5))
                     image_speed = spd_i
                     if (pmeter < 6 || global.apariencia == 0)
-						if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariowalk()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariowalk()
+                        sprite_index = scr_mariowalk()
                     else
                         sprite_index = scr_mariorun()
                 }
@@ -425,18 +383,7 @@ if (global.pp == 0)
                     }
                     else
                     {
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariojump()
-						else if holdud == 1
-						{
-						sprite_index = scr_mariojumphold()
-						image_speed = 0
-						}
-						}
-						else
-							sprite_index = scr_mariojump()
+                        sprite_index = scr_mariojump()
                         if (global.powerup == -78)
                             image_speed = 0.2
                         if (global.powerup != -39)
@@ -447,39 +394,15 @@ if (global.pp == 0)
                                 {
                                     audio_play_sound(snd_SMB_hen_jump_fall, 0, false)
                                     s_hen = 0
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariodrop()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariodrop()
+									sprite_index = scr_mariodrop()
                                 }
                                 else if (global.apariencia == 0 && jumpnow == 0)
                                 {
-						if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariowalk()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariowalk()
+									sprite_index = scr_mariowalk()
                                     image_index = 0
                                 }
                                 else
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariodrop()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariodrop()
+									sprite_index = scr_mariodrop()
                             }
                         }
                         else if (wiggle == 0)
@@ -501,27 +424,11 @@ if (global.pp == 0)
                 {
                     if (global.apariencia == 0 && jumpnow == 0)
                     {
-						if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
 						sprite_index = scr_mariowalk()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariowalk()
                         image_index = 0
                     }
                     else
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
 						sprite_index = scr_mariodrop()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariodrop()
                 }
                 else
                 {
@@ -533,40 +440,13 @@ if (global.pp == 0)
                             {
                                 audio_play_sound(snd_SMB_hen_jump_fall, 0, false)
                                 s_hen = 0
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariodrop()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariodrop()
+								sprite_index = scr_mariodrop()
                             }
                             else
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariodrop()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
-							sprite_index = scr_mariodrop()
+								sprite_index = scr_mariodrop()
                         }
                         else
                         {
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariojump()
-						else if holdud == 1
-						{
-						sprite_index = scr_mariojumphold()
-						image_speed = 0
-						}
-						}
-						else
 							sprite_index = scr_mariojump()
                             if (global.powerup == -78)
                                 image_speed = 0.2
@@ -575,27 +455,8 @@ if (global.pp == 0)
                     else if (global.powerup == -29)
                     {
                         if ((place_free(x, (y + 1)) && vspeed > 0) || collision_rectangle(bbox_left, (bbox_top + 4), bbox_right, (bbox_bottom - 1), obj_bortice, 0, 0))
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariodrop()
-						else if holdud == 1
-						sprite_index = scr_mariohold()
-						}
-						else
 							sprite_index = scr_mariodrop()
                         else
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_mariojump()
-						else if holdud == 1
-						{
-						sprite_index = scr_mariojumphold()
-						image_speed = 0
-						}
-						}
-						else
 							sprite_index = scr_mariojump()
                     }
                     else
@@ -746,8 +607,6 @@ if (global.pp == 0)
                 sprite_index = scr_mariowarp()
             else if (holding == 2 && isswim == 1 && gravity != 0 && global.powerup == -85)
                 sprite_index = spr_SMB_link_hold_swim
-			else if (holdud == 1 && global.powerup == -80)
-				sprite_index = scr_mariohold()
             else if (holding == 2 && isswim == 1 && gravity != 0 && global.powerup != -29)
                 sprite_index = scr_marioswimhold()
             else if (holding == 2 && stompstyle == 1 && isswim == 0)
@@ -814,7 +673,6 @@ if (global.pp == 0)
             }
             else
                 sprite_index = scr_mariokick()
-				obj_mario.holdud = 0
         }
     }
     else if (isduck == 1)
@@ -879,15 +737,7 @@ if (global.pp == 0)
         }
         else
         {
-                        if ((global.apariencia == 0) && (global.powerup == -80))
-						{
-                        if holdud == 0
-						sprite_index = scr_marioduck()
-						else if holdud == 1
-						sprite_index = scr_marioduckhold()
-						}
-						else
-							sprite_index = scr_marioduck()
+			sprite_index = scr_marioduck()
             if (wiggle == 0)
             {
                 if ((place_free(x, (y + 1)) && vspeed > 0 && global.powerup == -39) || (collision_rectangle(bbox_left, (bbox_top + 4), bbox_right, (bbox_bottom - 1), obj_bortice, 0, 0) && global.powerup == -39))

@@ -31,6 +31,7 @@ jump = 0
 jump2 = 0
 direct = -1
 wings = 0
+conv = 0
 wings_anim = 0
 paracaidas = 0
 delay = 0

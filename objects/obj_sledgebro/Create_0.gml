@@ -1,24 +1,24 @@
 switch global.apariencia
 {
     case 0:
-        s_sledgebro = 431
-        s_sledgebro_throw = 432
+        s_sledgebro = spr_SMB_sledgebro
+        s_sledgebro_throw = spr_SMB_sledgebro_throw
         sprite_wings = spr_SMB_wings
         break
     case 1:
-        s_sledgebro = 1231
-        s_sledgebro_throw = 1232
+        s_sledgebro = spr_SMB3_sledgebro
+        s_sledgebro_throw = spr_SMB3_sledgebro_throw
         sprite_wings = spr_SMB3_wings
         break
     case 2:
-        s_sledgebro = 2057
-        s_sledgebro_throw = 2058
+        s_sledgebro = spr_sledgebro
+        s_sledgebro_throw = spr_sledgebro_throw
         sprite_wings = spr_wings
         break
     case 3:
-        s_sledgebro = 3540
+        s_sledgebro = spr_NSMBU_sledgebro
         sprite_index = spr_NSMBU_sledgebro
-        s_sledgebro_throw = 3541
+        s_sledgebro_throw = spr_NSMBU_sledgebro_throw
         sprite_wings = spr_NSMBU_wings_enemigos
         break
 }

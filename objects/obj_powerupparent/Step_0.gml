@@ -25,12 +25,6 @@ if ((wings == 0 || paracaidas == 1) && object_index != obj_propellershroom)
     event_user(3)
     event_user(4)
 }
-if collision_rectangle(bbox_left, bbox_top, bbox_right, (bbox_bottom + 1), obj_cinta_parent, 0, 0)
-{
-hspeed = 0
-}
-else
-{
 if (paracaidas == 1)
 {
     if (x > (xstart + 16))
@@ -56,7 +50,6 @@ if (paracaidas == 1)
         hspeed = 0
         alarm[10] = 10
     }
-}
 }
 if (wings == 1 && paracaidas == 0)
 {

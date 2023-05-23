@@ -8,8 +8,4 @@ else
 }
 event_user(3)
 event_user(4)
-conveyor = collision_rectangle(bbox_left, bbox_top, bbox_right, (bbox_bottom + 1), obj_cinta_parent, 0, 0)
-if (conveyor)
-{
-hspeed = 0
-}
+

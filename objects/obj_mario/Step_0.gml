@@ -542,10 +542,3 @@ saltare = 1
 }    
 }
 
-if ((global.powerup != -80) && (holdud = 1))
-{
-	keyboard_key_release(global.lanzar_agarrar)
-	holdud = 0
-	holding = 0
-	
-}

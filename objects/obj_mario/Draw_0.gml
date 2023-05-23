@@ -6,10 +6,8 @@ else if (stompstyle == 1 || (helice_fly > 0 && helice_fly < 5 && global.aparienc
 {
     draw_sprite_ext(sprite_index, image_index, (round(x) + shake), (round(y) + 1), 1, image_yscale, 0, c_white, image_alpha)
 }
-else if instance_exists(obj_mario)
-{
+else
     draw_sprite_ext(sprite_index, image_index, (round(x) + shake), (round(y) + 1), direct, image_yscale, 0, c_white, image_alpha)
-}
 if (instance_exists(obj_invincibility) && global.effect_star == 1)
 {
     shader_set(sha_blendreplace)
