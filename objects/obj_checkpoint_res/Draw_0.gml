@@ -1,5 +1,8 @@
 if (obj_levelmanager.editor == 0)
     exit
+if global.shadows == 1 && global.apariencia != 3{
+draw_sprite_ext(sprite_index, image_index, x_draw + 3, y_draw + 3, s_scalex, s_scaley, rotacion, c_black, global.fade)
+}
 if (drag == 1)
     draw_sprite_ext(grid_selected, drop_lock, x, y, image_xscale, image_yscale, 0, c_white, 1)
 else if (mouse_up == 1 && global.cursor == 0)

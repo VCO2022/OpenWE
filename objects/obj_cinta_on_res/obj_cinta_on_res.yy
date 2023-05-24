@@ -43,7 +43,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Conveyor",
-    "path": "folders/Objects/Interactive/Platforms/Conveyor.yy",
+    "name": "Editor Res Objects",
+    "path": "folders/Objects/Editor Res Objects.yy",
   },
 }

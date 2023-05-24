@@ -52,6 +52,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 200), (camera_get
     instance_destroy(obj_selecting_player)
     instance_destroy(obj_selecting_fps)
     instance_destroy(obj_button_creditos)
+    instance_destroy(obj_button_sombras)
     instance_destroy(obj_button_settings_estrella)
     instance_destroy(obj_button_settings_controls)
     instance_destroy(obj_button_settings_sm4j)

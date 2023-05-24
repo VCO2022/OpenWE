@@ -130,6 +130,7 @@ else
     instance_create((camera_get_view_x(view_get_camera(0)) + 8), (camera_get_view_y(view_get_camera(0)) + 142), obj_button_settings_sm4j)
 instance_create((camera_get_view_x(view_get_camera(0)) + 8), (camera_get_view_y(view_get_camera(0)) + 191), obj_selecting_fps)
 instance_create((camera_get_view_x(view_get_camera(0)) + 39), (camera_get_view_y(view_get_camera(0)) + 191), obj_button_creditos)
+instance_create((camera_get_view_x(view_get_camera(0)) + 102), (camera_get_view_y(view_get_camera(0)) + 191), obj_button_sombras)
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 231), (camera_get_view_y(view_get_camera(0)) + 51), obj_selecting_player))
 {
     value = 0

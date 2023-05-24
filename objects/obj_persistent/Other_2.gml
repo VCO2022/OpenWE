@@ -56,6 +56,8 @@ if file_exists((working_directory + "Settings.dat"))
     global.my1 = file_text_read_string(file)
     file_text_readln(file)
     global.hd = real(file_text_read_string(file))
+	file_text_readln(file)
+    global.shadows = real(file_text_read_string(file))
     file_text_close(file)
     audio_master_gain(global.audiomaster)
 }

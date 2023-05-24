@@ -40,6 +40,8 @@ file_text_writeln(file)
 file_text_write_string(file, string(global.my1))
 file_text_writeln(file)
 file_text_write_string(file, string(real(global.hd)))
+file_text_writeln(file)
+file_text_write_string(file, string(real(global.shadows)))
 file_text_close(file)
 
 

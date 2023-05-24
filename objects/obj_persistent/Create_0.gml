@@ -26,6 +26,7 @@ global.warp_x = 0
 global.warp_y = 0
 global.hd = 1
 global.meteoritos = 0
+global.shadows = 1
 mode = 0
 done = 0
 ready = 0
@@ -67,7 +68,6 @@ global.effect_star = 0
 global.idioma = 0
 global.modo_noche = 0
 global.entorno = "ground"
-global.shadows_obj = 0.25
 global.apariencia = 2
 if (global.apariencia == 0)
 	global.fade = 0.3

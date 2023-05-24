@@ -1,3 +1,4 @@
+
 for (i = 0; i <= segmenten; i += 1)
 {
     if (i == 0)
