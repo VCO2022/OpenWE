@@ -10,18 +10,8 @@ else if (paracaidas == 1)
     hspeed = -0.6
     image_speed = 0
 }
-else if !conveyor
+else
 {
     hspeed = 0.2
-    image_speed = 0.5
-}
-else if (conveyor) && (direct == 1)
-{
-    hspeed = 0.2
-    image_speed = 0.5
-}
-else if (conveyor) && (direct == -1)
-{
-    hspeed =- 0.2
     image_speed = 0.5
 }

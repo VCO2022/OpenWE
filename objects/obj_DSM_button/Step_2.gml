@@ -10,5 +10,4 @@ if (ready == 1)
     if (layer_background_get_alpha(0) > 0.9)
 		layer_background_alpha(0, 1)
 }
-y = ((camera_get_view_y(view_get_camera(0)) + 182) + anim)
 

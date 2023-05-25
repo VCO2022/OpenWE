@@ -27,5 +27,3 @@ else
     image_speed = 0.15
 if (place_meeting(x, y, obj_solid) || place_meeting(x, y, obj_physicssolid) || place_meeting(x, y, obj_bullebill_base))
     event_user(0)
-
-

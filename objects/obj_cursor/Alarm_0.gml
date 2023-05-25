@@ -1,6 +1,6 @@
-if (item_add_temp != 50)
+if (item_add_temp != obj_angrysun)
 {
-    if (item_add_temp == 504 && instance_number(obj_pink_coin_res) == 5)
+    if (item_add_temp == obj_pink_coin_res && instance_number(obj_pink_coin_res) == 5)
     {
     }
     else
@@ -8,4 +8,3 @@ if (item_add_temp != 50)
 }
 item_add_temp = 0
 obj_editormanager.expand_open = 0
-

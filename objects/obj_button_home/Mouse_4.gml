@@ -27,6 +27,21 @@ if (disabled == 0 && press == 1 && (!instance_exists(obj_settings_panel)) && spr
             sprite_index = spr_buttons_plays_press
             alarm[1] = 15
             break
+		case 1:
+            audio_play_sound(snd_niveles_mundiales, 0, false)
+            if (global.my1 == 0 || global.my2 == 0 || global.my3 == -1 || global.my4 == -1 || global.my5 == 0 || global.my6 == -1)
+            {
+                if instance_exists(obj_cursor)
+                    obj_cursor.active_menu = 0
+                press = 1
+                instance_create((camera_get_view_x(view_get_camera(0)) + 112), (camera_get_view_y(view_get_camera(0)) + 12), obj_iname_control2)
+            }
+            else
+            {
+                sprite_index = spr_buttons_plays_press
+                alarm[1] = 15
+            }
+            break
         case 2:
             audio_play_sound(snd_niveles_mundiales, 0, false)
             if (global.my1 == 0 || global.my2 == 0 || global.my3 == -1 || global.my4 == -1 || global.my5 == 0 || global.my6 == -1)

@@ -69,6 +69,7 @@ global.idioma = 0
 global.modo_noche = 0
 global.entorno = "ground"
 global.apariencia = 2
+global.dsm = 0
 if (global.apariencia == 0)
 	global.fade = 0.3
 else if (global.apariencia == 1)

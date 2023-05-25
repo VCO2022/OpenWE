@@ -24,6 +24,11 @@ else
         instance_create(x, (obj_lava_water.y - 24), obj_splash_lava)
         event_user(0)
     }
+    else if (instance_exists(obj_lava_water) && (bbox_bottom - 8) > (obj_lava_water.y - 12) && global.bg_level == "mountain" and global.modo_noche == 1)
+    {
+        instance_create(x, (obj_lava_water.y - 24), obj_splash_lava)
+        event_user(0)
+    }
     if (instance_exists(obj_lava_water) && (bbox_bottom - 8) > (obj_lava_water.y - 12) && global.bg_level == "forest" && global.modo_noche == 1)
     {
         instance_create(x, (obj_lava_water.y - 24), obj_splash_posion)
@@ -44,5 +49,3 @@ if (vspeed < 0 && ((collision_rectangle((bbox_left + 1), ((bbox_top + vspeed) - 
 }
 if ((bbox_top - 16) > room_height)
     instance_destroy()
-
-

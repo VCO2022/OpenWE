@@ -14,3 +14,50 @@ else if ((global.DSM_level > 8) && (global.DSM_level < 13))
 else
     world = 4
 
+global.powerup = 0
+global.mariostart = 0
+global.modojuego = 0
+robot_rot = 0
+ry = 10
+ry_start = 10
+timer = 0
+c_cont = make_colour_rgb(89, 15, 16)
+type_consulta = 2
+url = ""
+num_rows = 0
+rows_perpage = 0
+pages = 0
+levels = 0
+page = global.pages_nm
+active = 0
+loading = 1
+rot = 0
+mensaje = ""
+codigo = ""
+pos = 54
+list_post = 1
+difficulty = 0
+__background_set( e__BG.HSpeed, 0, -0.5 )
+__background_set( e__BG.VSpeed, 0, -0.5 )
+instance_create(x + 82, y+175, obj_DSM_level)
+instance_create((camera_get_view_x(view_get_camera(0)) + 360), camera_get_view_y(view_get_camera(0)) + 4, obj_menu_editor_ext)
+instance_create((camera_get_view_x(view_get_camera(0)) + 4), (camera_get_view_y(view_get_camera(0)) + 190), obj_button_back)
+with instance_create((camera_get_view_x(view_get_camera(0)) + 13), (camera_get_view_y(view_get_camera(0)) + 29), obj_DSM_tabs){
+	text = "Facil"
+	value = 0
+}
+with instance_create((camera_get_view_x(view_get_camera(0)) + 104), (camera_get_view_y(view_get_camera(0)) + 29), obj_DSM_tabs){
+	text = "Normal"
+	value = 1
+}
+with instance_create((camera_get_view_x(view_get_camera(0)) + 195), (camera_get_view_y(view_get_camera(0)) + 29), obj_DSM_tabs){
+	text = "Dificil"
+	value = 2
+}
+with instance_create((camera_get_view_x(view_get_camera(0)) + 286), (camera_get_view_y(view_get_camera(0)) + 29), obj_DSM_tabs){
+	text = "Experto"
+	value = 3
+}
+alarm[0] = 5
+
+

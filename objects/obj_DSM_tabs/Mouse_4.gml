@@ -1,0 +1,1 @@
+obj_DSM_control.difficulty = value

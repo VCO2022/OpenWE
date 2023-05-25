@@ -1,4 +1,7 @@
 function scr_shadow_enemies() {
+	
+if sprite_exists(sprite_index) and (image_number <= sprite_get_number(sprite_index))
+{ 
 	if (object_index == obj_banzaibill) {
 		draw_sprite_ext(sprite_index, image_index, x + 3, y + 3, 1, direct, rotacion, c_black, global.fade)
 	}
@@ -17,4 +20,5 @@ function scr_shadow_enemies() {
 	else{
 		draw_sprite_ext(sprite_index, image_index, x + 3, y + 3, direct, image_yscale, image_angle, c_black, global.fade)	
 	}
+}
 }

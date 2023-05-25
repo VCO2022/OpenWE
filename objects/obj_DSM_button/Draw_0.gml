@@ -1,8 +1,11 @@
-draw_sprite(spr_DSM_bg_button, 0, camera_get_view_x(view_get_camera(0)), ((camera_get_view_y(view_get_camera(0)) + 163) + anim))
-draw_sprite(sprite_index, image_index, (camera_get_view_x(view_get_camera(0)) + 132), ((camera_get_view_y(view_get_camera(0)) + 182) + anim))
+draw_self();
+draw_set_font(global.font_google)
+draw_set_color(c_button)
+draw_set_halign(fa_center)
+draw_text((x + 45), (y), string_hash_to_newline((text)))
+draw_set_halign(fa_left)
 if (effect_hover == 1)
-    draw_sprite(spr_button_pausa_select, 0, x, y)
-draw_sprite(spr_DSM_cortina_left_right, 0, (camera_get_view_x(view_get_camera(0)) - anim), camera_get_view_y(view_get_camera(0)))
-draw_sprite(spr_DSM_cortina_left_right, 1, ((camera_get_view_x(view_get_camera(0)) + 340) + anim), camera_get_view_y(view_get_camera(0)))
-draw_sprite(spr_DSM_cortina_up, 0, camera_get_view_x(view_get_camera(0)), (camera_get_view_y(view_get_camera(0)) - anim))
-
+{
+    anim2 += 0.3
+    scr_anim_hover(x, y, anim2, 2)
+}

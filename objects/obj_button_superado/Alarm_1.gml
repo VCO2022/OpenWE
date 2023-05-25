@@ -45,10 +45,13 @@ else
     audio_stop_sound(scr_snd_dead)
     audio_stop_sound(scr_snd_starman())
     audio_stop_sound(scr_snd_clown_damage())
-    if (global.nm_play != 0)
-        room_goto(rm_niveles_mundiales)
-    else
-        room_goto(rm_guardabot)
+if (global.nm_play != 0) and (global.dsm != 1)
+    room_goto(rm_niveles_mundiales)
+else if (global.dsm == 1)
+    room_goto(rm_desafio_super_mario)
+else
+    room_goto(rm_guardabot)
+
 }
 
 

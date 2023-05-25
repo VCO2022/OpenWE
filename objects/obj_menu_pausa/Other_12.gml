@@ -20,8 +20,10 @@ audio_stop_sound(bgm_smwclear_castle)
 audio_stop_sound(scr_snd_skid())
 audio_stop_sound(snd_pmeter)
 audio_stop_sound(snd_boomboom_ruleta)
-if (global.nm_play != 0)
+if (global.nm_play != 0) and (global.dsm == 0)
     room_goto(rm_niveles_mundiales)
+else if (global.dsm == 1)
+    room_goto(rm_desafio_super_mario)
 else
     room_goto(rm_guardabot)
 

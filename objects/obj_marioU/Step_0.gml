@@ -430,7 +430,7 @@ else if (solid_col) or (solid_col_2){
 	conveyor_first_col = false
 }
 if (conveyor_first_col == true){
-	conveyor = collision_rectangle((bbox_left - 2), obj_cinta_parent.y - 80, (bbox_right + 2), obj_cinta_parent.y, obj_cinta_parent, 0, 0);
+	conveyor = collision_rectangle((bbox_left - 2), obj_cinta_parent.y - 48, (bbox_right + 2), obj_cinta_parent.y, obj_cinta_parent, 0, 0);
 }
 else if (conveyor_first_col == false){
 	conveyor = false

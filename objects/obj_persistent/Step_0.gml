@@ -133,3 +133,6 @@ if (global.pp == 0)
         }
     }
 }
+if room == rm_editor or room == rm_guardabot or room = rm_niveles_mundiales {
+	global.dsm = 0
+}

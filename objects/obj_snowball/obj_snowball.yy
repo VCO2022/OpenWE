@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_snowball",
   "spriteId": {
-    "name": "spr_NSMBU_snow_ball",
-    "path": "sprites/spr_NSMBU_snow_ball/spr_NSMBU_snow_ball.yy",
+    "name": "spr_NSMBU_snowball",
+    "path": "sprites/spr_NSMBU_snowball/spr_NSMBU_snowball.yy",
   },
   "solid": false,
   "visible": true,

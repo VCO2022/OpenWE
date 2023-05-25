@@ -17,12 +17,8 @@ else if (paracaidas == 0)
             else
                 hspeed = (-(1 - (0.5 * swimming)))
         }
-        else if !conveyor
+        else
             hspeed = (1 - (0.5 * swimming))
-        else if (conveyor == 1) && (direct == -1)
-            hspeed = (1 - (-0.5))
-        else if (conveyor == 1) && (direct == 1)
-            hspeed = (1 - (0.5))
     }
     else
         alarm[10] = 2

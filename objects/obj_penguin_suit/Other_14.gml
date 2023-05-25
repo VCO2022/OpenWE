@@ -14,6 +14,7 @@ if (conveyor && conveyor.image_speed != 0)
         }
         else
             x -= conveyor.image_speed
+			hspeed = -0.2
 			direct = -1
 	}
     else if (conveyor.image_speed < 0)
@@ -28,6 +29,7 @@ if (conveyor && conveyor.image_speed != 0)
         }
         else
             x -= conveyor.image_speed
+			hspeed = 0.2
 			direct = 1
 		
     }

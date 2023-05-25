@@ -1,5 +1,5 @@
 var xy, frozen;
-if (other.object_index != obj_grinder && other.visible == true)
+if (other.object_index != obj_grinder && other.visible == true && ready == 1)
 {
     if ((other.hardness < 99 || other.object_index == obj_drybones) && other.sprite_height <= 36 && other.object_index != obj_buzzybeetle_b && other.object_index != obj_lakitu && other.object_index != obj_floruga && other.object_index != obj_floruga_body && other.object_index != obj_chain_chomp_free && other.object_index != obj_chain_chomp_free_b)
     {
@@ -64,48 +64,58 @@ if (other.object_index != obj_grinder && other.visible == true)
             case obj_koopa:
                 frozen.sprite_index = spr_frozenblock_24x36
                 break
-            case 33:
+            case obj_koopa_red:
                 frozen.sprite_index = spr_frozenblock_24x36
                 break
-            case 61:
+            case obj_drybones:
                 frozen.sprite_index = spr_frozenblock_24x36
                 break
-            case 44:
+            case obj_jumppiranha:
                 frozen.sprite_index = spr_frozenblock_32x32
                 break
-            case 45:
+            case obj_piranhaplant:
                 frozen.sprite_index = spr_frozenblock_32x32
                 break
-            case 46:
+            case obj_plant_fire:
                 frozen.sprite_index = spr_frozenblock_32x32
                 break
-            case 101:
+            case obj_hammerbro:
                 frozen.sprite_index = spr_frozenblock_32x32
                 break
-            case 51:
+            case obj_firebro:
                 frozen.sprite_index = spr_frozenblock_32x32
                 break
-            case 91:
+            case obj_icebro:
                 frozen.sprite_index = spr_frozenblock_32x32
                 break
-            case 69:
+            case obj_boomerangbro:
                 frozen.sprite_index = spr_frozenblock_32x32
                 break
-            case 75:
+            case obj_charginchuck:
+                frozen.sprite_index = spr_frozenblock_32x32
+                break
+            case obj_monty_chase:
+                frozen.sprite_index = spr_frozenblock_32x32
+                break
+            case obj_rocangrejo:
+                frozen.sprite_index = spr_frozenblock_32x32
+                break
+            case obj_magikoopa:
+                frozen.sprite_index = spr_frozenblock_32x32
+                break
+            case obj_bulletbill:
                 frozen.sprite_index = spr_frozenblock_36x24
                 break
-            case 76:
+            case obj_bulletbull_red:
                 frozen.sprite_index = spr_frozenblock_32x32
-                break
-            case obj_mario:
-                frozen.sprite_index = spr_frozenblock_32x32_2
                 break
         }
 
-        with (other.id)
+        with (other)
             instance_destroy()
     }
     event_user(0)
 }
+
 
 

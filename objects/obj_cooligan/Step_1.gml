@@ -31,13 +31,20 @@ switch global.apariencia
         s_hurt = spr_NSMBU_cooligan_hurt
 }
 // Make the Cooligan move
-if (touch_ground == 0){
+if (touch_ground == 0) and (hurted == 0){
 	if !place_meeting(x, y + 1, obj_solidtop) and !place_meeting(x, y + 1, obj_physicssolid) or place_meeting(x, y, obj_solid) or place_meeting(x, y, obj_pinchos) {
 		hspeed = 0; // Set hspeed to 0
 		vspeed *= 0.9; // Decrease vspeed by 10%
 		sprite_index = s_fly
 	}
 	}
+else if (touch_ground == 0) and (hurted == 1){
+	if !place_meeting(x, y + 1, obj_solidtop) and !place_meeting(x, y + 1, obj_physicssolid) or place_meeting(x, y, obj_solid) or place_meeting(x, y, obj_pinchos) {
+		hspeed = 0; // Set hspeed to 0
+		vspeed *= 0.9; // Decrease vspeed by 10%
+		sprite_index = s_hurt
+	}
+	}	
 if place_meeting(x, y + 1, obj_solidtop) or place_meeting(x, y + 1, obj_physicssolid) or place_meeting(x, y, obj_solid) or place_meeting(x, y, obj_pinchos) {
 	if hurted = 0
 	{

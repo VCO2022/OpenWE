@@ -7,5 +7,3 @@ if (!instance_exists(obj_deadmario))
     }
     alarm[0] = 4
 }
-
-
