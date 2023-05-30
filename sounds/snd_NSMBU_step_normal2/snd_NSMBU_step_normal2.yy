@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_NSMBU_step_normal2",
-  "duration": 0.0,
+  "duration": 0.468753,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

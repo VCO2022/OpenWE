@@ -4,7 +4,7 @@ switch image_index
         room_goto(rm_editor)
         break
     case 1:
-        room_goto(rm_desafio_super_mario)
+        room_goto(rm_DSM)
         break
     case 2:
         room_goto(rm_course_world)

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_NSMBU_helice_voice",
-  "duration": 0.0,
+  "duration": 0.834467,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

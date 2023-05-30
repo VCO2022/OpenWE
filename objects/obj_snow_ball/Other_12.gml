@@ -39,7 +39,7 @@ else if (keyboard_check(global.arriba) && global.apariencia == 2)
 else if (vspeed >= 0)
 {
     if (global.apariencia == 3)
-        audio_play_sound(choose(477, 478, 477), 0, false)
+        audio_play_sound(choose(snd_NSMBU_throw1, snd_NSMBU_throw2, snd_NSMBU_throw1), 0, false)
     else
     {
         audio_play_sound(scr_snd_kick(), 0, false)

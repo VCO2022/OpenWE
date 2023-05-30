@@ -20,6 +20,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 54), (camera_get_
 }
 with (instance_create((camera_get_view_x(view_get_camera(0)) + 191), (camera_get_view_y(view_get_camera(0)) + 148), obj_nm_button_big))
 {
+    disabled = 0
     image_index = 3
     text = "Desafio Super Mario"
 }

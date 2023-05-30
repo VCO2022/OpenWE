@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_NSMBU_stun",
-  "duration": 0.0,
+  "duration": 1.182766,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_es_risas3",
-  "duration": 0.0,
+  "duration": 1.420317,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

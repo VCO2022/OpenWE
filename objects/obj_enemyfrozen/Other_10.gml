@@ -1,31 +1,42 @@
-audio_stop_sound(snd_NSMBU_estalactita_break)
-audio_play_sound(snd_NSMBU_estalactita_break, 0, false)
+event_user(8)
 with (instance_create((x + 6), (y + 8), obj_shard))
 {
     motion_set(45, 4)
-    sprite_index = spr_frozenblock_break
-    image_index = 0
+    sprite_index = other.sprite_break
+    if (global.apariencia == 3)
+        image_index = 0
+    else
+        image_index = global.apariencia
     dir = 1
 }
 with (instance_create((x + 6), y, obj_shard))
 {
     motion_set(60, 4)
-    sprite_index = spr_frozenblock_break
-    image_index = 1
+    sprite_index = other.sprite_break
+    if (global.apariencia == 3)
+        image_index = 1
+    else
+        image_index = global.apariencia
     dir = 1
 }
 with (instance_create((x - 6), y, obj_shard))
 {
     motion_set(120, 4)
-    sprite_index = spr_frozenblock_break
-    image_index = 2
+    sprite_index = other.sprite_break
+    if (global.apariencia == 3)
+        image_index = 2
+    else
+        image_index = global.apariencia
     dir = 0
 }
 with (instance_create((x - 6), (y + 8), obj_shard))
 {
     motion_set(135, 4)
-    sprite_index = spr_frozenblock_break
-    image_index = 3
+    sprite_index = other.sprite_break
+    if (global.apariencia == 3)
+        image_index = 3
+    else
+        image_index = global.apariencia
     dir = 0
 }
 object = instance_create(x, (y + 8), enemy)
@@ -38,5 +49,3 @@ with (object)
     event_user(0)
 }
 instance_destroy()
-
-

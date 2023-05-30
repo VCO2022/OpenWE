@@ -9,7 +9,7 @@ else if (global.modojuego == 1)
 {
     scr_init_globals()
     lives = 10
-    room_goto(rm_desafio_super_mario)
+    room_goto(rm_DSM)
 }
 else if (global.modojuego == 2)
 {

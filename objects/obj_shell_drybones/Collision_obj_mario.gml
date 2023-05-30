@@ -11,7 +11,7 @@ if (kickme == 1 && inmune == 0 && (!instance_exists(obj_invincibility)) && other
                 isduckhold = 1
             if (global.apariencia == 3)
             {
-                audio_play_sound(choose(475, 476), 0, false)
+                audio_play_sound(choose(snd_NSMBU_hold1, snd_NSMBU_hold2), 0, false)
                 with (other.id)
                 {
                     triple_jump = 0

@@ -69,7 +69,7 @@ if (vspeed < 0)
             }
         }
         block = collision_rectangle(bbox_left, (bbox_top - 2), bbox_right, (bbox_top - 1), obj_blockparent, 0, 0)
-        if (block && (object_get_parent(object_index) == 195 || object_get_parent(object_index) == 197))
+        if (block && (object_get_parent(object_index) == 40 || object_get_parent(object_index) == 103))
         {
             if (block.ready == 0)
             {
@@ -80,8 +80,6 @@ if (vspeed < 0)
         event_user(0)
     }
 }
-if ((bbox_top - 16) > room_height || (instance_exists(obj_lava_water) && y > (obj_lava_water.y + 32) && (global.bg_level == "castle" || (global.bg_level == "forest" && global.modo_noche == 1))))
+if ((bbox_top - 16) > room_height || (instance_exists(obj_lava_water) && y > (obj_lava_water.y + 32) && (global.bg_level == "castle" || (global.bg_level == "forest" && global.modo_noche == 1) || (global.bg_level == "mountain" && global.modo_noche == 1))))
     instance_destroy()
 event_user(14)
-
-

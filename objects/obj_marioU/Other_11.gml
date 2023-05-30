@@ -27,7 +27,7 @@ if (state != 3)
     }
     else if (triple_jump == 3)
     {
-        audio_play_sound(choose(470, 471, 472), 0, false)
+        audio_play_sound(choose(snd_NSMBU_triplejump_1, snd_NSMBU_triplejump_2, snd_NSMBU_triplejump_3), 0, false)
         triple_number = 35
     }
     if ((!(collision_rectangle(bbox_left, (bbox_top - 4), bbox_right, bbox_top, obj_solid, 1, 0))) && (!(collision_rectangle(bbox_left, (bbox_top - 4), bbox_right, bbox_top, obj_physicssolid, 1, 0))) && (!(collision_rectangle(bbox_left, (bbox_top - 1), bbox_right, bbox_top, obj_onewaygate_bottom, 1, 0))) && (!(collision_rectangle(bbox_left, (bbox_top - 4), bbox_right, bbox_top, obj_solid, 1, 0))) && (!(collision_rectangle(bbox_left, (bbox_top - 4), bbox_right, bbox_top, obj_bullebill_base, 1, 0))))

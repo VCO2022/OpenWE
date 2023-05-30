@@ -27,7 +27,7 @@ if (active != 2)
             break
         case 3:
 			obj_cursor.cursor = spr_cursor_toadette
-            audio_play_sound(choose(166, 162), 0, false)
+            audio_play_sound(choose(snd_letsgo_toadette, snd_toadette_voice), 0, false)
             break
     }
 

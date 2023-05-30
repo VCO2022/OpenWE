@@ -1,6 +1,5 @@
 image_speed = 0
 image_index = 0
-visible = 0
 level = 0
 canpress = 0
 anim = 0
@@ -30,4 +29,9 @@ record = 0
 nrecord = 0
 archivo = ""
 entorno = ""
+expand = 0
+expand2 = 0
+expand3 = 1
+s_scalex = 1
+s_scaley = 1
 alarm[2] = 15

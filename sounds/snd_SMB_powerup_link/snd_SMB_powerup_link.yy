@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_SMB_powerup_link",
-  "duration": 0.0,
+  "duration": 1.448503,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_DSM_mario",
   "spriteId": {
-    "name": "spr_SMB_mario_small_walk",
-    "path": "sprites/spr_SMB_mario_small_walk/spr_SMB_mario_small_walk.yy",
+    "name": "spr_SMB_mario_mega_idle",
+    "path": "sprites/spr_SMB_mario_mega_idle/spr_SMB_mario_mega_idle.yy",
   },
   "solid": false,
   "visible": true,
@@ -26,6 +26,8 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],

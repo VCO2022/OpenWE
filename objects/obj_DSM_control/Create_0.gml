@@ -22,7 +22,7 @@ ry = 10
 ry_start = 10
 timer = 0
 c_cont = make_colour_rgb(89, 15, 16)
-type_consulta = 2
+type_consulta = 1
 url = ""
 num_rows = 0
 rows_perpage = 0
@@ -37,6 +37,20 @@ codigo = ""
 pos = 54
 list_post = 1
 difficulty = 0
+switch difficulty{
+	case 0:
+	dsm_music = snd_DSM_1
+	break
+	case 1:
+	dsm_music = snd_DSM_2
+	break
+	case 2:
+	dsm_music = snd_DSM_3
+	break
+	case 3:
+	dsm_music = snd_DSM_4
+	break
+}
 __background_set( e__BG.HSpeed, 0, -0.5 )
 __background_set( e__BG.VSpeed, 0, -0.5 )
 instance_create(x + 82, y+175, obj_DSM_level)

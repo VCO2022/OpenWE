@@ -33,7 +33,7 @@ if (held == 0)
             obj_mario.isduckhold = 1
         if (global.apariencia == 3)
         {
-            audio_play_sound(choose(475, 476), 0, false)
+            audio_play_sound(choose(snd_NSMBU_hold1, snd_NSMBU_hold2), 0, false)
             with (other.id)
             {
                 triple_jump = 0

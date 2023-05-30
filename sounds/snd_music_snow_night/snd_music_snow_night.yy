@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_music_snow_night",
-  "duration": 0.0,
+  "duration": 109.71429,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

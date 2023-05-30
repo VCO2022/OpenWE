@@ -132,7 +132,7 @@ if (keyboard_check_pressed(global.saltar) && disablecontrols == 0 && jumpnow == 
     {
         with (instance_create(x, (y + 32), obj_smoke))
             sprite_index = spr_NSMBU_smoke_triplejump
-        audio_play_sound(choose(470, 471, 472), 0, false)
+        audio_play_sound(choose(snd_NSMBU_triplejump_1, snd_NSMBU_triplejump_2, snd_NSMBU_triplejump_3), 0, false)
     }
     jumpnow = 1
     state = 2
@@ -227,7 +227,7 @@ else if ((keyboard_check_pressed(global.saltar) && disablecontrols == 0 && holdi
     if (triple_jump == 2)
         audio_play_sound(snd_NSMBU_triplejump_0, 0, false)
     else if (triple_jump == 3)
-        audio_play_sound(choose(470, 471, 472), 0, false)
+        audio_play_sound(choose(snd_NSMBU_triplejump_1, snd_NSMBU_triplejump_2, snd_NSMBU_triplejump_3), 0, false)
     if (state == 2)
     {
         if (global.yoshi == 2)
@@ -596,7 +596,7 @@ if (state == 2 || statedelay > 0)
                 hspeed = -2.625
                 walljump = 2
                 direct = -1
-                audio_play_sound(choose(473, 474), 1, false)
+                audio_play_sound(choose(snd_NSMBU_walljump1, snd_NSMBU_walljump2), 1, false)
                 with (instance_create(bbox_right, y, obj_smoke))
                 {
                     sprite_index = spr_NSMBU_smoke_wall
@@ -608,7 +608,7 @@ if (state == 2 || statedelay > 0)
                 hspeed = 2.625
                 walljump = 2
                 direct = 1
-                audio_play_sound(choose(473, 474), 1, false)
+                audio_play_sound(choose(snd_NSMBU_walljump1, snd_NSMBU_walljump2), 1, false)
                 with (instance_create(bbox_left, y, obj_smoke))
                 {
                     sprite_index = spr_NSMBU_smoke_wall

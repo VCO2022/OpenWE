@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_mario_voice",
-  "duration": 0.0,
+  "duration": 1.004014,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

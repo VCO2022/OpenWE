@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_boomboom_giro",
-  "duration": 0.0,
+  "duration": 1.078277,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

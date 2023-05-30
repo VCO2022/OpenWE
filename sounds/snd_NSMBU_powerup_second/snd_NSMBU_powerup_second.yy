@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_NSMBU_powerup_second",
-  "duration": 0.0,
+  "duration": 0.941859,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

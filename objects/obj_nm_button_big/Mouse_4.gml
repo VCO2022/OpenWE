@@ -16,8 +16,7 @@ if (disabled == 0 && (!instance_exists(obj_edit_menu)))
             audio_play_sound(snd_wrong, 0, false)
             break
         case 3:
-            audio_stop_sound(snd_wrong)
-            audio_play_sound(snd_wrong, 0, false)
+            room_goto(rm_DSM)
             break
     }
 

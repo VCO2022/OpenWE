@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_NSMBU_clear_castle_voice",
-  "duration": 0.0,
+  "duration": 2.886531,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

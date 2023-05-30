@@ -1,14 +1,14 @@
 function scr_snd_clown_fire_charge() {
 	switch global.apariencia
 	{
-	    case 0:
-	        return 88;
-	    case 1:
-	        return 88;
-	    case 2:
-	        return 228;
-	    case 3:
-	        return 488;
+        case 0:
+            return snd_SMB3_clown_fire_charge;
+        case 1:
+            return snd_SMB3_clown_fire_charge;
+        case 2:
+            return snd_clown_fire_charge;
+        case 3:
+            return snd_NSMBU_clown_charge_start;
 	}
 
 

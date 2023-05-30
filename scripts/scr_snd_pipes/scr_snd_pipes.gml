@@ -1,14 +1,14 @@
 function scr_snd_pipes() {
-	switch global.apariencia
-	{
-	    case 0:
-	        return 91;
-	    case 1:
-	        return 91;
-	    case 2:
-	        return 205;
-	    case 3:
-	        return 492;
+    switch global.apariencia
+    {
+        case 0:
+            return snd_SMB3_powerdown;
+        case 1:
+            return snd_SMB3_powerdown;
+        case 2:
+            return snd_warp;
+        case 3:
+            return snd_NSMBU_powerdown;
 	}
 
 

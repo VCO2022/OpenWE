@@ -86,7 +86,7 @@ else if (sprite_index == scr_NSMBU_standup_pole())
         image_speed = 1.2
         moverse = 1
         hspeed = 1.5
-        audio_play_sound(choose(482, 483), 0, false)
+        audio_play_sound(choose(snd_NSMBU_goal, snd_NSMBU_goal2), 0, false)
     }
     else
     {

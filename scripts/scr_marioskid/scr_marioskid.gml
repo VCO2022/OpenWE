@@ -1,97 +1,92 @@
-function scr_marioskid() {
-if (global.apariencia == 0)
+function scr_marioskid()
 {
-    if (global.jugador == 0)
+    if (global.apariencia == 0)
     {
-        switch global.powerup
+        if (global.jugador == 0)
         {
-            case 0:
-                return 4;
-            case 1:
-                return 15;
-            case 2:
-                return 26;
-            case -50:
-                return 39;
-            case -77:
-                return 52;
-            case -78:
-                return 63;
-            case -85:
-                return 4024;
-            case -80:
-                return 4215;
-        }
+            switch global.powerup
+            {
+                case 0:
+                    return spr_SMB_mario_small_skid;
+                case 1:
+                    return spr_SMB_mario_big_skid;
+                case 2:
+                    return spr_SMB_mario_fire_skid;
+                case -50:
+                    return spr_SMB_mario_superball_skid;
+                case -77:
+                    return spr_SMB_mario_mega_skid;
+                case -78:
+                    return spr_SMB_mario_hen_skid;
+                case -85:
+                    return spr_SMB_link_skid;
+            }
 
-    }
-    else if (global.jugador == 1)
-    {
-        switch global.powerup
+        }
+        else if (global.jugador == 1)
         {
-            case 0:
-                return 75;
-            case 1:
-                return 86;
-            case 2:
-                return 97;
-            case -50:
-                return 110;
-            case -77:
-                return 123;
-            case -78:
-                return 134;
-            case -85:
-                return 4024;
-            case -80:
-                return 4143;
-        }
+            switch global.powerup
+            {
+                case 0:
+                    return spr_SMB_luigi_small_skid;
+                case 1:
+                    return spr_SMB_luigi_big_skid;
+                case 2:
+                    return spr_SMB_luigi_fire_skid;
+                case -50:
+                    return spr_SMB_luigi_superball_skid;
+                case -77:
+                    return spr_SMB_luigi_mega_skid;
+                case -78:
+                    return spr_SMB_luigi_hen_skid;
+                case -85:
+                    return spr_SMB_link_skid;
+            }
 
-    }
-    else if (global.jugador == 2)
-    {
-        switch global.powerup
+        }
+        else if (global.jugador == 2)
         {
-            case 0:
-                return 146;
-            case 1:
-                return 157;
-            case 2:
-                return 168;
-            case -50:
-                return 181;
-            case -77:
-                return 194;
-            case -78:
-                return 205;
-            case -80:
-                return 4390;
-        }
+            switch global.powerup
+            {
+                case 0:
+                    return spr_SMB_toad_small_skid;
+                case 1:
+                    return spr_SMB_toad_big_skid;
+                case 2:
+                    return spr_SMB_toad_fire_skid;
+                case -50:
+                    return spr_SMB_toad_superball_skid;
+                case -77:
+                    return spr_SMB_toad_mega_skid;
+                case -78:
+                    return spr_SMB_toad_hen_skid;
+                case -85:
+                    return spr_SMB_link_skid;
+            }
 
-    }
-    else if (global.jugador == 3)
-    {
-        switch global.powerup
+        }
+        else if (global.jugador == 3)
         {
-            case 0:
-                return 217;
-            case 1:
-                return 228;
-            case 2:
-                return 239;
-            case -50:
-                return 252;
-            case -77:
-                return 265;
-            case -78:
-                return 276;
-            case -85:
-                return 4024;
-            case -80:
-                return 4462;
-        }
+            switch global.powerup
+            {
+                case 0:
+                    return spr_SMB_toadette_small_skid;
+                case 1:
+                    return spr_SMB_toadette_big_skid;
+                case 2:
+                    return spr_SMB_toadette_fire_skid;
+                case -50:
+                    return spr_SMB_toadette_superball_skid;
+                case -77:
+                    return spr_SMB_toadette_mega_skid;
+                case -78:
+                    return spr_SMB_toadette_hen_skid;
+                case -85:
+                    return spr_SMB_link_skid;
+            }
 
+        }
     }
-}
 else if (global.apariencia == 1)
 {
     if (global.jugador == 0)

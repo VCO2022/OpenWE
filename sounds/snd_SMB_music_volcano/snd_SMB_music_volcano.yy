@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_SMB_music_volcano",
-  "duration": 0.0,
+  "duration": 121.092064,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

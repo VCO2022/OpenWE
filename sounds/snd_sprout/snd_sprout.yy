@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_sprout",
-  "duration": 0.0,
+  "duration": 0.537347,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

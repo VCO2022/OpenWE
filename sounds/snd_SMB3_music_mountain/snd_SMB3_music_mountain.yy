@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_SMB3_music_mountain",
-  "duration": 0.0,
+  "duration": 153.60098,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

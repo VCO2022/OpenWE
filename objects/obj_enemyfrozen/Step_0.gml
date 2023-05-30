@@ -1,4 +1,3 @@
-var col_estalactita, col_mario_left, col_mario_right, col_shell2;
 if (collision_rectangle(bbox_left, (bbox_top - 6), bbox_right, (bbox_top + 6), obj_mario, 0, 0) && inmune == 0 && vspeed > 0 && obj_mario.state < 2 && gravity != 0)
 {
     obj_mario.x += hspeed
@@ -8,7 +7,7 @@ if (collision_rectangle(bbox_left, (bbox_top - 6), bbox_right, (bbox_top + 6), o
     with (obj_mario)
         event_user(15)
 }
-col_estalactita = collision_rectangle(bbox_left, (bbox_top - 6), bbox_right, bbox_top, obj_icicle, 1, 0)
+var col_estalactita = collision_rectangle(bbox_left, (bbox_top - 6), bbox_right, bbox_top, obj_icicle, 1, 0)
 if (col_estalactita && col_estalactita.vspeed > 0 && held == 0)
 {
     event_user(0)
@@ -17,8 +16,8 @@ if (col_estalactita && col_estalactita.vspeed > 0 && held == 0)
 }
 if (held == 0)
 {
-    col_mario_left = collision_rectangle((bbox_left - 6), (bbox_top + 4), bbox_left, (bbox_bottom - 4), obj_mario, 0, 0)
-    col_mario_right = collision_rectangle(bbox_right, (bbox_top + 4), (bbox_right + 6), (bbox_bottom - 4), obj_mario, 0, 0)
+    var col_mario_left = collision_rectangle((bbox_left - 6), (bbox_top + 4), bbox_left, (bbox_bottom - 4), obj_mario, 0, 0)
+    var col_mario_right = collision_rectangle(bbox_right, (bbox_top + 4), (bbox_right + 6), (bbox_bottom - 4), obj_mario, 0, 0)
     if (instance_exists(obj_mario) && ((col_mario_left && obj_mario.direct == 1) || (col_mario_right && obj_mario.direct == -1)) && scr_canhold() && inmune == 0)
     {
         if (mytop != obj_lighting && instance_exists(mytop))
@@ -28,11 +27,14 @@ if (held == 0)
             mytop = obj_lighting
         }
         obj_mario.holding = 2
-        audio_play_sound(choose(475, 476), 0, false)
-        with (other.id)
+        if (global.apariencia == 3)
         {
-            triple_jump = 0
-            triple_count = 0
+            audio_play_sound(choose(snd_NSMBU_hold1, snd_NSMBU_hold2), 0, false)
+            with (other)
+            {
+                triple_jump = 0
+                triple_count = 0
+            }
         }
         held = 1
         depth = -7
@@ -51,7 +53,7 @@ if (held == 0)
     {
         if (inwall == 0)
         {
-            col_shell2 = collision_rectangle((bbox_left - 1), (bbox_top + 2), (bbox_right + 1), (bbox_bottom - 2), obj_shell_held, 0, 0)
+            var col_shell2 = collision_rectangle((bbox_left - 1), (bbox_top + 2), (bbox_right + 1), (bbox_bottom - 2), obj_shell_held, 0, 0)
             if (col_shell2 && col_shell2.bbox_bottom > (bbox_top + 5))
                 event_user(0)
             if (enable_gravity == 1)
@@ -124,6 +126,11 @@ if (held == 0)
         instance_create(x, (obj_lava_water.y - 26), obj_splash_posion)
         event_user(0)
     }
+    else if (instance_exists(obj_lava_water) && (bbox_bottom - 8) > (obj_lava_water.y - 12) && global.bg_level == "mountain" && global.modo_noche == 1 && modo_lava == 0)
+    {
+        instance_create(x, (obj_lava_water.y - 26), obj_splash_lava)
+        event_user(0)
+    }
     else if (y > room_height && held == 0)
         instance_destroy()
     if (instance_exists(obj_lava_water) && y <= (obj_lava_water.y - 12) && swimming == 1)
@@ -145,5 +152,3 @@ else if (mytop != obj_lighting && instance_exists(mytop))
         instance_destroy()
     mytop = 0
 }
-
-

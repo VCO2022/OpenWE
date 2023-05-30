@@ -20,7 +20,7 @@ if (global.apariencia == 3)
 {
     audio_stop_sound(snd_NSMBU_get_start1)
     audio_stop_sound(snd_NSMBU_get_start2)
-    audio_play_sound(choose(479, 480), 0, false)
+    audio_play_sound(choose(snd_NSMBU_get_start1, snd_NSMBU_get_start2), 0, false)
 }
 instance_destroy()
 

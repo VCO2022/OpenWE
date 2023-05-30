@@ -705,7 +705,7 @@ function __global_object_depths() {
 	global.__objectDepths[697] = 100; // obj_DSM_control
 	global.__objectDepths[698] = -5; // obj_DSM_button
 	global.__objectDepths[699] = 0; // obj_DSM_level
-	global.__objectDepths[700] = 0; // obj_DSM_mario
+	global.__objectDepths[700] = -1; // obj_DSM_mario
 	global.__objectDepths[701] = 0; // obj_castle_start
 	global.__objectDepths[702] = -12; // obj_button_meteoritos
 	global.__objectDepths[703] = -19; // obj_btn_settings_hd

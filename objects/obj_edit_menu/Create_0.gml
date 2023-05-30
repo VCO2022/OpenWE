@@ -14,7 +14,7 @@ if (!instance_exists(obj_button_home))
     with (instance_create((camera_get_view_x(view_get_camera(0)) + 212), (camera_get_view_y(view_get_camera(0)) + 69), obj_button_home))
     {
         image_index = 1
-        if (room == rm_desafio_super_mario)
+        if (room == rm_DSM)
         {
             sprite_index = spr_buttons_plays_press
             disabled = 1
