@@ -13,6 +13,24 @@ else if (global.DSM_level == 2){
 	x_mario = 220
 	y_level = 155
 }
+else if (global.DSM_level == 3){
+	x_level = 249
+	x_mario = 330
+	y_level = 155
+}
+else if (global.DSM_level == 4){
+	x_level = 295
+	x_mario = 440
+	y_level = 155
+}
+else if (global.DSM_level == 5){
+	x_level = 341
+	x_mario = 550
+	y_level = 155
+}
+else if (global.DSM_level > 5){
+	global.DSM_level = 0
+}
 switch difficulty{
 	case 0:
 	dsm_music = snd_DSM_1
@@ -30,3 +48,4 @@ switch difficulty{
 if !audio_is_playing(dsm_music){
 	audio_play_sound(dsm_music, 1, true)
 }
+event_user(0)

@@ -4,7 +4,7 @@ with (obj_levelmanager)
     event_user(5)
 if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1)
 {
-    if (room != rm_DSM && room != rm_title && room != rm_logo && room != rm_gameover && room != rm_guardabot && room != rm_editor)
+    if (room != rm_DSM && room != rm_title && room != rm_logo && room != rm_gameover && room != rm_guardabot && room != rm_editor and room != rm_DSM_game)
     {
         with (obj_persistent)
         {

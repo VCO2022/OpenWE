@@ -49,7 +49,9 @@ if (global.nm_play != 0) and (global.dsm != 1)
     room_goto(rm_niveles_mundiales)
 else if (global.dsm == 1){
     room_goto(rm_DSM_game)
-	global.DSM_level ++
+	if instance_exists(obj_nm_like_heart){
+		global.DSM_level ++
+	}
 }
 else
     room_goto(rm_guardabot)

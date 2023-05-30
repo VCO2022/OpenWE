@@ -46,7 +46,7 @@ ry = 10
 ry_start = 10
 timer = 0
 c_cont = make_colour_rgb(89, 15, 16)
-type_consulta = 1
+type_consulta = 5
 url = ""
 num_rows = 0
 rows_perpage = 0
@@ -61,6 +61,16 @@ codigo = ""
 pos = 54
 list_post = 1
 difficulty = 0
+level_name = ""
+creator_name = ""
+style_game = ""
+course_theme = ""
+dificultad = ""
+tiempo = ""
+historial = ""
+reaccion = ""
+orden = ""
+search_advanced = ""
 switch difficulty{
 	case 0:
 	dsm_music = snd_DSM_1
