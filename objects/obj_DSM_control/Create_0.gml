@@ -63,7 +63,6 @@ switch difficulty{
 }
 __background_set( e__BG.HSpeed, 0, -0.5 )
 __background_set( e__BG.VSpeed, 0, -0.5 )
-instance_create(x + 82, y+175, obj_DSM_level)
 instance_create((camera_get_view_x(view_get_camera(0)) + 360), camera_get_view_y(view_get_camera(0)) + 4, obj_menu_editor_ext)
 instance_create((camera_get_view_x(view_get_camera(0)) + 4), (camera_get_view_y(view_get_camera(0)) + 190), obj_button_back)
 with instance_create((camera_get_view_x(view_get_camera(0)) + 13), (camera_get_view_y(view_get_camera(0)) + 29), obj_DSM_tabs){

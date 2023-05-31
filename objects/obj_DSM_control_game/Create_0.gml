@@ -35,9 +35,6 @@ else if (global.DSM_level == 5){
 	x_mario = 550
 	y_level = 155
 }
-else if (global.DSM_level > 5){
-	global.DSM_level = 0
-}
 global.powerup = 0
 global.mariostart = 0
 global.modojuego = 0
@@ -65,7 +62,7 @@ level_name = ""
 creator_name = ""
 style_game = ""
 course_theme = ""
-dificultad = ""
+dificultad = ("&dificultad=" + string(3))
 tiempo = ""
 historial = ""
 reaccion = ""

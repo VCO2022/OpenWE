@@ -28,9 +28,6 @@ else if (global.DSM_level == 5){
 	x_mario = 550
 	y_level = 155
 }
-else if (global.DSM_level > 5){
-	global.DSM_level = 0
-}
 switch difficulty{
 	case 0:
 	dsm_music = snd_DSM_1

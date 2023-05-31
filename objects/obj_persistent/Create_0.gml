@@ -49,6 +49,7 @@ global.name_user = ""
 global.name_users = ""
 global.last_level = ""
 global.key_h = "clave765409"
+global.played_levels = ds_list_create();
 global.condiciones = 0
 global.condiciones_clear = 0
 global.condiciones_type = 0
