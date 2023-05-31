@@ -22,7 +22,7 @@ with (instance_create((camera_get_view_x(view_get_camera(0)) + 191), (camera_get
 {
     disabled = 0
     image_index = 3
-    text = "Desafio Super Mario"
+    text = "Desafio de Mario sin fin"
 }
 
 

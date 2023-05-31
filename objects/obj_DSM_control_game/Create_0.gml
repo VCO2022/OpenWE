@@ -86,6 +86,7 @@ __background_set( e__BG.HSpeed, 0, -0.5 )
 __background_set( e__BG.VSpeed, 0, -0.5 )
 instance_create(x_level, y_level, obj_DSM_level)
 instance_create(x_mario, 132, obj_DSM_mario)
+instance_create(120, 5, obj_DSM_clouds)
 instance_create((camera_get_view_x(view_get_camera(0)) + 360), camera_get_view_y(view_get_camera(0)) + 4, obj_menu_editor_ext)
 instance_create((camera_get_view_x(view_get_camera(0)) + 4), (camera_get_view_y(view_get_camera(0)) + 190), obj_button_back)
 alarm[0] = 5
