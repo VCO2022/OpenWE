@@ -17,22 +17,22 @@ else if (global.DSM_level == 1){
 }
 else if (global.DSM_level == 2){
 	x_level = 203
-	x_mario = 220
+	x_mario = 157
 	y_level = 155
 }
 else if (global.DSM_level == 3){
 	x_level = 249
-	x_mario = 330
+	x_mario = 202
 	y_level = 155
 }
 else if (global.DSM_level == 4){
 	x_level = 295
-	x_mario = 440
+	x_mario = 248
 	y_level = 155
 }
 else if (global.DSM_level == 5){
 	x_level = 341
-	x_mario = 550
+	x_mario = 294
 	y_level = 155
 }
 global.powerup = 0
@@ -62,7 +62,7 @@ level_name = ""
 creator_name = ""
 style_game = ""
 course_theme = ""
-dificultad = ("&dificultad=" + string(3))
+dificultad = ("&dificultad=" + string(0))
 tiempo = ""
 historial = ""
 reaccion = ""

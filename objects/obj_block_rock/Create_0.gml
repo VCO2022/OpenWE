@@ -31,7 +31,7 @@ switch global.apariencia
         }
 
         sprite_wings = spr_SMB_wings_16x16
-        shard = 448
+        shard = spr_SMB_shard_rock
         break
     case 1:
         sprite_index = spr_SMB3_block_rock
@@ -67,22 +67,22 @@ switch global.apariencia
         }
 
         sprite_wings = spr_SMB3_wings2
-        shard = 1252
+        shard = spr_SMB3_shard_rock
         break
     case 2:
         switch global.bg_level
         {
             case "ghost":
                 sprite_index = spr_madera
-                shard = 1842
+                shard = spr_shard_th
                 break
             case "airship":
                 sprite_index = spr_madera
-                shard = 1842
+                shard = spr_shard_th
                 break
             default:
                 sprite_index = spr_block_rock
-                shard = 1840
+                shard = spr_shard_g
         }
 
         sprite_wings = spr_wings_items
@@ -124,7 +124,7 @@ switch global.apariencia
         }
 
         sprite_wings = spr_NSMBU_wings_items
-        shard = 3563
+        shard = spr_NSMBU_shardhard
         break
 
 case 4:
@@ -134,7 +134,7 @@ case 4:
         image_index = 1
     else
         image_index = 0
-    shard = 3615
+        shard = spr_SMB_shard_rock
     break
 }
 }
