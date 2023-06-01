@@ -50,19 +50,19 @@ if (instance_exists(obj_mario) && instance_exists(obj_yoshi2))
             obj_yoshi2.alarm[1] = 5
             if hunger
             {
-                if (powerup != -4)
+                if (powerup != noone)
                 {
                     audio_play_sound(snd_yoshi_eat, 0, false)
                     obj_yoshi2.powerup = powerup
-                    powerup = -4
+                    powerup = noone
                 }
-                else if (berry != -4)
+                else if (berry != noone)
                 {
                     audio_play_sound(snd_yoshi_eat, 0, false)
                     obj_yoshi2.berry = berry
-                    berry = -4
+                    berry = noone
                 }
-                else if (obj_yoshi2.mouthholder == -4)
+                else if (obj_yoshi2.mouthholder == noone)
                 {
                     audio_play_sound(snd_yoshi_eat, 0, false)
                     audio_play_sound(snd_coin, 0, false)

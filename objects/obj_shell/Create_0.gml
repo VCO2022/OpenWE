@@ -15,4 +15,3 @@ flip = 0
 inmune = 0
 kickme = 0
 alarm[2] = 4
-yscale = 1

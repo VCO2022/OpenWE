@@ -15,7 +15,7 @@ if (hunger == 0 && ready == 0 && other.object_index != obj_thwomp && other.objec
             hunger = 1
             ready = 1
             alarm[0] = 8
-            obj_yoshi2.mouthholder = 239
+            obj_yoshi2.mouthholder = obj_yoshifire_one
             obj_yoshi2.mouthsprite = other.sprite_index
             foodsprite = other.sprite_index
             foodindex = other.image_index
@@ -24,51 +24,51 @@ if (hunger == 0 && ready == 0 && other.object_index != obj_thwomp && other.objec
                 instance_destroy()
         }
         if ((other.object_index == obj_cheepcheep || other.object_index == obj_cheepcheep2) && other.lava == 1 && global.bg_level == "castle")
-            obj_yoshi2.mouthholder = 237
+            obj_yoshi2.mouthholder = obj_yoshifire
         else if ((other.object_index == obj_cheepcheep || other.object_index == obj_cheepcheep2) && other.lava == 1 && global.bg_level == "forest")
-            obj_yoshi2.mouthholder = 238
+            obj_yoshi2.mouthholder = obj_yoshifire_purple
         else if (other.object_index == obj_drybones)
         {
-            obj_yoshi2.mouthholder = 268
+            obj_yoshi2.mouthholder = obj_bones_yoshi
             obj_yoshi2.mouthsprite = other.sprite_index
         }
         else if (other.object_index == obj_shell_held)
         {
-            obj_yoshi2.mouthholder = 302
+            obj_yoshi2.mouthholder = obj_shell
             obj_yoshi2.mouthsprite = other.sprite_index
         }
         else if (other.object_index == obj_koopa)
         {
-            obj_yoshi2.mouthholder = 302
-            obj_yoshi2.mouthsprite = 1869
+            obj_yoshi2.mouthholder = obj_shell
+            obj_yoshi2.mouthsprite = spr_shell
         }
         else if (other.object_index == obj_koopa_red)
         {
-            obj_yoshi2.mouthholder = 302
-            obj_yoshi2.mouthsprite = 1871
+            obj_yoshi2.mouthholder = obj_shell
+            obj_yoshi2.mouthsprite = spr_shell_red
         }
         else if (other.object_index == obj_spiny || other.object_index == obj_spiny_ball)
         {
-            obj_yoshi2.mouthholder = 302
-            obj_yoshi2.mouthsprite = 1894
+            obj_yoshi2.mouthholder = obj_shell
+            obj_yoshi2.mouthsprite = spr_spiny_dead
         }
         else if (other.object_index == obj_buzzybeetle)
         {
-            obj_yoshi2.mouthholder = 302
-            obj_yoshi2.mouthsprite = 1889
+            obj_yoshi2.mouthholder = obj_shell
+            obj_yoshi2.mouthsprite = spr_shell_buzzy
         }
         else if (other.object_index == obj_snow_ball_held)
         {
-            obj_yoshi2.mouthholder = 54
+            obj_yoshi2.mouthholder = obj_snow_ball
             obj_yoshi2.mouthsprite = other.sprite_index
         }
         else if (other.object_index == obj_podoboo || other.object_index == obj_podoboo_b)
         {
-            obj_yoshi2.mouthholder = 237
+            obj_yoshi2.mouthholder = obj_yoshifire
             obj_yoshi2.mouthsprite = other.sprite_index
         }
         if (other.object_index == obj_snow_ball_held)
-            foodsprite = 1913
+            foodsprite = spr_snow_ball
         else
             foodsprite = other.sprite_index
         direct_sprite = other.direct
@@ -79,4 +79,3 @@ if (hunger == 0 && ready == 0 && other.object_index != obj_thwomp && other.objec
             instance_destroy()
     }
 }
-

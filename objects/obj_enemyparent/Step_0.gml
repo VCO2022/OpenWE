@@ -33,4 +33,15 @@ if (instance_exists(obj_lava_water) && (y + 8) >= (obj_lava_water.y - 12) && obj
         }
         instance_destroy()
     }
+    else if (global.bg_level == "mountain" && global.modo_noche == 1)
+    {
+        if (global.apariencia != 0)
+            instance_create(x, (obj_lava_water.y - 26), obj_splash_lava)
+        with (instance_create(x, y, obj_enemyparent_lava))
+        {
+            sprite_index = other.sprite_index
+            direct = other.direct
+        }
+        instance_destroy()
+    }
 }

@@ -39,10 +39,3 @@ if (instance_exists(obj_lava_water) && y > (obj_lava_water.y + 16) && global.bg_
     }
     instance_destroy()
 }
-if (flip == 0){
-	yscale = 1
-}
-else
-{
-	yscale = -1
-}

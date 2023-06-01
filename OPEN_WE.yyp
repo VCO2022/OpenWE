@@ -1040,7 +1040,6 @@
     {"id":{"name":"spr_SMB3_toadette_raccoon_swim","path":"sprites/spr_SMB3_toadette_raccoon_swim/spr_SMB3_toadette_raccoon_swim.yy",},"order":8,},
     {"id":{"name":"spr_SMB3_toadette_raccoon_hold","path":"sprites/spr_SMB3_toadette_raccoon_hold/spr_SMB3_toadette_raccoon_hold.yy",},"order":9,},
     {"id":{"name":"spr_SMB3_toadette_raccoon_hold_jump","path":"sprites/spr_SMB3_toadette_raccoon_hold_jump/spr_SMB3_toadette_raccoon_hold_jump.yy",},"order":10,},
-    {"id":{"name":"obj_trail","path":"objects/obj_trail/obj_trail.yy",},"order":47,},
     {"id":{"name":"spr_SMB3_toadette_raccoon_slide","path":"sprites/spr_SMB3_toadette_raccoon_slide/spr_SMB3_toadette_raccoon_slide.yy",},"order":11,},
     {"id":{"name":"spr_SMB3_toadette_raccoon_kick","path":"sprites/spr_SMB3_toadette_raccoon_kick/spr_SMB3_toadette_raccoon_kick.yy",},"order":12,},
     {"id":{"name":"spr_SMB3_toadette_raccoon_duck","path":"sprites/spr_SMB3_toadette_raccoon_duck/spr_SMB3_toadette_raccoon_duck.yy",},"order":13,},

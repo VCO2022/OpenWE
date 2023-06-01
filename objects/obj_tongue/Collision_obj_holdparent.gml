@@ -24,7 +24,7 @@ if (other.object_index != obj_helmet && other.object_index != obj_helmet_spiny &
         obj_yoshi2.mouthholder = other.object_index
         obj_yoshi2.mouthsprite = other.sprite_index
         if (other.object_index == obj_snow_ball)
-            foodsprite = 1913
+			foodsprite = spr_snow_ball
         else
             foodsprite = other.sprite_index
         foodoffset = 0

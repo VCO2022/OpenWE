@@ -18,7 +18,6 @@ shell_drop = 0
 mytopid = 0
 inmune = 0
 spd = 2.5
-yscale = 1
 if (global.apariencia == 3)
     image_speed = 0.25
 else

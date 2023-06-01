@@ -9,5 +9,7 @@ if (held == 1)
         holding = 0
     with (obj_doormario)
         holding = 0
+    with (obj_doormario_exit)
+        holding = 0
 }
 
