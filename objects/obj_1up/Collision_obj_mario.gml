@@ -45,4 +45,6 @@ else
         event_user(7)
     instance_destroy()
 }
-
+if (global.lives > 0 and global.liveleves < 3){
+global.liveleves ++
+}

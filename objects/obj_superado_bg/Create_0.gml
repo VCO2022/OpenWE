@@ -40,22 +40,6 @@ if instance_exists(obj_invincibility)
     with (obj_invincibility)
         instance_destroy()
 }
-if (global.modojuego == 1)
-{
-    if (lives < 10)
-        lives += global.liveleves
-    global.liveleves = 0
-    if (lives > 10)
-        lives = 10
-}
-else if (global.modojuego == 2)
-{
-    if (lives < 100)
-        lives += global.liveleves
-    global.liveleves = 0
-    if (lives > 100)
-        lives = 100
-}
 if (obj_persistent.modo_android == 1 && global.controles_tactiles == 1)
 {
     with (obj_persistent)

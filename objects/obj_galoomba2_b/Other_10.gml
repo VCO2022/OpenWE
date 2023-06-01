@@ -1,7 +1,7 @@
 imdead = instance_create(x, (y + 8), obj_enemy_dead)
 imdead.girar = 1
 imdead.direct = direct
-imdead.sprite_index = spr_galoomba2_b_deads
+imdead.sprite_index = spr_galoomba2_deads
 imdead.image_index = global.apariencia
 if (key == 1 && obj_levelmanager.editor == 0)
 {

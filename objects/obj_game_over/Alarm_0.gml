@@ -8,13 +8,13 @@ if (global.modojuego == 0)
 else if (global.modojuego == 1)
 {
     scr_init_globals()
-    lives = 10
+    global.lives = 10
     room_goto(rm_DSM)
 }
 else if (global.modojuego == 2)
 {
     scr_init_globals()
-    lives = 100
+    global.lives = 100
     room_goto(rm_guardabot)
 }
 

@@ -1,3 +1,4 @@
+if global.DSM_2 == 0{
 if (global.DSM_level == 0){
 	x_level = 111
 	x_mario = 0
@@ -19,7 +20,7 @@ else if (global.DSM_level == 3){
 	y_level = 155
 }
 else if (global.DSM_level == 4){
-	x_level = 295
+	x_level = 294
 	x_mario = 440
 	y_level = 155
 }
@@ -27,6 +28,46 @@ else if (global.DSM_level == 5){
 	x_level = 341
 	x_mario = 550
 	y_level = 155
+}
+else if (global.DSM_level == 6){
+	x_level = 341
+	x_mario = 330
+	y_level = 155
+	global.DSM_2 = 1
+}
+}
+
+if global.DSM_2 == 1{
+	if (global.DSM_level == 6){
+	x_level = 111
+	x_mario = 0
+	y_level = 155
+}
+else if (global.DSM_level == 7){
+	x_level = 157
+	x_mario = 110
+	y_level = 155
+}
+else if (global.DSM_level == 8){
+	x_level = 203
+	x_mario = 220
+	y_level = 155
+}
+else if (global.DSM_level == 9){
+	x_level = 249
+	x_mario = 330
+	y_level = 155
+}
+else if (global.DSM_level == 10){
+	x_level = 294
+	x_mario = 440
+	y_level = 155
+}
+else if (global.DSM_level == 11){
+	x_level = 341
+	x_mario = 550
+	y_level = 155
+}
 }
 switch difficulty{
 	case 0:

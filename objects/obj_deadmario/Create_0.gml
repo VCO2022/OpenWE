@@ -70,8 +70,8 @@ if (global.checkpointroom != -4 && instance_exists(obj_checkpoint))
     with (obj_checkpoint)
         global.pink_coins = pink_coins
 }
-if (lives > 0)
-    lives--
+if (global.lives > 0)
+    global.lives--
 global.n64_music = 0
 global.boss_music = 0
 global.bowser_obj = 0

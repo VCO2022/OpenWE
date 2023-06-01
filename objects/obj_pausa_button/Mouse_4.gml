@@ -9,9 +9,11 @@ if ((!instance_exists(obj_settings_panel)) && canpress == 1 && image_index == 0 
             break
         case 1:
             audio_play_sound(snd_volver_a_empezar, 0, false)
+			scr_save((working_directory + "DSM.dat"));
             break
         case 2:
             audio_play_sound(snd_salir_del_nivel, 0, false)
+			scr_save((working_directory + "DSM.dat"));
             if (global.postnivel != 0)
             {
             global.postnivel = 0

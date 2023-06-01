@@ -2,7 +2,7 @@ if (color == 0)
 {
     with (instance_create(x, y, obj_yoshi_abandon))
     {
-        if (other.mouthholder != -4)
+        if (other.mouthholder != noone)
         {
             mouthholder = other.mouthholder
             mouthsprite = other.mouthsprite
@@ -15,7 +15,7 @@ else if (color == 1)
     with (instance_create(x, y, obj_yoshi_abandon))
     {
         color = 1
-        if (other.mouthholder != -4)
+        if (other.mouthholder != noone)
         {
             mouthholder = other.mouthholder
             mouthsprite = other.mouthsprite

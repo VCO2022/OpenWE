@@ -117,8 +117,9 @@ function scr_init_globals() {
 	global.pink_coin10_x = 0
 	global.pink_coin10_y = 0
 	global.liveleves = 0
-	lives = 0
 	score = 0
+	global.lives = 0
+	global.completed_levels = 0
 	global.mariostart = 0
 	global.clear = 0
 	global.powerup = 0

@@ -10,7 +10,7 @@ if instance_exists(obj_mario)
     obj_mario.holding = 3
     if (keyboard_check_pressed(global.lanzar_agarrar) && licking == 0 && obj_mario.disablecontrols == 0 && turning == 0)
     {
-        if (mouthholder == -4 && color == 0)
+        if (mouthholder == noone && color == 0)
         {
             if (!audio_is_playing(snd_yoshi_lick))
                 audio_play_sound(snd_yoshi_lick, 0, false)
@@ -45,10 +45,10 @@ else
         visible = false
         x = obj_player_goal_smw.x
         y = obj_player_goal_smw.y
-        if (mouthholder != -4)
+        if (mouthholder != noone)
         {
-            mouthholder = -4
-            mouthsprite = -4
+            mouthholder = noone
+            mouthsprite = noone
         }
     }
     event_user(15)
@@ -92,13 +92,13 @@ if instance_exists(obj_mario)
     {
         if (obj_mario.isduck == 1)
         {
-            if (mouthholder != -4)
+            if (mouthholder != noone)
             {
                 sprite_index = s_yoshi_fm_wait
                 image_speed = 0
                 image_index = 2
             }
-            else if (mouthholder == -4)
+            else if (mouthholder == noone)
             {
                 sprite_index = s_yoshi_wait
                 image_speed = 0
@@ -107,13 +107,13 @@ if instance_exists(obj_mario)
         }
         else if (obj_mario.state == 0)
         {
-            if (mouthholder != -4)
+            if (mouthholder != noone)
             {
                 sprite_index = s_yoshi_fm
                 image_speed = 0
                 image_index = 0
             }
-            else if (mouthholder == -4)
+            else if (mouthholder == noone)
             {
                 sprite_index = s_yoshi
                 image_speed = 0
@@ -122,12 +122,12 @@ if instance_exists(obj_mario)
         }
         else if (obj_mario.state == 1)
         {
-            if (mouthholder != -4)
+            if (mouthholder != noone)
             {
                 sprite_index = s_yoshi_fm
                 image_speed = (0.13 + (abs(obj_mario.hspeed) / 7.5))
             }
-            else if (mouthholder == -4)
+            else if (mouthholder == noone)
             {
                 if (sprite_index == spr_yoshi_turn)
                 {
@@ -159,7 +159,7 @@ if instance_exists(obj_mario)
         }
         else if (obj_mario.state == 2)
         {
-            if (mouthholder != -4)
+            if (mouthholder != noone)
             {
                 sprite_index = s_yoshi_fm_jump
                 image_speed = 0
@@ -168,7 +168,7 @@ if instance_exists(obj_mario)
                 else
                     image_index = 1
             }
-            else if (mouthholder == -4)
+            else if (mouthholder == noone)
             {
                 sprite_index = s_yoshi_jump
                 image_speed = 0

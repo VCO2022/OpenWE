@@ -1,4 +1,5 @@
 s_pink_coins = scr_pink_coins()
+s_player_lives = scr_player_lives()
 switch global.apariencia
 {
     case 0:
@@ -17,7 +18,7 @@ switch global.apariencia
 
 draw_set_colour(c_white)
 draw_set_alpha(1)
-if (lives == 0 || room == rm_editor)
+if (global.lives == 0 || room == rm_editor)
 {
     draw_sprite_ext(spr_coinhud, global.apariencia, (camera_get_view_x(view_get_camera(0)) + 15), (camera_get_view_y(view_get_camera(0)) + 11), 1, 1, 0, c_white, 1)
     draw_text((camera_get_view_x(view_get_camera(0)) + 32), (camera_get_view_y(view_get_camera(0)) + 11), string_hash_to_newline(string_add_zeros(global.coins, 2)))
@@ -26,8 +27,8 @@ if (lives == 0 || room == rm_editor)
 }
 else
 {
-    draw_sprite_ext(spr_player_lives, global.jugador, (camera_get_view_x(view_get_camera(0)) + 11), (camera_get_view_y(view_get_camera(0)) + 6), 1, 1, 0, c_white, 1)
-    draw_text((camera_get_view_x(view_get_camera(0)) + 36), (camera_get_view_y(view_get_camera(0)) + 11), string_hash_to_newline(string_add_zeros(lives, 3)))
+    draw_sprite_ext(s_player_lives, global.jugador, (camera_get_view_x(view_get_camera(0)) + 11), (camera_get_view_y(view_get_camera(0)) + 6), 1, 1, 0, c_white, 1)
+    draw_text((camera_get_view_x(view_get_camera(0)) + 36), (camera_get_view_y(view_get_camera(0)) + 11), string_hash_to_newline(string_add_zeros(global.lives, 3)))
     draw_sprite_ext(spr_cont_lives, global.liveleves, (camera_get_view_x(view_get_camera(0)) + 68), (camera_get_view_y(view_get_camera(0)) + 8), 1, 1, 0, c_white, 1)
     draw_sprite_ext(spr_coinhud, global.apariencia, (camera_get_view_x(view_get_camera(0)) + 15), (camera_get_view_y(view_get_camera(0)) + 25), 1, 1, 0, c_white, 1)
     draw_text((camera_get_view_x(view_get_camera(0)) + 36), (camera_get_view_y(view_get_camera(0)) + 25), string_hash_to_newline(string_add_zeros(global.coins, 2)))

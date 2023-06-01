@@ -22,8 +22,14 @@ audio_stop_sound(snd_pmeter)
 audio_stop_sound(snd_boomboom_ruleta)
 if (global.nm_play != 0) and (global.dsm == 0)
     room_goto(rm_niveles_mundiales)
-else if (global.dsm == 1)
+else if (global.dsm == 1){
+	if global.DSM_2 == 0{
     room_goto(rm_DSM_game)
+	}
+	else{
+	room_goto(rm_DSM_game_2)
+	}
+}
 else
     room_goto(rm_guardabot)
 

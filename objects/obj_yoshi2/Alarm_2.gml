@@ -3,5 +3,5 @@ turning = 0
 if (powerup != noone)
 {
     instance_create(x, y, powerup)
-    powerup = -4
+    powerup = noone
 }

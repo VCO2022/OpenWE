@@ -17,7 +17,7 @@ if (disabled == 0 && press == 1 && (!instance_exists(obj_settings_panel)) && spr
     audio_stop_sound(snd_SMB_master_sword_underground)
     audio_stop_sound(snd_SMB_master_sword_castle)
     scr_stop_effect_sounds()
-    lives = 0
+    global.lives = 0
     press = 0
     if instance_exists(obj_cursor)
         obj_cursor.active_menu = 1

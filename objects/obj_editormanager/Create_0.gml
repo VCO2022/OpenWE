@@ -5,7 +5,7 @@ can_move = 0
 with (obj_levelmanager)
     alarm[2] = -1
 camera_set_view_target(view_get_camera(0), id)
-lives = 0
+global.lives = 0
 global.modojuego = 0
 velocidad = 4
 move_velocity = 0

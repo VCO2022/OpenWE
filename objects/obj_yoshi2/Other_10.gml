@@ -191,7 +191,7 @@ else
 
 }
 mouthholder = noone
-mouthsprite = -4
+mouthsprite = noone
 licking = 1
 alarm[2] = 5
 anim = 0

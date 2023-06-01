@@ -1,5 +1,5 @@
 function scr_restart() {
-	if (lives == 0 && room != rm_guardabot_play && room != rm_title)
+	if (global.lives == 0 && room != rm_guardabot_play && room != rm_title)
 	    room_goto(rm_gameover)
 	else
 	{

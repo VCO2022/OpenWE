@@ -1,3 +1,4 @@
+scr_save((working_directory + "DSM.dat"));
 if (canpress == 1 && image_index == 0 && instance_exists(obj_nm_like_heart) && instance_exists(obj_nm_dislike_heart) && obj_nm_like_heart.loading == 0 && obj_nm_dislike_heart.loading == 0)
 {
     image_index = 1

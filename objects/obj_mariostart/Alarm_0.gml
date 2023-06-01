@@ -1,5 +1,5 @@
 visible = true
-if (lives == 0)
+if (global.lives == 0)
     var pos = 192
 else
     pos = 176

@@ -81,6 +81,5 @@ with instance_create((camera_get_view_x(view_get_camera(0)) + 286), (camera_get_
 	text = "Experto"
 	value = 3
 }
-alarm[0] = 5
 
 
