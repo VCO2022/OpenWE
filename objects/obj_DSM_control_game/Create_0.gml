@@ -5,6 +5,9 @@ ready2 = 0
 castle_pech = 0
 flower = 0
 anim_nubes = 0
+	x_level = 111
+	x_mario = 0
+	y_level = 155
 if global.DSM_2 == 0{
 if (global.DSM_level == 0){
 	x_level = 111

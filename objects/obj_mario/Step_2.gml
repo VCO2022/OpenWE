@@ -98,7 +98,7 @@ if (global.pp == 0)
                 }
                 else if instance_exists(obj_mario_transform2)
                 {
-                    if (skidnow == 1)
+                    if (global.powerup != -29 and skidnow == 1)
                     {
                         sprite_index = scr_marioskid()
                         audio_stop_sound(scr_snd_skid())
