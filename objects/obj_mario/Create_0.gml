@@ -39,7 +39,6 @@ dash_atack = 0
 dash_cont = 0
 down_atack = 0
 down_cont = 0
-holdud = 0
 arrow = 0
 arrow_ready = 0
 direct_turn = 1
@@ -117,5 +116,3 @@ flag = 0
 conveyor_first_col = false
 alarm[5] = 8
 alarm[9] = (24 + random(96))
-
-

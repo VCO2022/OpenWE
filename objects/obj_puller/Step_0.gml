@@ -6,7 +6,6 @@ if instance_exists(obj_mario)
         gravity = 0
         jumpnow = 0
         disablecontrol = 1
-		holdud = 1
     }
     obj_mario.visible = false
     x = round(obj_mario.x)

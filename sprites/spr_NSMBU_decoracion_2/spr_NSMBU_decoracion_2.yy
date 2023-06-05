@@ -3,7 +3,7 @@
   "resourceVersion": "1.0",
   "name": "spr_NSMBU_decoracion_2",
   "bboxMode": 0,
-  "collisionKind": 0,
+  "collisionKind": 5,
   "type": 0,
   "origin": 3,
   "preMultiplyAlpha": false,
