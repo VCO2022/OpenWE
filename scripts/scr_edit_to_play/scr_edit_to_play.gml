@@ -1204,7 +1204,7 @@ function scr_edit_to_play() {
 	    with (obj_floruga_res)
 	    {
 	        visible = false
-	        instance_create((x + 8), y, obj_floruga)
+	        instance_create((x + 8), y, obj_fishbone)
 	    }
 	}
 	if instance_exists(obj_floruga_angry_res)

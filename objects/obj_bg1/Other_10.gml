@@ -283,7 +283,7 @@ switch bg_s
         else
         __background_set( e__BG.Index, (0 << 0), scr_bg_fall( ))
         obj_levelmanager.levelmusic = scr_snd_autumn()
-        s_music_editor = scr_snd_editor_ground()
+        s_music_editor = scr_snd_editor_forest()
         b_dec = 39
         s_dec_hongo = 69
         s_block_hidden = 7

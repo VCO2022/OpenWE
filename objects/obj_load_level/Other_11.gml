@@ -274,7 +274,7 @@ switch global.bg_level
         else
         __background_set( e__BG.Index, (0 << 0), scr_bg_fall( ))
         obj_levelmanager.levelmusic = scr_snd_ground()
-        s_music_editor = scr_snd_editor_ground()
+        s_music_editor = scr_snd_editor_forest()
         b_dec = 41
         s_dec_hongo = 70
         s_block_hidden = 7

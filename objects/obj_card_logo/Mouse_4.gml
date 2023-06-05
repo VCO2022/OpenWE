@@ -178,7 +178,7 @@ if (obj_levelmanager.editor == 1 && instance_exists(obj_card_logo))
             else
             __background_set( e__BG.Index, (0 << 0), scr_bg_forest( ))
             obj_levelmanager.levelmusic = scr_snd_forest()
-            s_music_editor = scr_snd_editor_forest()
+			s_music_editor = scr_snd_editor_forest()
             break
         case "desert":
             event_user(0)
@@ -247,7 +247,7 @@ if (obj_levelmanager.editor == 1 && instance_exists(obj_card_logo))
         else
             __background_set( e__BG.Index, (0 << 0), scr_bg_fall( ))
             obj_levelmanager.levelmusic = scr_snd_autumn()
-            s_music_editor = scr_snd_editor_ground()
+			s_music_editor = scr_snd_editor_forest()
             break
         case "beach":
             event_user(0)

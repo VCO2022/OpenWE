@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_NSMBU_dead_lava",
-  "duration": 0.0,
+  "duration": 2.46712,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
