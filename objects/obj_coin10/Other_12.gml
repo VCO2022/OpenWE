@@ -3,10 +3,10 @@ switch object_index
     case obj_coin10:
         global.coins += 10
         break
-    case 158:
+    case obj_coin30:
         global.coins += 30
         break
-    case 159:
+    case obj_coin50:
         global.coins += 50
         break
 }

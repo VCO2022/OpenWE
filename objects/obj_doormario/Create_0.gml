@@ -31,7 +31,7 @@ direct = 1
 yview = (y + 32)
 helmet = 0
 cap = 0
-myitem = -4
+myitem = noone
 offset = 0
 if (global.powerup == 0)
     my_y = (y + 15)

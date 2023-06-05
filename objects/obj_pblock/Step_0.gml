@@ -10,7 +10,7 @@ else
     {
         with (mysolid)
             instance_destroy()
-        mysolid = 0
+        mysolid = obj_lighting
     }
     image_index = 1
 }

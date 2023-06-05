@@ -4,4 +4,3 @@ image_draw = 0
 active = 0
 effect_hover = 0
 anim = 0
-

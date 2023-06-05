@@ -15,7 +15,7 @@ key = 0
 apilar = 0
 flip = 0
 shell_drop = 0
-mytopid = 0
+mytopid = obj_lighting
 inmune = 0
 spd = 2.5
 if (global.apariencia == 3)

@@ -59,7 +59,7 @@ if (vspeed < 0)
             }
         }
         block = collision_rectangle(bbox_left, (bbox_top - 2), bbox_right, (bbox_top - 1), obj_blockparent, 0, 0)
-        if (block && (object_get_parent(object_index) == 195 || object_get_parent(object_index) == 197))
+        if (block && (object_get_parent(object_index) == obj_holdparent || object_get_parent(object_index) == obj_enemyparent_held))
         {
             if (block.ready == 0)
             {

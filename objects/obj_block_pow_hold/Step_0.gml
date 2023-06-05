@@ -154,6 +154,12 @@ if (held == 0)
             instance_create((x + 8), (obj_lava_water.y - 26), obj_splash_posion)
         modo_lava = 1
     }
+    else if (instance_exists(obj_lava_water) && (y + 8) >= obj_lava_water.y && global.bg_level == "mountain" && global.modo_noche == 1 && modo_lava == 0)
+    {
+        if (global.apariencia != 0)
+            instance_create((x + 8), (obj_lava_water.y - 26), obj_splash_lava)
+        modo_lava = 1
+    }
     else if (y > room_height && held == 0)
         instance_destroy()
     if (instance_exists(obj_lava_water) && (y + 8) <= (obj_lava_water.y - 12) && obj_lava_water.vspeed > 0 && (modo_lava == 1 || swimming == 1))
@@ -163,6 +169,6 @@ else if (mytop != obj_lighting && instance_exists(mytop))
 {
     with (mytop)
         instance_destroy()
-    mytop = 0
+    mytop = obj_lighting
 }
 

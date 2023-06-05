@@ -2,18 +2,18 @@ switch global.apariencia
 {
     case 0:
         sprite_index = spr_SMB_key
-        sparkles = 1418
+        sparkles = spr_SMB3_sparkles_keys
         break
     case 1:
         sprite_index = spr_SMB3_key
-        sparkles = 1418
+        sparkles = spr_SMB3_sparkles_keys
         break
     case 2:
-        sparkles = 2597
+        sparkles = spr_sparkles_keys
         break
     case 3:
         sprite_index = spr_NSMBU_key
-        sparkles = 2597
+        sparkles = spr_sparkles_keys
         break
 }
 

@@ -1,4 +1,4 @@
 with (mytop)
     instance_destroy()
-mytop = 0
+mytop = obj_lighting
 
