@@ -1,31 +1,31 @@
-![image](https://github.com/Open-WE/OpenWE/assets/97027903/ab27c650-9068-478b-bb1f-648dd4891ff7)
-# OpenWE 3.3.4
-Repositorio para el código fuente de Super Mario Maker: World Engine en su versión 3.3.3 (fan-made).
 
-# ¿De que se trata?
-Despues de que la 3.3.3 fue cancelada, un usuario decidio arreglar todos los bugs con los que se quedo y asi poder lanzarla.
 
-![Screenshot_156](https://github.com/Open-WE/OpenWE/assets/115595968/aa64ac41-07fa-42cf-a400-00b30da08521)
 
-# ¿Quienes somos?
 
-Somos un grupo bastante reducido de "Contribuidores"
 
-Algunos de los mas importantes son:
 
-## Error404
-![Screenshot_156](https://images-ext-1.discordapp.net/external/jF4MgOpi8vj7gqyUXBy6M3nyZTKlaKaM-SaY2zf54Qo/%3Fsize%3D256/https/cdn.discordapp.com/avatars/1105497278585765908/1bcc8c69825fe79c042735d120ce3070.png?width=230&height=230)
-## Im Not Strike
-![Screenshot_156](https://cdn.discordapp.com/avatars/891578961950289951/a_044b0f75ef695e6e8164312123709669.gif?size=256)
-## HeXp
-![Screenshot_156](https://images-ext-1.discordapp.net/external/RAds_jcRprtuV__Rxxe_xkFw7Du-8JZmbXdq9CIWXas/%3Fsize%3D256/https/cdn.discordapp.com/avatars/801458646914695218/a_794d643225a23d9b23c058a7457afb52.gif?width=230&height=230)
-## Vini 
-![Screenshot_156](https://images-ext-1.discordapp.net/external/KBy9oLa6_ndM8R-cDQ9t15vlHxhncbibCf1vNs5kPZ0/%3Fsize%3D256/https/cdn.discordapp.com/avatars/913022807842123817/2d66ff3eea6cf83d79998b66842feb7b.png?width=230&height=230)
 
-# ¿Quieres reportar bugs?
 
-Entra al discord oficial de este proyecto y reportalos en el foro indicado.
+98,105,101,110,32,104,101,99,104,111,44,32,98,117,101,110,111,44,32,112,97,114,97,32,116,117,32,99,117,97,114,116,111,32,112,97,115,111,32,100,101,98,101,114,195,161,115,32,115,97,98,101,114,32,112,114,111,103,114,97,109,97,99,105,195,179,110,44,32,121,97,32,113,117,101,32,108,97,32,114,101,115,112,117,101,115,116,97,32,115,101,32,101,110,99,117,101,110,116,114,97,32,101,110,32,101,108,32,99,195,179,100,105,103,111,32,102,117,101,110,116,101,32,121,32,109,101,32,101,110,99,97,114,103,117,101,32,100,101,32,113,117,101,32,110,111,32,115,101,32,112,117,101,100,97,32,118,101,114,32,101,110,32,101,108,32,103,105,116,104,117,98,46,10,10,32,111,98,106,95,32,121,32,101,120,116,101,110,115,105,111,110,101,115,46,32
 
-https://discord.gg/engine-empire-source-central-971098944673288233
 
-![Screenshot_156](https://images-ext-2.discordapp.net/external/HhxdtCPccB509vQDpG2LmlgrLs0g0moGla8mXmLiCQ8/%3Fsize%3D256/https/cdn.discordapp.com/icons/971098944673288233/a_cca04d2810373834a19dc719bd0b6b90.gif?width=230&height=230)
+
+
+
+
+
+
+
+
+
+## Retro Maker, Tony
+
+
+
+
+
+
+
+
+
+
