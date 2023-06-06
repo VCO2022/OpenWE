@@ -18,7 +18,7 @@
 
 
 
-## Retro Maker, Tony
+## Buona fortuna a te, questo puzzle è nella difficoltà media. 
 
 
 
